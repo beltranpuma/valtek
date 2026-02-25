@@ -1,0 +1,4649 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("colores-valtek.css");
+@import url("sistema-grid.css");
+
+/*
+font-family: 'Heebo', sans-serif;
+*/
+header,
+nav,
+section,
+aside,
+article,
+figure,
+caption,
+form,
+img, video {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  background: var(--azuloscuro);
+  color: var(--blanco);
+}
+
+p {
+  margin: 6px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 6px 0;
+}
+
+h3,
+h4 {
+  margin: 6px;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+}
+
+a,
+a img {
+  color: var(--blanco);
+  text-decoration: none;
+  margin: 6px;
+}
+
+.iframe {
+  width: 320px !important;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 70px 0 0 0;
+}
+
+
+
+
+/************************************************/
+/*****************  PRECARGA    ************/
+/************************************************/
+#precarga {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--segundocolor);
+  z-index: 11000;
+}
+
+#precarga #iconoprecarga {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px 0 0 -100px;
+}
+
+#precarga #iconoprecarga i {
+  font-size: 130px;
+
+}
+
+#precarga #iconoprecarga p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+
+
+
+/* ================================================= */
+/* MEGA MENU VALTEK */
+/* ================================================= */
+
+.menu-productos {
+  position: relative;
+}
+
+.menu-productos .zonacentro {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 90vw;
+  max-width: 1100px;
+  background: var(--blanco);
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-top: 4px solid var(--primercolor);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-productos:hover .zonacentro {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.menu-productos .columnas {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.menu-productos .col2 {
+  flex: 1;
+}
+
+
+.menu-productos .col2 h4 {
+  color: var(--segundocolor);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3px;
+  letter-spacing: 0.5px;
+}
+
+.menu-productos .col2 a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 2px 0;
+  line-height: 1.3;
+  transition: color 0.2s;
+}
+
+.menu-productos .col2 a:hover {
+  color: var(--primercolor);
+  background: transparent;
+  font-weight: 600;
+}
+
+
+
+/************************************************/
+/*****************  CAJA SOCIALES    ************/
+/************************************************/
+#cajasociales {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 20000;
+  transition: all 0.5s;
+}
+
+#cajablanca {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100%;
+  background: var(--blanco);
+  display: flex;
+  align-items: center;
+}
+
+#cajablanca h2 {
+  color: var(--gris);
+}
+
+#cajablanca ul {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#cajablanca ul li a {
+  width: 100%;
+  display: block;
+  padding: 5px 10%;
+  margin: 0;
+  font-size: 38px;
+  text-decoration: underline;
+  color: var(--verdeoscuro);
+  font-weight: 300;
+}
+
+#cajablanca ul li a span {
+  color: var(--gris);
+}
+
+#cajablanca ul li:first-child a {
+  text-decoration: none;
+  cursor: default;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#cajablanca ul li:first-child a span {
+  color: var(--verdeoscuro);
+}
+
+#cajasociales {
+  cursor: url("../imagenes/cross-out.svg"), pointer;
+  color: var(--blanco);
+}
+
+/************************************************/
+/*****************  ESTILOS TITULOS  ************/
+/************************************************/
+.titulos {
+  margin-bottom: 20px;
+}
+
+.titulos h2 {
+  color: var(--grisoscuro);
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.flecharaya {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flecharaya i {
+  color: var(--primercolor);
+  font-size: 20px;
+}
+
+.flecharaya div {
+  width: 120px;
+  height: 3px;
+  background: var(--primercolor);
+  margin-bottom: 7px;
+}
+
+.titulosamarillo {
+  margin-bottom: 20px;
+}
+
+.titulosamarillo h2 {
+  color: var(--blanco);
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.flecharayama {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flecharayama i {
+  color: var(--primercolor);
+  font-size: 20px;
+}
+
+.flecharayama div {
+  width: 120px;
+  height: 3px;
+  background: var(--primercolor);
+  margin-bottom: 7px;
+}
+
+/************************************************/
+/*****************  ESTILOS INICIO  *************/
+/************************************************/
+
+#zonabanners {
+  height: 850px;
+  overflow: hidden;
+  position: relative;
+  background: var(--negro);
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+
+#zonabanners .flexslider,
+#zonabanners .slides,
+#zonabanners .slides li {
+  height: 100% !important;
+}
+
+#zonabanners .slides li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+
+#zonabanners .flexslider img {
+  width: 100%;
+  height: 850px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.flex-caption-banner {
+  width: 45%;
+  padding: 50px;
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+
+
+.flex-caption-banner h2 {
+  font-size: 72px;
+  line-height: 82px;
+  font-weight: 800;
+  color: var(--blanco);
+  padding: 12px 25px;
+  display: table;
+  margin: 0 0 25px 0;
+  text-transform: uppercase;
+  line-height: 1.1;
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+  transform: translateX(-40px);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.flex-caption-banner .resaltado-cian {
+  color: var(--primercolor);
+}
+
+.flex-caption-banner a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 40px;
+  background: var(--segundocolor);
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  margin-left: 25px;
+}
+
+.flex-caption-banner a i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.flex-active-slide .flex-caption-banner h2 {
+  opacity: 1;
+  clip-path: inset(0 0 0 0);
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+.flex-active-slide .flex-caption-banner p {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.7s;
+}
+
+.flex-active-slide .flex-caption-banner a {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1s;
+}
+
+
+.flex-caption-banner a:hover {
+  background: #25D366;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+}
+
+
+
+
+/********************************************************************/
+/*****************      ESTILOS ZONA APLICACIONES       *************/
+/*******************************************************************/
+
+#zonaaplicaciones .zonacentro .col12 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#zonaaplicaciones .zonacentro .titulo {
+  color: var(--segundocolor);
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 20px;
+}
+
+#zonaaplicaciones .zonacentro .titulo::before,
+#zonaaplicaciones .zonacentro .titulo::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background: var(--primercolor);
+  transform: translateY(-50%);
+}
+
+#zonaaplicaciones .zonacentro .titulo::before {
+  right: 100%;
+}
+
+#zonaaplicaciones .zonacentro .titulo::after {
+  left: 100%;
+}
+
+
+#zonaaplicaciones .zonacentro .col12::before {
+  content: "SOLUCIONES INDUSTRIALES";
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--primercolor);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+
+#zonaaplicaciones .zonacentro {
+  padding-top: 0px;
+}
+
+#zonaaplicaciones img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.5s;
+  filter: brightness(60%);
+}
+
+#zonaaplicaciones img:hover {
+  transform: scale(1.05);
+}
+
+#zonaaplicaciones .btn {
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--segundocolor);
+  padding: 15px;
+  display: block;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+#zonaaplicaciones .btn:hover {
+  background-color: var(--primercolor);
+
+}
+
+
+
+/***************************************************************************/
+/*****************      ESTILOS ZONA PÁGINA APLICACIONES       *************/
+/**************************************************************************/
+#zonabanner-aplicacion {
+  position: relative;
+  background: url(../img-apps/banners/banner-aplicaciones-valtek.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 120px 0 100px 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+#zonabanner-aplicacion::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
+  z-index: 1;
+}
+
+#zonabanner-aplicacion .zonacentro {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#zonabanner-aplicacion .titular h2 {
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  animation: softSlideLeft 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+#zonabanner-aplicacion .titular h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 6px;
+  background: var(--primercolor);
+  margin-top: 15px;
+  transform: skewX(-25deg);
+  opacity: 0;
+  animation: softExpand 1s 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+#zonabanner-aplicacion .titular p {
+  color: #f1f5f9;
+  font-size: 18px;
+  max-width: 480px;
+  margin: 18px 0 30px 0;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0;
+  animation: softFadeIn 1.4s 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+#zonabanner-aplicacion .btn-cotizar {
+  display: inline-block;
+  padding: 14px 40px;
+  background-color: var(--primercolor);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  border-radius: 50px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid var(--primercolor);
+  opacity: 0;
+  animation: softSlideUp 1.2s 0.7s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+#zonabanner-aplicacion .btn-cotizar:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+@keyframes softSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes softFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes softSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes softExpand {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 70px;
+  }
+}
+
+
+
+/* Introducción */
+#zona-aplicacion-introduccion {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%);
+  padding: 80px 0 100px 0;
+  position: relative;
+}
+
+#zona-aplicacion-introduccion .zonacentro {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+#zona-aplicacion-introduccion h2 {
+  font-size: 44px;
+  line-height: 56px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--segundocolor);
+  margin-bottom: 25px;
+}
+
+#zona-aplicacion-introduccion p {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 200;
+  color: #333;
+  text-align: center;
+}
+
+#zona-aplicacion-escenarios {
+  padding: 120px 0 80px 0;
+  background-color: #f8fafc;
+  color: var(--negro);
+  position: relative;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -50px;
+}
+
+#zona-aplicacion-escenarios h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 56px;
+  color: var(--segundocolor);
+}
+
+#zona-aplicacion-escenarios .escenarios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#zona-aplicacion-escenarios .escenario2 {
+  position: relative;
+  flex: 0 0 calc((100% - 48px) / 3);
+  padding: 40px 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 113, 188, 0.1);
+  border-radius: 12px;
+  box-sizing: border-box;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(0, 80, 136, 0.05);
+  overflow: hidden;
+}
+
+#zona-aplicacion-escenarios .escenario2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primercolor), var(--segundocolor));
+  transition: width 0.4s ease;
+}
+
+#zona-aplicacion-escenarios .escenario2::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 50px;
+  height: 50px;
+  border-top: 5px solid var(--primercolor);
+  border-right: 5px solid var(--primercolor);
+  border-radius: 0 12px 0 0;
+  opacity: 0.15;
+  transition: all 0.3s ease;
+}
+
+#zona-aplicacion-escenarios .escenario2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(1, 80, 136, 0.12);
+  border-color: var(--primercolor);
+}
+
+#zona-aplicacion-escenarios .escenario2:hover::before {
+  width: 100%;
+}
+
+#zona-aplicacion-escenarios .escenario2:hover::after {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+}
+
+
+#zona-aplicacion-escenarios h3 {
+  font-size: 22px;
+  line-height: 32px;
+  color: var(--segundocolor);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#zona-aplicacion-escenarios p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #4a5568;
+}
+
+
+/* ===============================================================
+ESTILOS PARA APLICACIONES INDUSTRIAL IIOT
+=============================================================== */
+
+/* 1. INTRODUCCIÓN */
+#zona-aplicacion-introduccion-industrial-iiot {
+  background-color: #ffffff;
+  padding: 120px 0 80px 0;
+}
+
+#zona-aplicacion-introduccion-industrial-iiot .zonacentro {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+}
+
+#zona-aplicacion-introduccion-industrial-iiot h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--segundocolor);
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+
+#zona-aplicacion-introduccion-industrial-iiot p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #64748b;
+  font-weight: 300;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot {
+  background-color: #ffffff;
+  padding: 80px 0 150px 0;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--segundocolor);
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenarios {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenarios::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, var(--primercolor), var(--segundocolor), transparent);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario {
+  position: relative;
+  width: 44%;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 24px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 60px;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+  z-index: 5;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario:nth-child(odd) {
+  align-self: flex-start;
+  text-align: right;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario:nth-child(even) {
+  align-self: flex-end;
+  text-align: left;
+}
+
+
+#zona-aplicacion-escenarios-industrial-iiot .linea {
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: 3px solid var(--primercolor);
+  border-radius: 50%;
+  z-index: 10;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario:nth-child(odd) .linea {
+  right: -13.8%;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario:nth-child(even) .linea {
+  left: -13.8%;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0, 113, 188, 0.1);
+  border-color: var(--primercolor);
+}
+
+#zona-aplicacion-escenarios-industrial-iiot .escenario:hover .linea {
+  background: var(--primercolor);
+  box-shadow: 0 0 20px var(--primercolor);
+  transform: translateY(-50%) scale(1.4);
+}
+
+#zona-aplicacion-escenarios-industrial-iiot h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--segundocolor);
+  margin-bottom: 15px;
+}
+
+#zona-aplicacion-escenarios-industrial-iiot p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+
+
+
+/* ===============================================================
+ESTILOS PARA APLICACIONES INFRAESTRUCTURA ENERGETICA
+=============================================================== */
+
+
+#zona-aplicacion-introduccion-infraestructura-energetica,
+#zona-aplicacion-escenarios {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+  background-size: 40px 40px;
+}
+
+
+#zona-aplicacion-introduccion-infraestructura-energetica::before {
+  content: "INFRAESTRUCTURE";
+  position: absolute;
+  top: 50px;
+  right: -5%;
+  font-size: 15vw;
+  font-weight: 950;
+  color: #f1f5f9;
+  z-index: 1;
+  pointer-events: none;
+  line-height: 1;
+}
+
+
+#zona-aplicacion-introduccion-infraestructura-energetica .zonacentro {
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  padding: 100px 20px 40px 20px;
+}
+
+#zona-aplicacion-introduccion-infraestructura-energetica h2 {
+  font-size: clamp(32px, 5vw, 55px);
+  font-weight: 900;
+  color: var(--segundocolor);
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+#zona-aplicacion-introduccion-infraestructura-energetica h2 span {
+  color: var(--primercolor);
+  display: block;
+}
+
+#zona-aplicacion-introduccion-infraestructura-energetica p {
+  font-size: clamp(17px, 2vw, 22px);
+  line-height: 1.6;
+  color: #475569;
+  font-weight: 400;
+  max-width: 800px;
+  border-left: 6px solid var(--primercolor);
+  padding-left: 35px;
+  display: block !important;
+  position: relative;
+  z-index: 11;
+}
+
+
+#zona-aplicacion-escenarios-infraestructura-energetica {
+  padding-bottom: 20px;
+  counter-reset: energy-counter;
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  position: relative;
+  z-index: 10;
+}
+
+
+
+
+#zona-aplicacion-escenarios-infraestructura-energetica h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 900;
+  color: var(--segundocolor);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 10;
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--primercolor);
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenario {
+  position: relative;
+  padding: 40px 30px;
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenario::before {
+  content: "0"counter(energy-counter);
+  counter-increment: energy-counter;
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #e2e8f0;
+  z-index: 5;
+  transition: all 0.4s ease;
+}
+
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenario::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background: #f8fafc;
+  border-radius: 20px;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenario:hover {
+  transform: translateY(-15px);
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenario:hover::before {
+  color: var(--primercolor);
+  z-index: 20;
+  transform: scale(1.1) translateY(10px);
+  opacity: 0.8;
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica .escenario:hover::after {
+  width: 105%;
+  height: 105%;
+  top: -2.5%;
+  left: -2.5%;
+  background: #ffffff;
+  box-shadow: 0 40px 70px rgba(15, 23, 42, 0.1);
+  border: 1px solid #f1f5f9;
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--segundocolor);
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 15;
+}
+
+#zona-aplicacion-escenarios-infraestructura-energetica p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #64748b;
+  position: relative;
+  z-index: 15;
+}
+
+
+/* ===============================================================
+ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
+=============================================================== */
+#zona-aplicacion-introduccion-infraestructura-wireles,
+#zona-aplicacion-escenarios-infraestructura-wireles {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  background-image:
+    radial-gradient(var(--primercolor) 1px, transparent 1px),
+    radial-gradient(var(--primercolor) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+#zona-aplicacion-introduccion-infraestructura-wireles::before {
+  content: "WIRELESS";
+  position: absolute;
+  top: 20px;
+  left: -2%;
+  font-size: 18vw;
+  font-weight: 900;
+  color: #f1f5f9;
+  z-index: 1;
+  pointer-events: none;
+  letter-spacing: -10px;
+  opacity: 0.7;
+}
+
+/* 1. INTRODUCCIÓN */
+#zona-aplicacion-introduccion-infraestructura-wireles .zonacentro {
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  padding: 120px 20px 60px 20px;
+}
+
+#zona-aplicacion-introduccion-infraestructura-wireles h2 {
+  font-size: clamp(35px, 6vw, 65px);
+  font-weight: 950;
+  color: var(--segundocolor);
+  text-transform: uppercase;
+  line-height: 0.9;
+  margin-bottom: 30px;
+}
+
+#zona-aplicacion-introduccion-infraestructura-wireles p {
+  font-size: clamp(18px, 2.5vw, 24px);
+  line-height: 1.5;
+  color: #334155;
+  max-width: 900px;
+  font-weight: 300;
+  padding-left: 0;
+  border: none;
+}
+
+/* 2. ESCENARIOS */
+#zona-aplicacion-escenarios-infraestructura-wireles {
+  padding-bottom: 100px;
+  counter-reset: wireless-counter;
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles h2 {
+  text-align: center;
+  font-size: clamp(28px, 4vw, 40px);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 80px;
+  color: var(--segundocolor);
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles .escenarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles .escenario {
+  position: relative;
+  padding: 40px;
+  background: #ffffff;
+  border-top: 4px solid #e2e8f0;
+  transition: all 0.4s ease;
+  z-index: 10;
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles .escenario::before {
+  content: counter(wireless-counter);
+  counter-increment: wireless-counter;
+  position: absolute;
+  top: -25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background: #f1f5f9;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  border: 5px solid #ffffff;
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles .escenario:hover {
+  border-top-color: var(--primercolor);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles .escenario:hover::before {
+  background: var(--primercolor);
+  color: #ffffff;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(0, 113, 188, 0.4);
+  z-index: 30;
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles h3 {
+  font-size: clamp(20px, 2vw, 24px);
+  color: var(--segundocolor);
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+#zona-aplicacion-escenarios-infraestructura-wireles p {
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+
+
+/* ===============================================================
+   ESTILOS PARA APLICACION IP SURVEILLANCE SEGURIDAD INDUSTRIAL
+   =============================================================== */
+
+#zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial,
+#zona-aplicacion-escenariosip-surveillance-seguridad-industrial {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* 1. INTRODUCCIÓN */
+#zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial {
+  padding: 120px 0 80px;
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+}
+
+#zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial .zonacentro {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+#zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+  font-size: clamp(32px, 5vw, 55px);
+  font-weight: 900;
+  color: var(--segundocolor);
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial p {
+  font-size: clamp(17px, 2vw, 22px);
+  line-height: 1.6;
+  color: #475569;
+  font-weight: 400;
+  max-width: 850px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-right: 4px solid var(--primercolor);
+  box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.02);
+}
+
+/* 2. ESCENARIOS */
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial {
+  padding: 100px 0;
+  counter-reset: line-counter;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 900;
+  color: var(--segundocolor);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h2::after {
+  content: "SOLUTIONS";
+  display: block;
+  font-size: 10px;
+  letter-spacing: 10px;
+  color: var(--primercolor);
+  margin-top: 10px;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1px;
+  background: #e2e8f0;
+  max-width: 1300px;
+  margin: auto;
+  border: 1px solid #e2e8f0;
+  transition: all 1s;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3 {
+  background: #ffffff;
+  padding: 60px 40px;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  transition: all 1s;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3::before {
+  content: "N° 0"counter(line-counter);
+  counter-increment: line-counter;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primercolor);
+  background: rgba(0, 113, 188, 0.1);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3:hover {
+  background: var(--segundocolor);
+  z-index: 2;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3 h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--segundocolor);
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3 p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #64748b;
+  transition: color 0.3s;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3:hover h3,
+.escenario3:hover p {
+  color: #ffffff !important;
+}
+
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3:hover p strong {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenario3 p strong {
+  display: block;
+  margin-top: 30px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 15px;
+  transition: all 0.3s;
+}
+
+
+
+
+
+
+
+
+/********************************************************************/
+/*****************  ESTILOS LISTA DE CONFIANZA INICIO   *************/
+/*******************************************************************/
+#zona-confianza .lista-confianza {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px 0 0 0;
+}
+
+#zona-confianza .lista-confianza .confianza {
+  flex: 1 1 calc(25% - 10px);
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#zona-confianza .lista-confianza .confianza:hover {
+  transform: translateY(-4px);
+}
+
+
+#zona-confianza .lista-confianza .confianza img {
+  width: 131px;
+  height: auto;
+  margin: auto;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+#zona-confianza .lista-confianza .confianza img:hover {
+  transform: scale(1.05);
+  filter: brightness(0.95) contrast(1.05);
+}
+
+#zona-confianza .lista-confianza .confianza h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--segundocolor);
+  text-align: center;
+  margin: 15px 0 10px 0;
+}
+
+#zona-confianza .lista-confianza .confianza p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--negro);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/**********************************************************/
+/*****************  ESTILOS EFECTO PARALLAX  *************/
+/*********************************************************/
+
+#zona-parallax {
+  background-image: url('../img-apps/inicio/parallax/footer-001.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: -1;
+
+}
+
+#zona-parallax h3 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+#zona-parallax p {
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+#zona-parallax a {
+
+  border: 2px solid var(--segundocolor);
+  line-height: 46px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 0px 0px 0px;
+  background: var(--segundocolor);
+  padding: 10px 15px;
+  transition: all 1s ease;
+
+}
+
+#zona-parallax a:hover {
+
+  background: var(--negro);
+  border: 1px solid var(--negro);
+
+}
+
+
+
+/********************************************************************/
+/*****************  ESTILOS LISTA DE PRODUCTOS  SWITCH  *************/
+/*******************************************************************/
+/* Títulos y Cabecera */
+#zona-productos .zonacentro .titulo {
+  color: var(--grisoscuro);
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 35px;
+  border-left: 0.4rem solid var(--primercolor);
+  margin-bottom: 40px;
+}
+
+#zona-productos .zonacentro .titulo span {
+  color: var(--primercolor);
+  font-weight: 500;
+}
+
+#zona-productos .zonacentro .subtitulo {
+  color: var(--grisoscuro);
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#zona-productos .zonacentro .linea {
+  width: 80px;
+  height: 4px;
+  background: var(--primercolor);
+  margin: 0 auto 60px auto;
+}
+
+#zona-productos .lista-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 40px 30px;
+  align-items: stretch;
+}
+
+#zona-productos .lista-productos .producto {
+  background: #ffffff;
+  border-top: 3px solid #e1e1e1;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  gap: 25px;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+
+#zona-productos .lista-productos .producto:hover {
+  border-top: 1px solid var(--primercolor);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+
+#zona-productos .lista-productos .producto::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--primercolor);
+  transition: width 0.4s ease;
+}
+
+#zona-productos .lista-productos .producto:hover::after {
+  width: 100%;
+}
+
+
+#zona-productos .lista-productos .producto img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+#zona-productos .lista-productos .producto .producto-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#zona-productos .lista-productos .producto h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--negro);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+#zona-productos .caracteristicas {
+  font-size: 14px;
+  color: var(--grisletra);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#zona-productos ul li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+
+#zona-productos ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 6px;
+  height: 6px;
+  background: var(--primercolor);
+  opacity: 0.8;
+}
+
+
+#zona-productos ul li ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border-left: 1px solid #eee;
+}
+
+#zona-productos ul li ul li {
+  font-size: 12px;
+  padding-left: 1rem;
+  margin-bottom: 3px;
+  color: #777;
+}
+
+#zona-productos ul li ul li::before {
+  width: 4px;
+  height: 1px;
+  background: #ccc;
+}
+
+
+#zona-productos .lista-productos .producto .slider-producto {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+#zona-productos .lista-productos .producto .slider-producto img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Estilos Slider Producto */
+#zona-productos .lista-productos .producto .slider-producto {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+#zona-productos .lista-productos .producto .slick-prev,
+#zona-productos .lista-productos .producto .slick-next {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#zona-productos .lista-productos .producto:hover .slick-prev,
+#zona-productos .lista-productos .producto:hover .slick-next {
+  opacity: 1;
+}
+
+
+#zona-productos .lista-productos .producto .slick-prev {
+  left: 5px !important;
+}
+
+#zona-productos .lista-productos .producto .slick-next {
+  right: 5px !important;
+}
+
+
+#zona-productos .lista-productos .producto .slick-prev:before,
+#zona-productos .lista-productos .producto .slick-next:before {
+  content: '' !important;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-top: 1.5px solid var(--primercolor);
+  border-left: 1.5px solid var(--primercolor);
+}
+
+
+#zona-productos .lista-productos .producto .slick-prev:before {
+  transform: rotate(-45deg);
+  margin-left: 3px;
+}
+
+#zona-productos .lista-productos .producto .slick-next:before {
+  transform: rotate(135deg);
+  margin-right: 3px;
+}
+
+#zona-productos .lista-productos .producto .slick-prev:hover,
+#zona-productos .lista-productos .producto .slick-next:hover {
+  background: var(--primercolor) !important;
+}
+
+#zona-productos .lista-productos .producto .slick-prev:hover:before,
+#zona-productos .lista-productos .producto .slick-next:hover:before {
+  border-color: #fff !important;
+}
+
+
+
+/************************************************/
+/*************  ESTILOS SOLUCIONES   ************/
+/************************************************/
+.fondomisionvision {
+  background: url("../imagenes/fondo-vision.png") repeat-y center top;
+}
+
+#servicios p {
+  color: var(--grisletra);
+}
+
+/************************************************/
+/*********      ESTILOS NOSOTROS      ***********/
+/************************************************/
+#nosotros {
+  padding: 50px 0;
+}
+
+#nosotros p,
+#nosotros h3 {
+  color: var(--grisletra);
+}
+
+#nosotros p {
+  text-align: justify;
+}
+
+#nosotros img {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+}
+
+.brojos {
+  width: 100%;
+  max-width: 260px;
+  display: block;
+  height: 60px;
+  background: var(--verdeoscuro);
+  color: var(--blanco);
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+
+.brojos:hover {
+  background: var(--grisoscuro);
+}
+
+/************************************************/
+/*********       ESTILOS MISION       ***********/
+/************************************************/
+#cajadatos {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.cajanegro {
+  width: 45%;
+  background: var(--grisoscuro);
+  padding: 9% 3%;
+  position: absolute;
+  left: 0;
+  top: 14%;
+}
+
+.cajanegro p {
+  color: var(--blanco);
+}
+
+.cajaimg {
+  width: 70%;
+}
+
+.cajaimg img {
+  width: 100%;
+  height: auto;
+}
+
+.cajanegro2 {
+  width: 50%;
+  background: var(--grisoscuro);
+  padding: 6% 3%;
+  position: absolute;
+  left: 0;
+  top: 14%;
+}
+
+.cajanegro2 p {
+  color: var(--blanco);
+}
+
+/************************************************/
+/*************  ESTILOS PROYECTOS    ************/
+/************************************************/
+#bannerproyectos {
+  height: 600px;
+  background: url("../img-apps/proyectos/fondo-mision.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#bannerproyectos h2 {
+  display: block;
+  width: 50%;
+  font-weight: 900;
+  font-size: 70px;
+  margin-top: 12%;
+  line-height: 75px;
+}
+
+#cajaproyect {
+  column-count: 3;
+  padding: 20px 0;
+}
+
+#cajaproyect ul {
+  color: var(--grisoscuro);
+  list-style-type: square;
+  margin: 0;
+  padding: 0 0 0 14px;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.flex-caption p {
+  color: var(--grisoscuro);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0;
+}
+
+.fondomisionvision p {
+  color: #fff !important;
+}
+
+#zonaproyectos
+
+/************************************************/
+/*****************  ESTILOS CLIENTES   **********/
+/************************************************/
+#marcas #mmarcas {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mmarcas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+
+/************************************************/
+/*****************      PIE PAGINA    ***********/
+/************************************************/
+
+#piepagina {
+  background-color: var(--negro);
+  color: #ffffff;
+  padding: 0 20px 40px;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.f-diagonal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(135deg, var(--primercolor), var(--segundocolor));
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 0 100%);
+  opacity: 0.85;
+}
+
+.f-container {
+  position: relative;
+  z-index: 2;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.f-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.f-logo {
+  height: 38px;
+  margin-bottom: 15px;
+}
+
+.f-header p {
+  color: #666;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.f-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 50px;
+}
+
+.f-col h4 {
+  color: #fff;
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-left: 2px solid var(--primercolor);
+  padding-left: 10px;
+}
+
+.f-col h4 i {
+  color: var(--primercolor);
+}
+
+.f-col a {
+  display: block;
+  color: #888;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.f-col a:hover {
+  color: var(--primercolor);
+  transform: translateX(4px);
+}
+
+.f-corporate-links {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.f-corporate-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+.f-contact-strip {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  color: #bbb;
+  font-size: 0.85rem;
+}
+
+.f-contact-strip i {
+  color: var(--primercolor);
+}
+
+.f-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.f-social a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.f-social a:hover {
+  color: var(--primercolor);
+}
+
+.f-legal {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #444;
+  letter-spacing: 1px;
+}
+
+
+#contwhats {
+  position: fixed;
+  left: 20px;
+  bottom: 30px;
+  z-index: 9999;
+  font-family: 'Inter', sans-serif;
+}
+
+#cajawhatsapp {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.whatsapp-link {
+  width: 62px;
+  height: 62px;
+  background: #0cc042;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 34px;
+  box-shadow: 0 10px 25px var(--negrocotrans);
+  position: relative;
+  z-index: 10;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid var(--blancotrans);
+}
+
+
+.whatsapp-label {
+  background: #0cc042;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px 0 35px;
+  margin-left: -25px;
+  border-radius: 0 15px 15px 0;
+  opacity: 0;
+  transform: translateX(-15px);
+  transition: all 0.5s ease;
+  pointer-events: none;
+  border: 1px solid #0cc042;
+  box-shadow: 5px 5px 15px var(--negrocotrans);
+}
+
+.online-text {
+  color: var(--amarillo);
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.number-text {
+  color: var(--blanco);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.notification-dot {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 14px;
+  height: 14px;
+  background: var(--coral);
+  border: 2px solid var(--blanco);
+  border-radius: 50%;
+}
+
+.notification-dot::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--coral);
+  border-radius: 50%;
+  animation: pulse-ring 1.5s infinite;
+}
+
+/* INTERACCIONES */
+#cajawhatsapp:hover .whatsapp-link {
+  transform: scale(1.08) rotate(5deg);
+  background: #0caf3d;
+}
+
+#cajawhatsapp:hover .whatsapp-label {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+/************************************************/
+/*******  Estilos para Contactenos  *************/
+/************************************************/
+
+/* AJUSTE DE LA SECCIÓN PRINCIPAL */
+#banner-contactos {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  background-image: url('https://www.jmjcalimentos.com/valtek/assets/img-apps/banners/banner-aplicaciones-valtek.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#banner-contactos::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(1, 80, 136, 0.85) 0%, rgba(0, 113, 188, 0.4) 100%);
+  z-index: 1;
+}
+
+#banner-contactos .zonacentro {
+  z-index: 2;
+}
+
+#banner-contactos .titular {
+  color: var(--blanco);
+  animation: fadeInUp 0.8s ease-out;
+}
+
+#banner-contactos .titular h2 {
+  font-size: 2.8rem;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#banner-contactos .titular span {
+  color: #4db8ff;
+}
+
+#banner-contactos .titular p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+  line-height: 1.5;
+  border-left: 4px solid var(--primercolor);
+  padding-left: 15px;
+}
+
+
+#banner-contactos .btn-valtek {
+  display: inline-block;
+  padding: 14px 35px;
+  background-color: var(--primercolor);
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+#banner-contactos .btn-valtek:hover {
+  background-color: var(--blanco);
+  color: var(--segundocolor);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#banner-contactos .wave-container {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  z-index: 3;
+}
+
+#banner-contactos .wave-container svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 70px;
+}
+
+#banner-contactos .wave-container .shape-fill {
+  fill: #FFFFFF;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==============================================
+ESTILOS PARA CONTACTOS
+============================================== */
+#contactenos {
+  margin-top: 60px;
+}
+
+#contactenos p {
+  color: var(--grisletra);
+  margin-bottom: 20px;
+}
+
+.campos {
+  width: 100%;
+  height: 45px;
+  line-height: 43px;
+  border: 1px solid var(--gris);
+  padding: 0 15px;
+}
+
+.txtarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid var(--gris);
+  padding: 15px;
+  resize: none;
+}
+
+#benviar {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  background: var(--segundocolor);
+  color: var(--blanco);
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+#benviar:hover {
+  background: var(--grisoscuro);
+}
+
+#contactenos p span {
+  color: var(--segundocolor);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contactenos #resultados {
+  color: var(--segundocolor);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#contactenos #resultados i {
+  font-size: 22px;
+}
+
+.imgproyect {
+  padding: 1px;
+}
+
+.imgproyect img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.titulopro {
+  background: var(--grisoscuro);
+  padding: 15px 20px;
+  height: 80px;
+}
+
+.titulopro h4 {
+  text-align: center;
+  color: var(--blanco);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.control-carrusel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.control-carrusel button {
+  display: block;
+  height: 45px;
+  margin: 0 3px 0 0;
+  line-height: 45px;
+  background: var(--verdeoscuro);
+  text-align: center;
+  color: var(--blanco);
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.control-carrusel button:hover {
+  background: var(--grisoscuro);
+}
+
+.control-carrusel button i {
+  font-size: 24px;
+}
+
+.control-carrusel button:first-child {
+  border-radius: 30px 0 0 30px;
+}
+
+.control-carrusel button:last-child {
+  border-radius: 0 30px 30px 0;
+}
+
+
+/************************************************/
+/************  Estilos PARA CHAT BOX  *************/
+/************************************************/
+/* ===== Contenedor del chat ===== */
+#waChat {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  font-family: 'Arial', sans-serif;
+}
+
+#waToggle {
+  background: #25D366;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 8px 0px 0px 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 18px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.3s;
+}
+
+#waToggle:hover {
+  background: #128C7E;
+  transform: scale(1.05);
+}
+
+.blink {
+  animation: blink 1.2s infinite;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+/* ===== Formulario WhatsApp ===== */
+#waForm {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  background: #fff;
+  padding: 0 20px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
+  width: 280px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.5s ease;
+}
+
+/* Cuando el formulario está activo */
+#waForm.active {
+  max-height: 1000px;
+  opacity: 1;
+  padding: 25px 20px;
+}
+
+/* ===== Títulos y etiquetas ===== */
+#waForm h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #25D366;
+  text-align: center;
+}
+
+#waForm label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+#waForm label span {
+  color: red;
+}
+
+/* ===== Inputs y textarea ===== */
+#waForm input,
+#waForm textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+#waForm input:focus,
+#waForm textarea:focus {
+  border-color: #25D366;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 211, 102, 0.5);
+}
+
+/* ===== Botón enviar ===== */
+#waForm button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #25D366;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#waForm button:hover {
+  background: #128C7E;
+  transform: scale(1.03);
+}
+
+
+#waToggle i,
+#waForm button i {
+  font-size: 18px;
+}
+
+#waChat,
+#waToggle,
+#waForm {
+  transition: all 0.5s ease;
+}
+
+
+
+
+@media (max-width:1100px) {
+
+  /********************************************************************/
+  /*****************         ESTILOS MENU MEGA            *************/
+  /*******************************************************************/
+  .menu-productos .zonacentro {
+    left: auto;
+    right: 0;
+    transform: translateY(10px);
+    width: 280px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 12px;
+  }
+
+  .menu-productos:hover .zonacentro {
+    transform: translateY(0);
+  }
+
+  .menu-productos .columnas {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .menu-productos .col2 {
+    margin-bottom: 12px;
+  }
+
+  .menu-productos .col2 h4 {
+    font-size: 14px;
+    font-weight: 700;
+    background: #f9f9f9;
+    padding: 6px;
+    width: 100%;
+  }
+
+  .menu-productos .col2 a {
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 280px;
+  }
+
+  .menu-productos>.droopmenu-dropdown {
+    position: absolute;
+    width: 1200px;
+    display: flex !important;
+    gap: 40px;
+  }
+
+  .menu-productos>.droopmenu-dropdown>li {
+    width: 200px;
+  }
+
+}
+
+
+
+
+/************************************************/
+/************  Estilos para 1024px  *************/
+/************************************************/
+/************************************************/
+/*****************   INICIO   *******************/
+/************************************************/
+@media only screen and (max-width: 960px) {
+
+
+  /********************************************************************/
+  /*****************         ESTILOS MENU MEGA            *************/
+  /*******************************************************************/
+  .menu-productos .zonacentro {
+    left: auto;
+    right: 0;
+    transform: translateY(10px);
+    width: 280px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 12px;
+  }
+
+  .menu-productos:hover .zonacentro {
+    transform: translateY(0);
+  }
+
+  .menu-productos .columnas {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .menu-productos .col2 {
+    margin-bottom: 12px;
+  }
+
+  .menu-productos .col2 h4 {
+    font-size: 14px;
+    font-weight: 700;
+    background: #f9f9f9;
+    padding: 6px;
+    width: 100%;
+  }
+
+  .menu-productos .col2 a {
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 280px;
+  }
+
+  /********************************************************************/
+  /*****************      ESTILOS ZONA FLEX SLIDER       *************/
+  /*******************************************************************/
+  #zonabanners,
+  #zonabanners .flexslider img {
+    height: 650px;
+  }
+
+  .flex-caption-banner {
+    width: 60%;
+    left: 5%;
+    padding: 40px;
+  }
+
+  .flex-caption-banner h2 {
+    font-size: 38px;
+  }
+
+  /********************************************************************/
+  /*****************      ESTILOS ZONA APLICACIONES       *************/
+  /*******************************************************************/
+  #zonaaplicaciones .zonacentro {
+    padding-top: 0px;
+  }
+
+  #zonaaplicaciones .zonacentro .col12 {
+    width: 100%;
+  }
+
+  #zonaaplicaciones img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    transition: all 0.5s;
+    filter: brightness(60%);
+  }
+
+  #zonaaplicaciones img:hover {
+    transform: scale(1.05);
+  }
+
+  #zonaaplicaciones .btn {
+    font-size: 16px;
+    font-weight: 500;
+    background: var(--segundocolor);
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    transition: all .5s;
+    cursor: pointer;
+  }
+
+  #zonaaplicaciones .btn:hover {
+    background-color: var(--primercolor);
+
+  }
+
+
+  /***************************************************************************/
+  /*****************      ESTILOS ZONA PÁGINA APLICACIONES       *************/
+  /**************************************************************************/
+  /* Banner */
+  #zonabanner-aplicacion {
+    padding: 120px 2% 60px 2%;
+  }
+
+  #zonabanner-aplicacion .titular h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  /* Introducción */
+  #zona-aplicacion-introduccion {
+    padding: 80px 0 100px 0;
+  }
+
+  #zona-aplicacion-introduccion .zonacentro {
+    width: 70%;
+  }
+
+  #zona-aplicacion-introduccion h2 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+
+  #zona-aplicacion-introduccion p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA ENERGETICA*************/
+  /*****************************************************************************************/
+
+  #zona-aplicacion-escenarios-infraestructura-energetica .escenarios {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 30px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica h2 {
+    font-size: 48px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica p {
+    font-size: 20px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h2 {
+    font-size: 38px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h3 {
+    font-size: 22px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA WIRELES   *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-infraestructura-wireles .escenarios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h2 {
+    font-size: 48px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles p {
+    font-size: 20px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h2 {
+    font-size: 38px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h3 {
+    font-size: 22px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES SEGURIDAD INDUSTRIAL     *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenarios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+    font-size: 48px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial p {
+    font-size: 20px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+    font-size: 38px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h3 {
+    font-size: 22px;
+  }
+
+
+
+  /********************************************************************/
+  /*****************  ESTILOS LISTA DE CONFIANZA INICIO   *************/
+  /*******************************************************************/
+  #zona-confianza .lista-confianza {
+    gap: 20px;
+    padding: 30px 0 0 0;
+  }
+
+  #zona-productos .zonacentro {
+    padding: 20px;
+  }
+
+  #zona-confianza .lista-confianza .confianza {
+    flex: 1 1 calc(25% - 20px);
+    padding: 10px;
+  }
+
+  #zona-confianza .lista-confianza .confianza h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+  }
+
+  #zona-confianza .lista-confianza .confianza p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  #zona-productos .lista-productos .producto {
+
+    flex: 0 0 calc(100% - 20px);
+  }
+
+
+
+
+
+}
+
+/************************************************/
+/************   Estilos para 800px  *************/
+/************************************************/
+@media only screen and (max-width: 800px) {
+
+
+  /************************************************/
+  /*****************  ESTILOS INICIO  *************/
+  /************************************************/
+
+  #zonabanners .flexslider img {
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .flex-caption-banner {
+    width: 65%;
+    padding: 30px;
+    left: 8%;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .flex-caption-banner h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: var(--blanco);
+    padding: 12px 25px;
+    margin: 0 0 20px 0;
+
+  }
+
+  .flex-caption-banner p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .flex-caption-banner a {
+
+    padding: 18px 40px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .flex-caption-banner a i {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .flex-active-slide .flex-caption-banner h2 {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: translateX(0);
+    transition-delay: 0.3s;
+  }
+
+  .flex-active-slide .flex-caption-banner p {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.7s;
+  }
+
+  .flex-active-slide .flex-caption-banner a {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1s;
+  }
+
+
+  .flex-caption-banner a:hover {
+    background: #25D366;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+  }
+
+
+  /*********************************************************************/
+  /*****************  ESTILOS PRODUCTOS ZONA APLICACIONES  *************/
+  /*********************************************************************/
+  #zonaaplicaciones .zonacentro .titulo {
+    font-size: 35px;
+    margin-bottom: 6px;
+  }
+
+
+  /* Introducción */
+  #zona-aplicacion-escenarios .escenario2 {
+    flex: 0 0 calc((100% - 48px) / 2);
+    padding: 40px 30px;
+  }
+
+  /* Aplicaciòn Industrial IIOT */
+  #zona-aplicacion-escenarios-industrial-iiot h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenarios::before {
+    left: 20px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenario {
+    width: calc(100% - 70px);
+    align-self: flex-end !important;
+    text-align: left !important;
+    margin-left: 70px;
+    padding: 35px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenario:nth-child(odd) .linea,
+  #zona-aplicacion-escenarios-industrial-iiot .escenario:nth-child(even) .linea {
+    left: -61px;
+    right: auto;
+  }
+
+
+  /********************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA ENERGETICA   *************/
+  /*******************************************************************************************/
+  #zona-aplicacion-escenarios-infraestructura-energetica .escenarios {
+    grid-template-columns: 1fr;
+    gap: 70px;
+    max-width: 650px;
+    margin: auto;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica h2 {
+    font-size: 42px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica p {
+    font-size: 19px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h2 {
+    font-size: 34px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h3 {
+    font-size: 22px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA WIRELES   *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-infraestructura-wireles .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles p {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h2 {
+    font-size: 34px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h3 {
+    font-size: 22px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES SEGURIDAD INDUSTRIAL     *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial p {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h2 {
+    font-size: 34px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h3 {
+    font-size: 22px;
+  }
+
+
+
+
+  /********************************************************************/
+  /*****************  ESTILOS LISTA DE CONFIANZA INICIO   *************/
+  /*******************************************************************/
+  #zona-confianza .lista-confianza {
+    gap: 20px;
+    padding: 30px 0 0 0;
+  }
+
+  #zona-confianza .lista-confianza .confianza {
+    flex: 1 1 calc(50% - 20px);
+    padding: 10px;
+  }
+
+  #zona-confianza .lista-confianza .confianza h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0 10px 0;
+  }
+
+  #zona-confianza .lista-confianza .confianza p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  /**********************************************************/
+  /*****************  ESTILOS EFECTO PARALLAX  *************/
+  /*********************************************************/
+  #zona-parallax {
+    height: 450px;
+  }
+
+  #zona-parallax h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  #zona-parallax p {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  #zona-parallax a {
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+
+  }
+
+  /********************************************************************/
+  /*****************  ESTILOS LISTA DE PRODUCTOS  SWITCH  *************/
+  /*******************************************************************/
+
+  #zona-productos .lista-productos {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  #zona-productos .zonacentro .titulo,
+  #zona-productos .zonacentro .subtitulo {
+    font-size: 28px;
+  }
+
+
+
+
+
+
+  /********************************************/
+  /*************  ESTILOS CLIENTES   **********/
+  /********************************************/
+  #cclientes li {
+    width: 25%;
+  }
+
+  /********************************************/
+  /*********       ESTILOS MISION     *********/
+  /********************************************/
+  #cajadatos {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .cajanegro {
+    width: 100%;
+    background: var(--grisoscuro);
+    padding: 10% 3%;
+    position: static;
+  }
+
+  .cajaimg {
+    width: 100%;
+  }
+
+  .cajanegro2 {
+    width: 100%;
+    background: var(--grisoscuro);
+    padding: 10% 3%;
+    position: static;
+  }
+
+
+
+
+
+  /************************************************/
+  /*************  ESTILOS PROYECTOS    ************/
+  /************************************************/
+  .fondomisionvision {
+    background: url("../imagenes/fondo-vision.png") repeat-y left;
+  }
+
+  #bannerproyectos {
+    height: 500px;
+    background: url("../img-apps/proyectos/fondo-mision.jpg") no-repeat left;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #bannerproyectos h2 {
+    width: 50%;
+    font-size: 60px;
+    margin-top: 16%;
+    line-height: 60px;
+  }
+
+  #cajaproyect {
+    column-count: 2;
+    padding: 15px;
+  }
+
+  .flex-caption p {
+    font-size: 12px;
+  }
+
+  .cajapolitica {
+    padding: 15px;
+  }
+
+
+  /************************************************/
+  /*************  ESTILOS CONTACTOS    ************/
+  /************************************************/
+
+  /* BLOQUE DE TEXTO */
+  #banner-contactos .titular {
+    width: 100%;
+    text-align: center;
+  }
+
+  #banner-contactos .titular h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  #banner-contactos .titular h2 span {
+    font-size: 40px;
+    color: #4db8ff;
+  }
+
+  #banner-contactos .titular p {
+    font-size: 18px;
+    line-height: 1.5;
+    border-left: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #banner-contactos .titular .linea {
+    width: 150px;
+    height: 4px;
+    background: var(--primercolor);
+    margin: 0 auto 25px auto;
+  }
+
+
+}
+
+/************************************************/
+/************   Estilos para 603px  *************/
+/************************************************/
+@media only screen and (max-width: 603px) {
+
+  /********************************************/
+  /*****************  ESTILOS INICIO  *********/
+  /********************************************/
+  #zonabanners .flexslider img {
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .flex-caption-banner {
+    width: 70%;
+    padding: 25px;
+    left: 8%;
+    top: 65%;
+  }
+
+  .flex-caption-banner h2 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 12px 25px;
+    margin: 0 0 18px 0;
+
+  }
+
+  .flex-caption-banner p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .flex-caption-banner a {
+
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+
+  .flex-caption-banner a i {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .flex-active-slide .flex-caption-banner h2 {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: translateX(0);
+    transition-delay: 0.3s;
+  }
+
+
+
+
+
+  /********************************************************************/
+  /*****************  ESTILOS PARA ZOAN APLICACIONES  *************/
+  /*******************************************************************/
+  #zonaaplicaciones .zonacentro .titulo {
+    font-size: 28px;
+  }
+
+  /***************************************************************************/
+  /*****************      ESTILOS ZONA PÁGINA APLICACIONES       *************/
+  /**************************************************************************/
+  /* Banner */
+  #zonabanner-aplicacion {
+    padding: 120px 2% 45px 2%;
+  }
+
+  #zonabanner-aplicacion .titular h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  /* Introducciòn */
+  #zona-aplicacion-introduccion .zonacentro {
+    width: 90%;
+    margin: auto;
+    padding: 60px 0 10px 0;
+
+  }
+
+  #zona-aplicacion-introduccion h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+
+  #zona-aplicacion-introduccion p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+
+  #zona-aplicacion-escenarios h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+
+  #zona-aplicacion-escenarios .escenario2 {
+    flex: 0 0 calc((100% - 48px) / 1);
+    padding: 40px 30px;
+  }
+
+  #zona-aplicacion-escenarios h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /* Aplicacion Industrail IIOT */
+  #zona-aplicacion-introduccion-industrial-iiot .zonacentro {
+    width: 90%;
+    margin: auto;
+    padding: 60px 0 10px 0;
+
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+
+  #zona-aplicacion-escenarios-industrial-iiot h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenario2 {
+    flex: 0 0 calc((100% - 48px) / 1);
+    padding: 40px 30px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /* Aplicacion Infraestructura Energetica */
+
+  #zona-aplicacion-introduccion-infraestructura-energetica h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica p {
+    font-size: 18px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA WIRELES   *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-infraestructura-wireles .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h2 {
+    font-size: 32px;
+    list-style: 40px;
+    margin-bottom: 50px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES SEGURIDAD INDUSTRIAL     *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+    font-size: 32px;
+    list-style: 40px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /********************************************************************/
+  /*****************  ESTILOS LISTA DE CONFIANZA INICIO   *************/
+  /*******************************************************************/
+  #zona-confianza .lista-confianza {
+    gap: 20px;
+    padding: 30px 0 0 0;
+  }
+
+  #zona-confianza .lista-confianza .confianza {
+    flex: 1 1 calc(100% - 20px);
+    padding: 10px;
+  }
+
+  #zona-confianza .lista-confianza .confianza h3 {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 15px 0 10px 0;
+  }
+
+  #zona-confianza .lista-confianza .confianza p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+
+  /**********************************************************/
+  /*****************  ESTILOS EFECTO PARALLAX  *************/
+  /*********************************************************/
+  #zona-parallax {
+    height: 400px;
+  }
+
+  #zona-parallax h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-parallax p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #zona-parallax a {
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+
+  }
+
+  /********************************************/
+  /*************  ESTILOS CLIENTES   **********/
+  /********************************************/
+  #cclientes li {
+    width: 33.33%;
+  }
+
+
+
+
+  /********************************************************************/
+  /*****************  ESTILOS LISTA DE PRODUCTOS  SWITCH  *************/
+  /*******************************************************************/
+
+  #zona-productos .lista-productos .producto {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  #zona-productos .lista-productos .producto .producto-info {
+    align-items: center;
+  }
+
+  #zona-productos .caracteristicas {
+    text-align: left;
+  }
+
+  #zona-productos .lista-productos .producto img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+  /*************************************************************/
+  /*****************  ESTILOS   BOTON COTIZAR  *************/
+  /************************************************************/
+
+  #waToggle {
+    width: 50px;
+    justify-content: center;
+    font-size: 16px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #waToggle span {
+    display: none;
+  }
+
+  #waForm {
+    width: 0;
+    padding: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 13px;
+  }
+
+  #waForm.active {
+    width: 240px;
+    padding: 20px 15px;
+    max-height: 1000px;
+    opacity: 1;
+    overflow: visible;
+    font-size: 13px;
+  }
+
+  #waForm.active input,
+  #waForm.active textarea {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+
+  #waForm.active button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /************************************************/
+  /*************  ESTILOS CONTACTOS    ************/
+  /************************************************/
+
+  /* BLOQUE DE TEXTO */
+  #banner-contactos .titular {
+    width: 100%;
+    text-align: center;
+  }
+
+  #banner-contactos .titular h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  #banner-contactos .titular h2 span {
+    font-size: 40px;
+    color: #4db8ff;
+  }
+
+  #banner-contactos .titular p {
+    font-size: 18px;
+    line-height: 1.5;
+    border-left: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #banner-contactos .titular .linea {
+    width: 150px;
+    height: 4px;
+    background: var(--primercolor);
+    margin: 0 auto 25px auto;
+  }
+
+
+
+
+
+
+}
+
+/************************************************/
+/************   Estilos para 533px  *************/
+/************************************************/
+@media only screen and (max-width: 533px) {
+
+  /********************************************/
+  /*****************  ESTILOS INICIO  *********/
+  /********************************************/
+  #zonabanners .flexslider img {
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .flex-caption-banner {
+    width: 70%;
+    padding: 25px;
+    left: 8%;
+    top: 65%;
+  }
+
+  .flex-caption-banner h2 {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin: 0 0 16px 0;
+
+  }
+
+  .flex-caption-banner p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .flex-caption-banner a {
+
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+
+  .flex-caption-banner a i {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+
+  /**********************************************************/
+  /*****************  ESTILOS PRODUCTOS BANNER  *************/
+  /*********************************************************/
+  #zonabanner-productos .zonacentro {
+    padding: 30px 0;
+  }
+
+  #zonabanner-productos h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  #zonabanner-productos p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #zonabanner-productos a {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 16px;
+  }
+}
+
+/************************************************/
+/************   Estilos para 480px  *************/
+/************************************************/
+@media only screen and (max-width: 480px) {
+
+  /********************************************/
+  /*****************  ESTILOS INICIO  *********/
+  /********************************************/
+  /********************************************/
+  /*****************  ESTILOS INICIO  *********/
+  /********************************************/
+  #zonabanners .flexslider img {
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .flex-caption-banner {
+    width: 80%;
+  }
+
+  .flex-caption-banner h2 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin: 0 0 14px 0;
+
+  }
+
+  .flex-caption-banner p {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+
+  .flex-caption-banner a {
+
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+
+  .flex-caption-banner a i {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+
+
+  /***************************************************************************/
+  /*****************      ESTILOS ZONA PÁGINA APLICACIONES       *************/
+  /**************************************************************************/
+  /* Banner */
+  #zonabanner-aplicacion {
+    padding: 90px 2% 35px 2%;
+  }
+
+  #zonabanner-aplicacion .titular h2 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  /* Introducciòn */
+  #zona-aplicacion-introduccion .zonacentro {
+    width: 90%;
+    margin: auto;
+    padding: 60px 0 10px 0;
+
+  }
+
+  #zona-aplicacion-introduccion h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+
+  #zona-aplicacion-introduccion p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  #zona-aplicacion-escenarios h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+
+  #zona-aplicacion-escenarios .escenario2 {
+    flex: 0 0 calc((100% - 48px) / 1);
+    padding: 40px 30px;
+  }
+
+  #zona-aplicacion-escenarios h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /* Aplicacion Industrail IIOT */
+  #zona-aplicacion-introduccion-industrial-iiot .zonacentro {
+    width: 90%;
+    margin: auto;
+    padding: 60px 0 10px 0;
+
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  #zona-aplicacion-escenarios-industrial-iiot h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenario2 {
+    flex: 0 0 calc((100% - 48px) / 1);
+    padding: 40px 30px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /* Aplicacion Infraestructura Energetica */
+
+  #zona-aplicacion-introduccion-infraestructura-energetica h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA WIRELES   *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-infraestructura-wireles .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h2 {
+    font-size: 30px;
+    list-style: 40px;
+    margin-bottom: 40px !important;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px !important;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES SEGURIDAD INDUSTRIAL     *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+    font-size: 30px;
+    list-style: 40px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+
+
+  /********************************************/
+  /*************  ESTILOS CLIENTES   **********/
+  /********************************************/
+  #cclientes li {
+    width: 50%;
+  }
+
+
+
+  /**********************************************************/
+  /*****************  ESTILOS EFECTO PARALLAX  *************/
+  /*********************************************************/
+  #zona-parallax {
+    height: 400px;
+  }
+
+  #zona-parallax h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #zona-parallax p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  #zona-parallax a {
+    font-size: 16px;
+    margin: 30px 0px 0px 0px;
+
+  }
+
+
+  /**********************************************************/
+  /*****************  ESTILOS PRODUCTOS BANNER  *************/
+  /*********************************************************/
+  #zonabanner-productos .zonacentro {
+    padding: 30px 0;
+  }
+
+
+  #zonabanner-productos h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  #zonabanner-productos p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #zonabanner-productos a {
+    font-size: 16px;
+    padding: 9px 15px;
+  }
+
+  /**********************************************************/
+  /*****************  ESTILOS PRODUCTOS   *************/
+  /*********************************************************/
+
+  #zona-productos .lista-productos {
+    gap: 20px;
+  }
+
+  #zona-productos .lista-productos .producto {
+    padding: 25px 15px;
+  }
+
+  #zona-productos ul li {
+    font-size: 13px;
+  }
+
+  /************************************************/
+  /*****************  ESTILOS TITULOS  ************/
+  /************************************************/
+  .titulos h2 {
+    font-size: 26px;
+  }
+
+  .titulosamarillo h2 {
+    font-size: 26px;
+  }
+
+  /************************************************/
+  /*************  ESTILOS PROYECTOS    ************/
+  /************************************************/
+  #bannerproyectos {
+    height: 400px;
+    background: url("../img-apps/proyectos/fondo-mision.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #bannerproyectos h2 {
+    width: 50%;
+    font-size: 30px;
+    margin-top: 26%;
+    line-height: 30px;
+  }
+
+  #cajaproyect {
+    column-count: 1;
+  }
+
+  .flex-caption p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .brojos {
+    width: 100%;
+    max-width: none;
+  }
+
+  /************************************************/
+  /*************  ESTILOS CONTACTOS    ************/
+  /************************************************/
+
+  /* BLOQUE DE TEXTO */
+  #banner-contactos .titular {
+    width: 100%;
+    text-align: center;
+  }
+
+  #banner-contactos .titular h2 {
+    font-size: 34px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  #banner-contactos .titular h2 span {
+    font-size: 34px;
+    color: #4db8ff;
+  }
+
+  #banner-contactos .titular p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+
+
+
+
+
+}
+
+/************************************************/
+/************   Estilos para 360px  *************/
+/************************************************/
+@media only screen and (max-width: 360px) {
+  /********************************************/
+  /*****************  ESTILOS INICIO  *********/
+  /********************************************/
+
+
+  .flex-caption-banner {
+    width: 90%;
+  }
+
+  .flex-caption-banner h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin: 0 0 12px 0;
+
+  }
+
+  .flex-caption-banner p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .flex-caption-banner a {
+
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+
+  .flex-caption-banner a i {
+    margin-left: 6px;
+    font-size: 14px;
+  }
+
+
+
+  /***************************************************************************/
+  /*****************      ESTILOS ZONA PÁGINA APLICACIONES       *************/
+  /**************************************************************************/
+  /* Banner */
+  #zonabanner-aplicacion {
+    padding: 90px 2% 35px 2%;
+  }
+
+  #zonabanner-aplicacion .titular h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  /* Introduccion */
+
+  #zona-aplicacion-introduccion .zonacentro {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 10px 0;
+  }
+
+  #zona-aplicacion-introduccion h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-introduccion p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+
+
+  #zona-aplicacion-escenarios .escenario2 {
+    flex: 0 0 calc((100% - 48px) / 1);
+    padding: 30px;
+  }
+
+
+
+  #zona-aplicacion-escenarios h2 {
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 30px;
+  }
+
+  #zona-aplicacion-escenarios h3 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #zona-aplicacion-escenarios p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+
+  /* Aplicacion Industrial IIOT */
+  #zona-aplicacion-introduccion-industrial-iiot {
+    padding: 0px 0 0px 0;
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot .zonacentro {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 10px 0;
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #zona-aplicacion-introduccion-industrial-iiot p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenarios::before {
+    display: none !important;
+  }
+
+
+  #zona-aplicacion-escenarios-industrial-iiot .linea {
+    display: none !important;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot h2 {
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot .escenario {
+    width: 100% !important;
+    align-self: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: left !important;
+    flex: 0 0 100%;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot h3 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-escenarios-industrial-iiot p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+
+
+
+  /* Aplicacion Infraestructura Energetica */
+
+  #zona-aplicacion-introduccion-infraestructura-energetica h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-energetica p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-energetica p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES INFRAESTRUCTURA WIRELES   *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-infraestructura-wireles .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles h2 {
+    font-size: 25px;
+    list-style: 35px;
+    margin-bottom: 40px !important;
+  }
+
+  #zona-aplicacion-introduccion-infraestructura-wireles p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 40px !important;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-infraestructura-wireles p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /*****************************************************************************************/
+  /*****************ESTILOS ZONA PÁGINA APLICACIONES SEGURIDAD INDUSTRIAL     *************/
+  /*****************************************************************************************/
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial .escenarios {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial h2 {
+    font-size: 25px;
+    list-style: 35px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-introduccion-ip-surveillance-seguridad-industrial p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #zona-aplicacion-escenarios-ip-surveillance-seguridad-industrial p {
+    font-size: 15px !important;
+    line-height: 25px;
+  }
+
+
+
+
+
+
+  /**********************************************************/
+  /*****************  ESTILOS PRODUCTOS BANNER  *************/
+  /*********************************************************/
+
+  #zonabanner-productos .zonacentro {
+    padding: 30px 0;
+  }
+
+  #zonabanner-productos h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  #zonabanner-productos p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  #zonabanner-productos a {
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+
+  /********************************************************************/
+  /*****************   ESTILOS PARA ZONA APLICACIONES     *************/
+  /*******************************************************************/
+
+
+  #zonaaplicaciones .zonacentro .titulo {
+    font-size: 22px;
+  }
+
+  #zonaaplicaciones .zonacentro .btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+
+
+  /**********************************************************/
+  /*****************  ESTILOS EFECTO PARALLAX  *************/
+  /*********************************************************/
+  #zona-parallax {
+    height: 400px;
+  }
+
+  #zona-parallax h3 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  #zona-parallax p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  #zona-parallax a {
+    font-size: 15px;
+    margin: 30px 0px 0px 0px;
+
+  }
+
+  /********************************************************************/
+  /*****************  ESTILOS LISTA DE PRODUCTOS  SWITCH  *************/
+  /*******************************************************************/
+
+
+  #zona-productos .zonacentro .titulo,
+  #zona-productos .zonacentro .subtitulo {
+    font-size: 22px;
+  }
+
+  #zona-productos .lista-productos .producto img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #zona-productos .caracteristicas {
+    font-size: 12px;
+  }
+
+
+  /************************************************/
+  /*************  ESTILOS CONTACTOS    ************/
+  /************************************************/
+
+
+  #banner-contactos .titular h2 {
+    margin-bottom: 10px;
+  }
+
+  #banner-contactos .titular h2 span {
+    font-size: 30px;
+  }
+
+  #banner-contactos .titular p {
+    font-size: 16px;
+  }
+
+
+
+}
+
+
+
+/* Responsivo */
+@media (max-width: 800px) {
+  #zonabanner-aplicacion {
+    padding: 100px 0 80px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    text-align: center;
+  }
+
+  #zonabanner-aplicacion .titular h2 {
+    font-size: 40px;
+  }
+
+  #zonabanner-aplicacion .titular h2::after {
+    margin: 15px auto 0 auto;
+  }
+
+  #zonabanner-aplicacion .titular p {
+    margin: 15px auto 25px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #zonabanner-aplicacion {
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+    padding: 80px 0 60px 0;
+  }
+
+  #zonabanner-aplicacion .titular h2 {
+    font-size: 34px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f-quality {
+  color: var(--segundocolor);
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .f-nav-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .f-nav-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .f-corporate-links, .f-contact-strip {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

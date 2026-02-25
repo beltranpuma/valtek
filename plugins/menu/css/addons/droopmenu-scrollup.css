@@ -1,0 +1,1 @@
+@media only screen and (min-width:768px){.droopmenu-pinned{position:fixed;transition:transform .6s ease-in-out;transform:translateY(0);width:100%;top:0}.droopmenu-unpinned{transform:translateY(-100%)}}

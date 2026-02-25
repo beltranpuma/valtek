@@ -1,0 +1,25 @@
+# ===============================
+# Activar el motor de reescritura
+# ===============================
+RewriteEngine On
+
+# ===============================
+# Rutas amigables para páginas sueltas (.php)
+# ===============================
+# Si la URL es "nosotros" o "contactos" (o cualquier otra página suelta)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(nosotros|contactos)/?$ $1.php [L]
+
+# ===============================
+# Rutas amigables para subcarpetas de productos
+# ===============================
+# Redirigir directorios que terminan en "/" a su index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ $1/index.php [L]
+
+# Redirigir URLs sin "/" final
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ $1/index.php [L]

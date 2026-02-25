@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+  --primercolor: #0071BC;
+  --segundocolor: #015088;
+  --segundocolortransparente: #015088c0;
+  --azuloscuro: #112647;
+  --azuloscuro-transparente: #021027b7;
+  --azulmedio: #162d4e;
+  --azulclaro: #183257;
+  --coraloscuro: #ce3e4f;
+  --coral: #ff5063;
+  --blanco: #ffffff;
+  --grisclaro: #f0f0f0;
+  --blancotrans: rgba(255, 255, 255, 0.3);
+  --negrocotrans: rgba(0, 0, 0, 0.4);
+  --negro: #000000;
+  --fondopie: #27261d;
+  --grisoscuro: #27261d;
+  --gris: #979797;
+  --amarillo: #ffdd37;
+  --grisletra: #4d4d4d;
+  --rojovino: #a9161c;
+  --verdeclaro: #95c205;
+  --verdeoscuro: #549200;
+  background: #fff;
+}
