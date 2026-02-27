@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="plugins/fontello/css/jmjc-codes.css">
     <link rel="stylesheet" href="plugins/fontello/css/jmjc-embedded.css">
-    
+
     <!-- jQuery V.3.4.1-->
     <script src="plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="plugins/easing/jquery.easing.1.3.js"></script>
@@ -50,49 +50,48 @@
     <link rel="stylesheet" href="plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!-- Alertify -->
     <script src="plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="plugins/alertify/alertify.default.css">
-        <!-- Flexslider -->
+    <!-- Flexslider -->
     <link rel="stylesheet" href="plugins/flexslider/flexslider.css">
     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./assets/js/script.js"></script>
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "IndustrialBusiness",
-        "name": "Valtek Group SAC",
-        "image": "https://www.valtek.com.pe/assets/imagenes/imagen-principal.jpg",
-        "email": "ventas@valtek.com.pe",
-        "url": "https://www.valtek.com.pe/",
-        "telephone": "+51923501304",
-        "priceRange": "$$$",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Av. República de Panamá 6598",
-            "addressLocality": "Barranco",
-            "addressRegion": "Lima",
-            "postalCode": "15047",
-            "addressCountry": "PE"
-        },
-        "areaServed": "PE",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+51923501304",
-            "contactType": "sales",
+        {
+            "@context": "https://schema.org",
+            "@type": "IndustrialBusiness",
+            "name": "Valtek Group SAC",
+            "image": "https://www.valtek.com.pe/assets/imagenes/imagen-principal.jpg",
             "email": "ventas@valtek.com.pe",
+            "url": "https://www.valtek.com.pe/",
+            "telephone": "+51923501304",
+            "priceRange": "$$$",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Av. República de Panamá 6598",
+                "addressLocality": "Barranco",
+                "addressRegion": "Lima",
+                "postalCode": "15047",
+                "addressCountry": "PE"
+            },
             "areaServed": "PE",
-            "availableLanguage": "Spanish"
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+51923501304",
+                "contactType": "sales",
+                "email": "ventas@valtek.com.pe",
+                "areaServed": "PE",
+                "availableLanguage": "Spanish"
+            }
         }
-    }
     </script>
 
 
@@ -109,10 +108,10 @@
 
     <div id="precarga">
         <div id="iconoprecarga">
-                <i class="icon-spin5 animate-spin"></i>
-                <p>LOADING</p>
-        </div>	
-    </div>	
+            <i class="icon-spin5 animate-spin"></i>
+            <p>LOADING</p>
+        </div>
+    </div>
 
 
 
@@ -123,7 +122,7 @@
     <!-- ******************************************************** -->
     <?php
 
-    include_once ('./shared/header.php');
+    include_once('./shared/header.php');
 
     ?>
 
@@ -131,85 +130,85 @@
     <!-- ******************************************************** -->
     <!-- *******************   CUERPO WEB  ********************** -->
     <!-- ******************************************************** -->
-    
 
-        <main id="cuerpo">
+
+    <main id="cuerpo">
         <!-- **************************************************** -->
         <!-- *******************   INICIO WEB  ****************** -->
         <!-- **************************************************** -->
 
-<section id="zonabanners">
-    <div class="flexslider">
-        <ul class="slides">
+        <section id="zonabanners">
+            <div class="flexslider">
+                <ul class="slides">
 
-            <li>
-                <picture>
-                    <source srcset="assets/img-apps/banners/banner1-movil.png" media="(max-width: 800px)">
-                    <img src="assets/img-apps/banners/banner1.png" alt="Valtek Group SAC" />
-                </picture>
-                <div class="flex-caption-banner">
-                    <h2>20 AÑOS BRINDANDO <span class="resaltado-cian">TECNOLOGÍA DE PUNTA</span> AL SECTOR INDUSTRIAL</h2>
-                    <a href="#" class="btn-modern">¡Cotiza con expertos! <i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/img-apps/banners/banner1-movil.png" media="(max-width: 800px)">
+                            <img src="assets/img-apps/banners/banner1.png" alt="Valtek Group SAC" />
+                        </picture>
+                        <div class="flex-caption-banner">
+                            <h2>20 AÑOS BRINDANDO <span class="resaltado-cian">TECNOLOGÍA DE PUNTA</span> AL SECTOR INDUSTRIAL</h2>
+                            <a href="#" class="btn-modern">¡Cotiza con expertos! <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </li>
 
-            <li>
-                <picture>
-                    <source srcset="assets/img-apps/banners/banner2-movil.png" media="(max-width: 800px)">
-                    <img src="assets/img-apps/banners/banner2.jpg" alt="Eficiencia en Proyectos" />
-                </picture>
-                <div class="flex-caption-banner">
-                    <h2>ACELERAMOS LA <span class="resaltado-cian">EJECUCIÓN DE PROYECTOS</span> CON EFICIENCIA REAL</h2>
-                    <a href="#" class="btn-modern">¡Acelera tu proyecto! <i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/img-apps/banners/banner2-movil.png" media="(max-width: 800px)">
+                            <img src="assets/img-apps/banners/banner2.jpg" alt="Eficiencia en Proyectos" />
+                        </picture>
+                        <div class="flex-caption-banner">
+                            <h2>ACELERAMOS LA <span class="resaltado-cian">EJECUCIÓN DE PROYECTOS</span> CON EFICIENCIA REAL</h2>
+                            <a href="#" class="btn-modern">¡Acelera tu proyecto! <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </li>
 
-            <li>
-                <picture>
-                    <source srcset="assets/img-apps/banners/banner3-movil.png" media="(max-width: 800px)">
-                    <img src="assets/img-apps/banners/banner3.png" alt="Data Center Valtek" />
-                </picture>
-                <div class="flex-caption-banner">
-                    <h2><span class="resaltado-cian">DATA CENTER</span> CON DISASTER RECOVERY A MÁS DE 900KM</h2>
-                    <a href="#" class="btn-modern">¡Protege tu operación! <i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/img-apps/banners/banner3-movil.png" media="(max-width: 800px)">
+                            <img src="assets/img-apps/banners/banner3.png" alt="Data Center Valtek" />
+                        </picture>
+                        <div class="flex-caption-banner">
+                            <h2><span class="resaltado-cian">DATA CENTER</span> CON DISASTER RECOVERY A MÁS DE 900KM</h2>
+                            <a href="#" class="btn-modern">¡Protege tu operación! <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </li>
 
-            <li>
-                <picture>
-                    <source srcset="assets/img-apps/banners/banner4-movil.png" media="(max-width: 800px)">
-                    <img src="assets/img-apps/banners/banner4.png" alt="Soporte Técnico" />
-                </picture>
-                <div class="flex-caption-banner">
-                    <h2>SOLUCIONES DISEÑADAS PARA LOS <span class="resaltado-cian">AMBIENTES MÁS HOSTILES</span></h2>
-                    <a href="#" class="btn-modern">¡Solicita soporte ahora! <i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/img-apps/banners/banner4-movil.png" media="(max-width: 800px)">
+                            <img src="assets/img-apps/banners/banner4.png" alt="Soporte Técnico" />
+                        </picture>
+                        <div class="flex-caption-banner">
+                            <h2>SOLUCIONES DISEÑADAS PARA LOS <span class="resaltado-cian">AMBIENTES MÁS HOSTILES</span></h2>
+                            <a href="#" class="btn-modern">¡Solicita soporte ahora! <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </li>
 
-            <li>
-                <picture>
-                    <source srcset="assets/img-apps/banners/banner5-movil.png" media="(max-width: 800px)">
-                    <img src="assets/img-apps/banners/banner5.png" alt="Soporte Técnico" />
-                </picture>
-                <div class="flex-caption-banner">
-                    <h2>SOPORTE TÉCNICO PROPIO <span class="resaltado-cian">ESPECIALIZADO EN MINERÍA</span> E INDUSTRIA</h2>
-                    <a href="#" class="btn-modern">¡Consulta a un ingeniero! <i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </li>
-            <li>
-                <picture>
-                    <source srcset="assets/img-apps/banners/banner6-movil.png" media="(max-width: 800px)">
-                    <img src="assets/img-apps/banners/banner6.png" alt="Distribución Valtek Group" />
-                </picture>
-                <div class="flex-caption-banner">
-                    <h2>DISTRIBUCIÓN DE <span class="resaltado-cian">MARCAS LÍDERES</span> CON RESPALDO DE INGENIERÍA</h2>
-                    <a href="#" class="btn-modern">¡Ver catálogo! <i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/img-apps/banners/banner5-movil.png" media="(max-width: 800px)">
+                            <img src="assets/img-apps/banners/banner5.png" alt="Soporte Técnico" />
+                        </picture>
+                        <div class="flex-caption-banner">
+                            <h2>SOPORTE TÉCNICO PROPIO <span class="resaltado-cian">ESPECIALIZADO EN MINERÍA</span> E INDUSTRIA</h2>
+                            <a href="#" class="btn-modern">¡Consulta a un ingeniero! <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/img-apps/banners/banner6-movil.png" media="(max-width: 800px)">
+                            <img src="assets/img-apps/banners/banner6.png" alt="Distribución Valtek Group" />
+                        </picture>
+                        <div class="flex-caption-banner">
+                            <h2>DISTRIBUCIÓN DE <span class="resaltado-cian">MARCAS LÍDERES</span> CON RESPALDO DE INGENIERÍA</h2>
+                            <a href="#" class="btn-modern">¡Ver catálogo! <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </li>
 
-        </ul>
-    </div>
-</section>
+                </ul>
+            </div>
+        </section>
 
 
         <!-- **************************************************** -->
@@ -222,7 +221,7 @@
                         <h2 class="titulo">Aplicaciones </h2>
                     </div>
                 </div>
-                
+
                 <div class="columnas">
 
                     <div class="col4">
@@ -244,7 +243,7 @@
                         </a>
                     </div>
 
-                   
+
                     <div class="col4">
                         <a href="/valtek/aplicaciones/infraestructura-energetica-y-renovable/">
                             <img src="/valtek/assets/img-apps/aplicaciones/04.jpg" alt="Infraestructura Energética y Renovable">
@@ -272,10 +271,10 @@
         <!-- *******************     POR QUE CONFIAR EN VALTEK    **************** -->
         <!-- ********************************************************************* -->
         <section id="zona-confianza">
-            <div class="zonacentro" >
-                <div class="titulos " data-aos="flip-left" >
+            <div class="zonacentro">
+                <div class="titulos " data-aos="flip-left">
                     <h2>¿Por qué confiar en Valtek Group S.A.C.?</h2>
-                    <p style="color:var(--negro); " >Potenciamos tu conectividad y tu gestión comercial, con un sistema integral de comunicaciones en la nube, diseñado a la medida de tus necesidades.</p>
+                    <p style="color:var(--negro); ">Potenciamos tu conectividad y tu gestión comercial, con un sistema integral de comunicaciones en la nube, diseñado a la medida de tus necesidades.</p>
                     <div class="flecharaya">
                         <i class="icon-up-dir"></i>
                         <div></div>
@@ -307,13 +306,13 @@
                         <p>Soluciones integrales con tecnología de punta para minería, industria, energía, gas, pesca y petróleo</p>
                     </div>
 
-                    
+
 
                 </div>
 
-                
-               
-                
+
+
+
             </div>
         </section>
 
@@ -330,9 +329,9 @@
                         <div></div>
                     </div>
                 </div>
-               
-                <div id="mmarcas" >
-                    <img src='assets/img-apps/clientes/1.jpg' alt='Southern Copper Perú' >
+
+                <div id="mmarcas">
+                    <img src='assets/img-apps/clientes/1.jpg' alt='Southern Copper Perú'>
                     <img src='assets/img-apps/clientes/2.png' alt='Boroo'>
                     <img src='assets/img-apps/clientes/3.png' alt='Compania mienra Poderosa'>
                     <img src='assets/img-apps/clientes/4.png' alt='Calidda'>
@@ -360,8 +359,8 @@
                         <div></div>
                     </div>
                 </div>
-               
-                <div id="cclientes" dir="rtl" >
+
+                <div id="cclientes" dir="rtl">
                     <img src='assets/img-apps/inicio/marcas/m1.png' alt='Inhand'>
                     <img src='assets/img-apps/inicio/marcas/m2.png' alt='Oring'>
                     <img src='assets/img-apps/inicio/marcas/m3.png' alt='Axis Comunications'>
@@ -376,9 +375,9 @@
 
 
 
-    <!-- **************************************************** -->
-    <!-- *******************   GOOGLE MAPS   **************** -->
-    <!-- **************************************************** -->
+        <!-- **************************************************** -->
+        <!-- *******************   GOOGLE MAPS   **************** -->
+        <!-- **************************************************** -->
         <section id="googlemap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31208.47218039107!2d-77.03224213972813!3d-12.108111983109868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7421bc92a55%3A0xdadbee0bf1ad9dbc!2sValtek%20Group%20SAC!5e0!3m2!1ses-419!2spe!4v1770391178002!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -389,11 +388,11 @@
     </main>
 
 
-    
+
     <!-- ******************************************************** -->
     <!-- *******************   PIE PAGINA WEB  ****************** -->
     <!-- ******************************************************** -->
-   
+
 
     <?php include_once('./shared/footer.php'); ?>
 
@@ -412,14 +411,14 @@
 
     <div id="contwhats">
         <div id="cajawhatsapp">
-            <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo contactarme con uds." 
-            target="_blank" 
-            class="whatsapp-link"
-            title="Comunícate con Nosotros">
+            <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo contactarme con uds."
+                target="_blank"
+                class="whatsapp-link"
+                title="Comunícate con Nosotros">
                 <i class="fa-brands fa-whatsapp"></i>
                 <span class="notification-dot"></span>
             </a>
-            
+
             <div class="whatsapp-label">
                 <span class="online-text">¿Necesitas ayuda?</span>
                 <span class="number-text">+51 923 501 304</span>
@@ -458,7 +457,7 @@
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        $(function () {
+        $(function() {
             /*******************************************/
             /*******************************************/
             if (jQuery(this).scrollTop() > 100) {
@@ -470,7 +469,7 @@
                     'background': "rgba(255, 255, 255, 1)"
                 });
             }
-            jQuery(document).scroll(function () {
+            jQuery(document).scroll(function() {
                 if (jQuery(this).scrollTop() > 100) {
                     jQuery(".droopmenu-navbar").css({
                         'background': "rgba(255, 255, 255, 1)"
@@ -494,28 +493,28 @@
                 autoplay: true,
                 autoplaySpeed: 5000,
                 responsive: [{
-                    breakpoint: 850,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
+                        breakpoint: 850,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 533,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
                     }
-                },
-                {
-                    breakpoint: 533,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
-                    }
-                }
                 ]
             });
             /*******************************************/
             /*******************************************/
-            $(document).on("click", ".droopmenu li a", function (e) {
+            $(document).on("click", ".droopmenu li a", function(e) {
                 var $ancla = $(this);
                 $("html, body").stop().animate({
                     scrollTop: ($($ancla.attr("href")).offset().top - 60)
@@ -523,12 +522,12 @@
             })
             /*******************************************/
             /*******************************************/
-            $("#biconos").click(function () {
+            $("#biconos").click(function() {
                 $("#cajasociales").css({
                     "right": "0"
                 });
             })
-            $("#cajasociales").click(function () {
+            $("#cajasociales").click(function() {
                 $("#cajasociales").css({
                     "right": "-100%"
                 });
@@ -539,7 +538,7 @@
             /********    INICIALIZAR FLEXSLIDER       *********/
             /**************************************************/
             $('.flexslider').flexslider({
-                animation: "fade", 
+                animation: "fade",
                 slideshow: true,
                 slideshowSpeed: 10000,
                 animationSpeed: 2000,
@@ -549,14 +548,14 @@
                 pauseOnHover: false
             });
 
-              
-         AOS.init();
 
-      
+            AOS.init();
+
+
         })
         /*******************************************************/
         /*******************************************************/
-        jQuery(function ($) {
+        jQuery(function($) {
             $('.droopmenu-navbar').droopmenu({
                 dmOffCanvas: true
             });
@@ -575,40 +574,39 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 0,
-            speed:4000,
-            cssEase:'linear',
-            arrows: false,          
-            dots: false, 
+            speed: 4000,
+            cssEase: 'linear',
+            arrows: false,
+            dots: false,
             pauseOnHover: false,
-             
-            responsive: [
-            {
-                breakpoint: 960,
-                settings: {
-                slidesToShow: 4
+
+            responsive: [{
+                    breakpoint: 960,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+
+                {
+                    breakpoint: 533,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 360,
+                    settings: {
+                        slidesToShow: 1
+                    }
                 }
-            },
-            {
-                breakpoint: 800,
-                settings: {
-                slidesToShow: 3
-                }
-            },
-            
-            {
-                breakpoint: 533,
-                settings: {
-                slidesToShow: 2
-                }
-            },
-            {
-                breakpoint:360,
-                settings:{
-                    slidesToShow:1
-                }
-            }
             ]
-    });
+        });
 
 
         $('#cclientes').slick({
@@ -617,41 +615,39 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 0,
-            speed:4000,
-            cssEase:'linear',
-            arrows: false,          
-            dots: false,    
+            speed: 4000,
+            cssEase: 'linear',
+            arrows: false,
+            dots: false,
             pauseOnHover: false,
-            
-            responsive: [
-            {
-                breakpoint: 960,
-                settings: {
-                slidesToShow: 4
-                }
-            },
-            {
-                breakpoint: 800,
-                settings: {
-                slidesToShow: 3
-                }
-            },
-            
-            {
-                breakpoint: 533,
-                settings: {
-                slidesToShow: 2
-                }
-            },
-            {
-                breakpoint:360,
-                settings:{
-                    slidesToShow:1
-                }
-            }
-            ]
-    });
 
+            responsive: [{
+                    breakpoint: 960,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+
+                {
+                    breakpoint: 533,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 360,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
     </script>
 
 

@@ -1785,39 +1785,66 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
   padding: 50px 0;
 }
 
-#nosotros p,
-#nosotros h3 {
-  color: var(--grisletra);
+#nosotros h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+  color: var(--negro);
+  margin-bottom: 30px;
+}
+
+#nosotros span {
+  font-size: 42px;
+  line-height: 52px;
+  color: var(--primercolor);
+}
+
+#nosotros .slogan {
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--negro);
+  text-align: justify;
 }
 
 #nosotros p {
+  line-height: 26px;
+  color: var(--grisletra);
   text-align: justify;
 }
 
 #nosotros img {
   width: 100%;
-  max-width: 480px;
+  height: auto;
   display: block;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(1, 80, 136, 0.15);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border: 5px solid #ffffff;
+
 }
 
-.brojos {
-  width: 100%;
-  max-width: 260px;
-  display: block;
-  height: 60px;
-  background: var(--verdeoscuro);
-  color: var(--blanco);
-  text-align: center;
-  line-height: 60px;
-  font-size: 18px;
+
+
+#nosotros a {
+  font-size: 16px;
+  line-height: 26px;
   font-weight: 600;
-  margin-bottom: 10px;
-  transition: all 0.5s;
+  border: 2px solid var(--primercolor);
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--primercolor);
+  box-sizing: border-box;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
 }
 
-.brojos:hover {
-  background: var(--grisoscuro);
+#nosotros a:hover {
+  background: var(--primercolor);
+  color: var(--blanco);
 }
+
+
 
 /************************************************/
 /*********       ESTILOS MISION       ***********/
@@ -1863,6 +1890,731 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
 .cajanegro2 p {
   color: var(--blanco);
 }
+
+/****************************************************/
+/**************     LO QUE HACEMOS     ***************/
+/****************************************************/
+
+#que-hacemos .titular-seccion-moderno {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+#que-hacemos .tag-superior {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primercolor);
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#que-hacemos .titulo {
+  font-size: 30px;
+  font-weight: 300;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+#que-hacemos .titulo span {
+  font-weight: 900;
+  color: var(--primercolor);
+  position: relative;
+}
+
+#que-hacemos .titulo span::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background: var(--primercolor);
+}
+
+#que-hacemos .descripcion-centrada {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #64748b;
+  margin: 30px auto 0;
+}
+
+#que-hacemos .lista-quehacemos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 150px 20px;
+  padding: 30px 0 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#que-hacemos .quehacemos {
+  position: relative;
+  height: 280px;
+  overflow: visible;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  background: var(--blanco);
+  border-radius: 0;
+}
+
+#que-hacemos .quehacemos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.7s ease;
+  filter: brightness(0.9);
+  border-radius: 0;
+  display: block;
+}
+
+#que-hacemos .quehacemos .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 92%;
+  margin: 0 auto;
+  transform: translateY(50%);
+  background: #ffffff;
+  padding: 20px 15px;
+  z-index: 5;
+  transition: all 0.4s ease;
+  border-radius: 0;
+  border-left: 5px solid var(--primercolor);
+  box-shadow: 15px 15px 0px rgba(1, 80, 136, 0.05);
+}
+
+#que-hacemos .quehacemos h3 {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 900;
+  text-align: left;
+  color: #0f172a;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#que-hacemos .quehacemos p {
+  color: #475569;
+  font-size: 13.5px;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 400;
+  text-align: left;
+}
+
+
+#que-hacemos .quehacemos:hover {
+  transform: translateY(-8px);
+}
+
+#que-hacemos .quehacemos:hover img {
+  filter: brightness(1);
+  transform: scale(1.03);
+}
+
+#que-hacemos .quehacemos:hover .info {
+  background: #ffffff;
+  transform: translateY(45%);
+  box-shadow: 20px 20px 0px rgba(1, 80, 136, 0.1);
+}
+
+/* --- AJUSTES RESPONSIVE --- */
+@media (max-width: 1200px) {
+  #que-hacemos .lista-quehacemos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 160px 40px;
+  }
+
+  #que-hacemos .quehacemos {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  #que-hacemos .lista-quehacemos {
+    grid-template-columns: 1fr;
+    gap: 160px;
+    padding: 30px 15px 140px;
+  }
+
+  #que-hacemos .quehacemos {
+    height: 320px;
+  }
+}
+
+
+
+/*******************************************************/
+/**************     NUESTROS VALORES     ***************/
+/*******************************************************/
+#nuestros-valores {
+  background: rgb(1, 80, 136, 0.05);
+}
+
+#nuestros-valores .titular-seccion-moderno {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+#nuestros-valores .tag-superior {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primercolor);
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#nuestros-valores .titulo {
+  font-size: 30px;
+  font-weight: 300;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+#nuestros-valores .titulo span {
+  font-weight: 900;
+  color: var(--primercolor);
+  position: relative;
+}
+
+
+#nuestros-valores .titulo span::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background: var(--primercolor);
+}
+
+#nuestros-valores .descripcion-centrada {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--grisletra);
+  margin: 30px auto 0;
+  font-weight: 300;
+}
+
+
+#nuestros-valores .lista-valores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 150px 20px;
+  padding: 30px 0 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#nuestros-valores .valor {
+  padding: 0 15px;
+}
+
+
+#nuestros-valores .icono-svg {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 25px auto;
+  display: block;
+  color: var(--primercolor);
+  stroke-width: 0.8;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+#nuestros-valores .valor:hover .icono-svg {
+  color: var(--segundocolor);
+  transform: translateY(-5px);
+  stroke-width: 0.80;
+}
+
+
+#nuestros-valores .valor h3 {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 900;
+  text-align: center;
+  color: #0f172a;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+}
+
+#nuestros-valores .valor p {
+  color: var(--grisletra);
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+/*************************************************************/
+/**************     NUESTROS DIFERENCIALES     ***************/
+/*************************************************************/
+
+#nuestros-diferenciales {
+  background: var(--blanco);
+}
+
+#nuestros-diferenciales .titular-seccion-moderno {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+
+
+#nuestros-diferenciales .titulo {
+  font-size: 30px;
+  font-weight: 300;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+#nuestros-diferenciales .titulo span {
+  font-weight: 900;
+  color: var(--primercolor);
+  position: relative;
+}
+
+
+#nuestros-diferenciales .titulo span::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background: var(--primercolor);
+}
+
+#nuestros-diferenciales .descripcion-centrada {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--grisletra);
+  margin: 30px auto 0;
+  font-weight: 300;
+}
+
+/* 
+.lista-diferenciales {
+display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px;
+    padding: 3rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.diferencial {
+    position: relative;
+    height: 420px;
+    background-color: var(--negro);
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+
+.diferencial::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 15%, rgba(0,0,0,0.2) 60%);
+    z-index: 1;
+    transition: background 0.5s ease;
+}
+
+
+.diferencial:hover::before {
+    background: rgba(0, 31, 63, 0.85); 
+}
+
+
+.diferencial h3, 
+.diferencial p {
+    position: relative;
+    z-index: 2;
+    padding: 0 1.5rem;
+    transition: all 0.5s ease;
+}
+
+
+.diferencial h3 {
+    color: var(--blanco);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.diferencial h3::after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: var(--primercolor);
+    margin-top: 10px;
+    transition: width 0.4s ease;
+}
+
+.diferencial p {
+    color: #d1d1d1;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0;
+    max-height: 0;
+    transform: translateY(15px);
+}
+
+
+.diferencial:hover h3 {
+    transform: translateY(-5px);
+    color: var(--blanco); 
+}
+
+.diferencial:hover p {
+    opacity: 1;
+    max-height: 150px;
+    transform: translateY(0);
+    padding-bottom: 2rem;
+}
+
+.bg-1 {
+  background-image: url('../img-apps/nosotros/01-diferencial.jpg');
+}
+
+.bg-2 {
+  background-image: url('../img-apps/nosotros/02-diferencial.jpg');
+}
+
+.bg-3 {
+  background-image: url('../img-apps/nosotros/03-diferencial.jpg');
+}
+
+.bg-4 {
+  background-image: url('../img-apps/nosotros/04-diferencial.jpg');
+} */
+
+
+
+#nuestros-diferenciales img{
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.acordeon {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.acordeon-item {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Ocultar input tipo radio */
+.acordeon-check {
+    display: none;
+}
+
+.acordeon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2c3e50;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+/* --- ICONO AZUL (+ / -) --- */
+.icon-toggle {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-toggle::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    background-color: #004a99; /* AZUL SOLICITADO */
+    border-radius: 2px;
+}
+
+.icon-toggle::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 18px;
+    background-color: #004a99; /* AZUL SOLICITADO */
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* --- CUERPO --- */
+.acordeon-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1.5rem;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- LÓGICA DE EXCLUSIVIDAD (RADIO BUTTONS) --- */
+
+/* Expandir solo el elemento seleccionado */
+.acordeon-check:checked ~ .acordeon-body {
+    max-height: 500px;
+    padding-bottom: 1.5rem;
+}
+
+/* Cambiar icono a menos (-) solo en el seleccionado */
+.acordeon-check:checked ~ .acordeon-header .icon-toggle::after {
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+/* Resalte visual solo para el abierto */
+.acordeon-check:checked ~ .acordeon-header {
+    color: #004a99;
+}
+
+.acordeon-item:has(.acordeon-check:checked) {
+    border-color: #004a99;
+    box-shadow: 0 4px 12px rgba(0, 74, 153, 0.1);
+}
+
+.acordeon-header:hover {
+    background-color: #f8faff;
+}
+
+/*************************************************************/
+/**************     SECTORES QUE ATENDEMOS     ***************/
+/*************************************************************/
+
+#sector-atendemos {
+  background: var(--blanco);
+}
+
+#sector-atendemos .titular-seccion-moderno {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+#sector-atendemos .tag-superior {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primercolor);
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#sector-atendemos .titulo {
+  font-size: 30px;
+  font-weight: 300;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+#sector-atendemos .titulo span {
+  font-weight: 900;
+  color: var(--primercolor);
+  position: relative;
+}
+
+
+#sector-atendemos .titulo span::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background: var(--primercolor);
+}
+
+#sector-atendemos .descripcion-centrada {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--grisletra);
+  margin: 30px auto 0;
+  font-weight: 300;
+}
+
+
+#sector-atendemos #lista-sectores {
+  display: block;
+  width: 100%;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+
+#sector-atendemos .slick-slide {
+  padding: 0 12px;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+
+#sector-atendemos .sector {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+
+#sector-atendemos .info-princiapl {
+  transition: all 0.4s ease;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#sector-atendemos .info-princiapl svg {
+  width: 60px;
+  height: 60px;
+  color: var(--primercolor);
+  margin-bottom: 20px;
+  transition: all 0.4s ease;
+  stroke-width: 0.8;
+}
+
+#sector-atendemos .info-princiapl h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #1e293b;
+}
+
+
+#sector-atendemos .info-secundario {
+  position: absolute;
+  inset: 0;
+  background-color: var(--primercolor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 0.4s ease;
+  z-index: 3;
+}
+
+#sector-atendemos .info-secundario p {
+  color: var(--blanco);
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* --- ESTADOS HOVER --- */
+
+#sector-atendemos .sector:hover {
+  border-color: var(--primercolor);
+  box-shadow: 0 15px 35px rgba(0, 113, 188, 0.2);
+}
+
+#sector-atendemos .sector:hover .info-princiapl {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+#sector-atendemos .sector:hover .info-secundario {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
 
 /************************************************/
 /*************  ESTILOS PROYECTOS    ************/
@@ -1918,7 +2670,13 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
   color: #fff !important;
 }
 
-#zonaproyectos
+
+
+
+
+
+
+
 
 /************************************************/
 /*****************  ESTILOS CLIENTES   **********/
