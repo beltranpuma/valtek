@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Equipamiento y Tecnología Industrial en Perú | Valtek Group</title>
+    <title>Valtek Group SAC</title>
     <meta name="description" content="Valtek Group: Líderes en tecnología y distribución de equipamiento industrial para minería, energía y petróleo en Perú. ¡Cotiza con nosotros!">
 
     <meta name="robots" content="index, follow">
@@ -41,9 +41,7 @@
     <link rel="stylesheet" href="plugins/slick/slick.css">
     <link rel="stylesheet" href="plugins/slick/slick-theme.css">
     <script src="plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
-    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css" />
-    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+
     <!-- Menu -->
     <link rel="stylesheet" href="plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="plugins/menu/css/ionicons.css">
@@ -560,11 +558,6 @@
                 dmOffCanvas: true
             });
         });
-
-
-
-
-
 
         //SLICK MARCAS Y CLIENTES
 

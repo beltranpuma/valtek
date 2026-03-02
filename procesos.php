@@ -5,8 +5,8 @@ if ($proceso == "procesarContacto") {
     $nombres = $_POST['nombres'];
     $telefono = $_POST['telefono'];
     $email = $_POST['email'];
-    $empresa = $_POST['empresa']; // Nuevo campo
-    $cargo = $_POST['cargo'];     // Nuevo campo
+    $empresa = $_POST['empresa']; 
+    $cargo = $_POST['cargo'];     
     $comentarios = $_POST['comentarios'];
 
     $emailDestino = "bpumacc@gmail.com";
@@ -19,8 +19,8 @@ if ($proceso == "procesarContacto") {
     $mensaje .= "Nombres:      $nombres\n";
     $mensaje .= "Teléfono:     $telefono\n";
     $mensaje .= "Email:        $email\n";
-    $mensaje .= "Empresa:      $empresa\n"; // Incluido en el correo
-    $mensaje .= "Cargo:        $cargo\n";   // Incluido en el correo
+    $mensaje .= "Empresa:      $empresa\n"; 
+    $mensaje .= "Cargo:        $cargo\n";   
     $mensaje .= "Comentarios:  $comentarios\n";
     $mensaje .= "===============================\n";
 

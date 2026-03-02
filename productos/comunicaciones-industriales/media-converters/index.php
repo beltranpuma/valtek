@@ -220,15 +220,7 @@
 
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
-        <!-- ******************************************************** -->
-        <!-- *******************      WHATSAPP       **************** -->
-        <!-- ******************************************************** -->
-        <div id="contwhats">
-            <div id="cajawhatsapp">
-                <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo contactarme con uds." target="_blank"
-                    title="Comunícate con Nosotros"><i class="icon-whatsapp"></i>+51 923501304</a>
-            </div>
-        </div>
+
 
         <!-- ******************************************************** -->
         <!-- *******************      CHAT BO      **************** -->

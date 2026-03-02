@@ -35,9 +35,6 @@
     <link rel="stylesheet" href="plugins/slick/slick.css">
     <link rel="stylesheet" href="plugins/slick/slick-theme.css">
     <script src="plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
-    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css" />
-    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
     <!-- Menu -->
     <link rel="stylesheet" href="plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="plugins/menu/css/ionicons.css">
@@ -151,35 +148,14 @@
                     </div>
                 </div>
             </section>
-            <!-- **************************************************** -->
-            <!-- **************     MISION VISION     *************** -->
-            <!-- **************************************************** -->
-            <section id="misionvision">
-                <section id="bannerproyectos">
-                    <div class="zonacentro">
-                        <h2>Nuestra Misión y Visión</h2>
-                    </div>
-                </section>
-                <div class="fondomisionvision">
-                    <div class="zonacentro">
-                        <div class="columnas">
-                            <div class="col6">
-                                <h2>Misión</h2>
-                                <p>Distribuir tecnología de punta con equipos preparados y certificados para ambientes industriales y hostiles.</p>
-                            </div>
-                            <div class="col6">
-                                <h2>Visión</h2>
-                                <p>Ser el distribuidor número uno en ventas y confianza en equipamiento industrial de la Región.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+
+
 
             <!-- **************************************************** -->
             <!-- **************     LO QUE HACEMOS     *************** -->
             <!-- **************************************************** -->
-            <section id="que-hacemos">
+            <section id="que-hacemos" style="background: #F9FBFF;">
                 <div class="zonacentro">
 
                     <div class="titular-seccion-moderno">
@@ -300,29 +276,7 @@
                         </p>
                     </div>
 
-                    <!-- <div class="lista-diferenciales">
-                        <div class="diferencial bg-1">
 
-                            <h3>Tecnología Certificada</h3>
-                            <p>Cumplimiento estricto de normativas <b>ATEX, DNV, IEC 61850, EN50155</b> e <b>Industrial EMC</b> para máxima seguridad operativa.</p>
-                        </div>
-
-                        <div class="diferencial bg-2">
-                            <h3>Integración con Protocolos de Campo</h3>
-                            <p>Compatibilidad total con infraestructuras existentes, facilitando la comunicación fluida entre dispositivos y sistemas de control.</p>
-                        </div>
-
-                        <div class="diferencial bg-3">
-
-                            <h3>Equipos para Ambientes Severos</h3>
-                            <p>Hardware robusto diseñado para soportar temperaturas extremas, vibraciones, humedad y condiciones industriales críticas.</p>
-                        </div>
-
-                        <div class="diferencial bg-4">
-                            <h3>Soluciones Escalables y Modulares</h3>
-                            <p>Arquitecturas flexibles que permiten el crecimiento de su red de telecomunicaciones de forma sencilla y eficiente.</p>
-                        </div>
-                    </div> -->
                     <div class="columnas">
                         <div class="col6">
 
@@ -500,6 +454,23 @@
                 </div>
             </section>
 
+            <!-- *********************************************************** -->
+            <!-- **************     PARALLAX 01 NOSOTROS     *************** -->
+            <!-- *********************************************************** -->
+                <section class="parallax-banner">
+                    <div class="overlay">
+                        <div class="banner-inner">
+                            <span class="tagline">Soluciones de Conectividad Nacional</span>
+                            <h2>Innovación que Conecta al Perú</h2>
+                            <p>Especialistas en infraestructura de fibra óptica y redes de alta disponibilidad para el sector industrial y corporativo.</p>
+                            <div class="cta-group">
+                                <a href="#contacto" class="btn-blue">Contactenos</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
 
         </main>
 
@@ -554,10 +525,7 @@
         <!-- ******************************************************** -->
         <!-- ******************************************************** -->
         <script type="text/javascript" src="plugins/menu/js/droopmenu.js"></script>
-        <!-- Google Maps -->
-        <script type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP4fipE81lw6_plPRafcInXEKvEtJMBW4"></script>
-        <script type="text/javascript" src="plugins/gmaps/gmaps.js"></script>
+
         <!-- Flexslider -->
         <script type="text/javascript" src="plugins/flexslider/jquery.flexslider.js"></script>
         <script>
@@ -704,50 +672,6 @@
                     }
                 ]
             });
-
-
-            /**************************************************/
-            /********    SLICK ALCANCES      *********/
-            /**************************************************/
-            // $('##lista-sectores').slick({
-            //     rtl: true,
-            //     slidesToShow: 5,
-            //     slidesToScroll: 1,
-            //     autoplay: true,
-            //     autoplaySpeed: 0,
-            //     speed: 4000,
-            //     cssEase: 'linear',
-            //     arrows: false,
-            //     dots: false,
-            //     pauseOnHover: false,
-
-            //     responsive: [{
-            //             breakpoint: 960,
-            //             settings: {
-            //                 slidesToShow: 4
-            //             }
-            //         },
-            //         {
-            //             breakpoint: 800,
-            //             settings: {
-            //                 slidesToShow: 3
-            //             }
-            //         },
-
-            //         {
-            //             breakpoint: 533,
-            //             settings: {
-            //                 slidesToShow: 2
-            //             }
-            //         },
-            //         {
-            //             breakpoint: 360,
-            //             settings: {
-            //                 slidesToShow: 1
-            //             }
-            //         }
-            //     ]
-            // });
         </script>
 
 </body>

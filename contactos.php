@@ -44,9 +44,7 @@
     <link rel="stylesheet" href="plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!-- Alertify -->
+       <!-- Alertify -->
     <script src="plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="plugins/alertify/alertify.default.css">
@@ -291,7 +289,7 @@
     <!-- ******************************************************** -->
     <!-- ******************************************************** -->
     <script type="text/javascript" src="plugins/menu/js/droopmenu.js"></script>
-        <script type="text/javascript" src="plugins/gmaps/gmaps.js"></script>
+
     <!-- Flexslider -->
     <script type="text/javascript" src="plugins/flexslider/jquery.flexslider.js"></script>
     <script>

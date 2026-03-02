@@ -2059,9 +2059,7 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
 /*******************************************************/
 /**************     NUESTROS VALORES     ***************/
 /*******************************************************/
-#nuestros-valores {
-  background: rgb(1, 80, 136, 0.05);
-}
+#nuestros-valores {}
 
 #nuestros-valores .titular-seccion-moderno {
   text-align: center;
@@ -2177,7 +2175,7 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
 /*************************************************************/
 
 #nuestros-diferenciales {
-  background: var(--blanco);
+  background: rgb(1, 80, 136, 0.05);
 }
 
 #nuestros-diferenciales .titular-seccion-moderno {
@@ -2225,221 +2223,109 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
   font-weight: 300;
 }
 
-/* 
-.lista-diferenciales {
-display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-    gap: 20px;
-    padding: 3rem 0;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-.diferencial {
-    position: relative;
-    height: 420px;
-    background-color: var(--negro);
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    cursor: pointer;
-}
-
-
-.diferencial::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.9) 15%, rgba(0,0,0,0.2) 60%);
-    z-index: 1;
-    transition: background 0.5s ease;
-}
-
-
-.diferencial:hover::before {
-    background: rgba(0, 31, 63, 0.85); 
-}
-
-
-.diferencial h3, 
-.diferencial p {
-    position: relative;
-    z-index: 2;
-    padding: 0 1.5rem;
-    transition: all 0.5s ease;
-}
-
-
-.diferencial h3 {
-    color: var(--blanco);
-    font-size: 16px;
-    font-weight: 600;
-    margin: 0 0 1.5rem 0;
-    line-height: 1.3;
-    text-transform: uppercase;
-}
-.diferencial h3::after {
-    content: '';
-    display: block;
-    width: 45px;
-    height: 3px;
-    background-color: var(--primercolor);
-    margin-top: 10px;
-    transition: width 0.4s ease;
-}
-
-.diferencial p {
-    color: #d1d1d1;
-    font-size: 15px;
-    line-height: 1.6;
-    margin: 0;
-    opacity: 0;
-    max-height: 0;
-    transform: translateY(15px);
-}
-
-
-.diferencial:hover h3 {
-    transform: translateY(-5px);
-    color: var(--blanco); 
-}
-
-.diferencial:hover p {
-    opacity: 1;
-    max-height: 150px;
-    transform: translateY(0);
-    padding-bottom: 2rem;
-}
-
-.bg-1 {
-  background-image: url('../img-apps/nosotros/01-diferencial.jpg');
-}
-
-.bg-2 {
-  background-image: url('../img-apps/nosotros/02-diferencial.jpg');
-}
-
-.bg-3 {
-  background-image: url('../img-apps/nosotros/03-diferencial.jpg');
-}
-
-.bg-4 {
-  background-image: url('../img-apps/nosotros/04-diferencial.jpg');
-} */
 
 
 
-#nuestros-diferenciales img{
+#nuestros-diferenciales img {
   width: 100%;
   height: auto;
   display: block;
 
 }
 
-.acordeon {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+#nuestros-diferenciales .acordeon {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.acordeon-item {
-    border: 1px solid #e1e1e1;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    background: #fff;
-    transition: all 0.3s ease;
+#nuestros-diferenciales .acordeon-item {
+  border: 1px solid #e1e1e1;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.3s ease;
 }
 
-/* Ocultar input tipo radio */
-.acordeon-check {
-    display: none;
+
+#nuestros-diferenciales .acordeon-check {
+  display: none;
 }
 
-.acordeon-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.25rem 1.5rem;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 1rem;
-    color: #2c3e50;
-    text-transform: uppercase;
-    user-select: none;
+#nuestros-diferenciales .acordeon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+  user-select: none;
 }
 
-/* --- ICONO AZUL (+ / -) --- */
-.icon-toggle {
-    position: relative;
-    width: 22px;
-    height: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+#nuestros-diferenciales .icon-toggle {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-toggle::before {
-    content: '';
-    position: absolute;
-    width: 18px;
-    height: 3px;
-    background-color: #004a99; /* AZUL SOLICITADO */
-    border-radius: 2px;
+#nuestros-diferenciales .icon-toggle::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 3px;
+  background-color: var(--primercolor);
+  border-radius: 2px;
 }
 
-.icon-toggle::after {
-    content: '';
-    position: absolute;
-    width: 3px;
-    height: 18px;
-    background-color: #004a99; /* AZUL SOLICITADO */
-    border-radius: 2px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+#nuestros-diferenciales .icon-toggle::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 18px;
+  background-color: var(--primercolor);
+  /* AZUL SOLICITADO */
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* --- CUERPO --- */
-.acordeon-body {
-    max-height: 0;
-    overflow: hidden;
-    padding: 0 1.5rem;
-    color: #555;
-    font-size: 0.95rem;
-    line-height: 1.7;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+#nuestros-diferenciales .acordeon-body {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1.5rem;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* --- LÓGICA DE EXCLUSIVIDAD (RADIO BUTTONS) --- */
-
-/* Expandir solo el elemento seleccionado */
-.acordeon-check:checked ~ .acordeon-body {
-    max-height: 500px;
-    padding-bottom: 1.5rem;
+#nuestros-diferenciales .acordeon-check:checked~.acordeon-body {
+  max-height: 500px;
+  padding-bottom: 1.5rem;
 }
 
-/* Cambiar icono a menos (-) solo en el seleccionado */
-.acordeon-check:checked ~ .acordeon-header .icon-toggle::after {
-    transform: rotate(90deg);
-    opacity: 0;
+#nuestros-diferenciales .acordeon-check:checked~.acordeon-header .icon-toggle::after {
+  transform: rotate(90deg);
+  opacity: 0;
 }
 
-/* Resalte visual solo para el abierto */
-.acordeon-check:checked ~ .acordeon-header {
-    color: #004a99;
+#nuestros-diferenciales .acordeon-check:checked~.acordeon-header {
+  color: var(--primercolor);
 }
 
-.acordeon-item:has(.acordeon-check:checked) {
-    border-color: #004a99;
-    box-shadow: 0 4px 12px rgba(0, 74, 153, 0.1);
+#nuestros-diferenciales .acordeon-item:has(.acordeon-check:checked) {
+  border-color: var(--primercolor);
+  box-shadow: 0 4px 12px rgba(0, 74, 153, 0.1);
 }
 
-.acordeon-header:hover {
-    background-color: #f8faff;
+#nuestros-diferenciales .acordeon-header:hover {
+  background-color: #f8faff;
 }
 
 /*************************************************************/
@@ -2607,6 +2493,88 @@ display: grid;
   opacity: 1;
   transform: translateY(0);
 }
+
+/***************************************************************/
+/**************     ESTILOS PARALLAX NOSOTROS    ***************/
+/***************************************************************/
+
+.parallax-banner {
+    background-image: linear-gradient(rgba(0, 20, 50, 0.75), rgba(0, 20, 50, 0.75)), 
+                      url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tagline {
+    display: inline-block;
+    background-color: var(--primercolor); 
+    color: white;
+    padding: 5px 15px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.overlay h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.overlay p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 650px;
+    margin: 0 auto 35px;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Grupo de botones */
+.cta-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-blue {
+    background-color: var(--primercolor);
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    border: 2px solid var(--primercolor);
+    text-transform: uppercase;
+}
+
+.btn-blue:hover {
+    background-color: #002D6E;
+    transform: translateY(-3px);
+}
+
 
 
 
@@ -5405,3 +5373,8 @@ ESTILOS PARA CONTACTOS
     gap: 15px;
   }
 }
+
+
+
+
+
