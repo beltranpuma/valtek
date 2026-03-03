@@ -294,7 +294,7 @@
                     <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
-                    <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
+                    <li><a href="https://pe.linkedin.com/company/valtek-group-sac" target="_blank"><span>Linkedin</span></a></li>
                 </ul>
             </div>
         </div>

@@ -72,7 +72,7 @@
             </div>
             
             <div class="f-social">
-                <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://pe.linkedin.com/company/valtek-group-sac" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.facebook.com/ValtekGroup" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-square"></i></a>
             </div>
 

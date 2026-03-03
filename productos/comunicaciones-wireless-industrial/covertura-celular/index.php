@@ -171,7 +171,7 @@
 
                         <p>Elimine las zonas sin señal mediante sistemas de amplificación industrial de alta potencia.</p>
 
-                        <a href="#contacto">COTIZAR AHORA</a>
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -205,12 +205,12 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
-                    <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
+                    <li><a href="https://pe.linkedin.com/company/valtek-group-sac" target="_blank"><span>Linkedin</span></a></li>
                 </ul>
             </div>
         </div>

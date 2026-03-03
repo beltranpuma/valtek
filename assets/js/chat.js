@@ -45,7 +45,7 @@ function sendWhatsApp() {
     }
 
 
-    const businessNumber = "51928097797"; 
+    const businessNumber = "51949671623"; 
     const saludo = "¡Hola! Estoy interesado en una cotización.";
     
  

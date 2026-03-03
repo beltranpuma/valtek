@@ -75,7 +75,7 @@
                 <div class="titular">
                         <h2>IP SURVEILLANCE & SEGURIDAD INDUSTRIAL</h2>
                         <p>Líderes en conectividad OT, automatización, seguridad industrial e infraestructura energética renovable.</p>
-                    <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                    <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                 </div>
          
             </div>
@@ -203,31 +203,41 @@
     <!-- ******************************************************** -->
     <!-- *******************      WHATSAPP       **************** -->
     <!-- ******************************************************** -->
-    <div id="contwhats">
-        <div id="cajawhatsapp">
-            <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo contactarme con uds." target="_blank"
-                title="Comunícate con Nosotros"><i class="icon-whatsapp"></i>+51 923501304</a>
+        <div id="contwhats">
+            <div id="cajawhatsapp">
+                <a href="https://w.app/gqvbuy"
+                    target="_blank"
+                    class="whatsapp-link"
+                    title="Comunícate con Nosotros">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span class="notification-dot"></span>
+                </a>
+
+                <div class="whatsapp-label">
+                    <span class="online-text">¿Necesitas ayuda?</span>
+                    <span class="number-text">+51 949 671 623</span>
+                </div>
+            </div>
         </div>
-    </div>
 
 
 
     <!-- ******************************************************** -->
     <!-- ****************      PANTALLA REDES       ************* -->
     <!-- ******************************************************** -->
-    <div id="cajasociales">
-        <div id="cajablanca">
-            <ul>
-                <li><a href="#"><span>Síguenos en:</span></a></li>
-                <li><a href="#"
-                        target="_blank"><span>Facebook</span></a></li>
-                <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
-                <li><a href="#"
-                        target="_blank"><span>Instagram</span></a></li>
-                <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
-            </ul>
+        <div id="cajasociales">
+            <div id="cajablanca">
+                <ul>
+                    <li><a href="#"><span>Síguenos en:</span></a></li>
+                    <li><a href="https://www.facebook.com/ValtekGroup"
+                            target="_blank"><span>Facebook</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="#"
+                            target="_blank"><span>Instagram</span></a></li>
+                    <li><a href="https://pe.linkedin.com/company/valtek-group-sac" target="_blank"><span>Linkedin</span></a></li>
+                </ul>
+            </div>
         </div>
-    </div>
     <!-- ******************************************************** -->
     <!-- ******************************************************** -->
     <script type="text/javascript" src="../../plugins/menu/js/droopmenu.js"></script>
