@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>CELLULAR ROUTERS</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -190,9 +190,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Conectividad Robusta en Cualquier Lugar</h3>
-                        <p>Routers industriales 4G/5G con Dual-SIM para alta disponibilidad. Garantice el enlace de sus cajeros, cámaras o telemetría con equipos de grado militar diseñados para operación 24/7 en condiciones extremas.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo cotizar routers celulares industriales para mi proyecto" target="_blank">VER MODELOS DISPONIBLES</a>
+                        <h3>Routers Celulares para Conectividad Remota</h3>
+
+                        <p>Garantice conexión inalámbrica permanente mediante redes móviles industriales de alta velocidad.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -222,9 +224,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

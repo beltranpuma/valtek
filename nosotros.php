@@ -103,7 +103,7 @@
                             <div class="flex-caption-banner">
                                 <h2 style="margin-bottom: 0px;">TECNOLOGÍA E INGENIERÍA <span class="resaltado-cian">PARA INFRAESTRUCTURA </span> INDUSTRIAL</h2>
                                 <p style=" font-size: 22px; line-height: 30px; font-weight: 300; color: var(--blanco); padding: 0 25px 12px 25px;">Diseñamos arquitecturas tecnológicas y suministramos soluciones industriales para entornos críticos.</p>
-                                <a href="#" class="btn-modern">Cotactenos <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">Cotactenos <i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </li>
 
@@ -115,7 +115,7 @@
                             </picture>
                             <div class="flex-caption-banner">
                                 <h2>DISTRIBUCIÓN DE <span class="resaltado-cian">MARCAS LÍDERES</span> CON RESPALDO DE INGENIERÍA</h2>
-                                <a href="#" class="btn-modern">Cotactenos <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">Cotactenos <i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </li>
 
@@ -138,7 +138,7 @@
                                 Nuestro enfoque combina análisis de ingeniería, selección tecnológica especializada y suministro de infraestructura certificada, asegurando que cada solución responda a estándares industriales, requerimientos normativos y necesidades reales de operación en sectores como minería, energía, industria, transporte e infraestructura crítica.
                             </p>
 
-                            <a href="">CONTACTAR AHORA</a>
+                            <a href="https://w.app/gqvbuy" target="_blank">CONTACTAR AHORA</a>
                         </div>
                         <div class="col7">
                             <img src="./assets/img-apps/nosotros/sobre-nosotros.png" alt="">
@@ -457,18 +457,18 @@
             <!-- *********************************************************** -->
             <!-- **************     PARALLAX 01 NOSOTROS     *************** -->
             <!-- *********************************************************** -->
-                <section class="parallax-banner">
-                    <div class="overlay">
-                        <div class="banner-inner">
-                            <span class="tagline">Soluciones de Conectividad Nacional</span>
-                            <h2>Innovación que Conecta al Perú</h2>
-                            <p>Especialistas en infraestructura de fibra óptica y redes de alta disponibilidad para el sector industrial y corporativo.</p>
-                            <div class="cta-group">
-                                <a href="#contacto" class="btn-blue">Contactenos</a>
-                            </div>
+            <section class="parallax-banner">
+                <div class="overlay">
+                    <div class="banner-inner">
+                        <span class="tagline">Soluciones de Conectividad Nacional</span>
+                        <h2>Innovación que Conecta al Perú</h2>
+                        <p>Especialistas en infraestructura de fibra óptica y redes de alta disponibilidad para el sector industrial y corporativo.</p>
+                        <div class="cta-group">
+                            <a href="https://w.app/gqvbuy" target="_blank" class="btn-blue">Contactenos</a>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
 
 
@@ -490,7 +490,7 @@
         <!-- ******************************************************** -->
         <div id="contwhats">
             <div id="cajawhatsapp">
-                <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo contactarme con uds."
+                <a href="https://w.app/gqvbuy"
                     target="_blank"
                     class="whatsapp-link"
                     title="Comunícate con Nosotros">
@@ -500,7 +500,7 @@
 
                 <div class="whatsapp-label">
                     <span class="online-text">¿Necesitas ayuda?</span>
-                    <span class="number-text">+51 923 501 304</span>
+                    <span class="number-text">+51 949 671 623</span>
                 </div>
             </div>
         </div>
@@ -513,9 +513,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

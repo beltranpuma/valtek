@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>RADIO ENLACES</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -202,9 +202,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Conexiones de Largo Alcance sin Límites</h3>
-                        <p>Llevamos internet y datos a donde otros no llegan. Implementamos Radioenlaces Punto a Punto y Multipunto con Carrier-Class de alta disponibilidad para entornos críticos y geografía compleja.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo cotizar un Radioenlace para mi proyecto" target="_blank">SOLICITAR ESTUDIO DE LÍNEA DE VISTA</a>
+                        <h3>Radio Enlaces de Alta Capacidad Inalámbrica</h3>
+
+                        <p>Conecte puntos remotos mediante enlaces de alta velocidad y máxima estabilidad inalámbrica.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -219,7 +221,7 @@
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
-        
+
         <!-- ******************************************************** -->
         <!-- *******************      CHAT BO      **************** -->
         <!-- ******************************************************** -->
@@ -238,9 +240,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

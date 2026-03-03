@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>MEDIA CONVERTERS</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -200,13 +200,14 @@
             <!-- ********************************************************* -->
             <!-- *******************   EFECTO PARALLAX  ****************** -->
             <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Integración de Fibra y Cobre para la Industria</h3>
-                        <p>Optimice su infraestructura de red eliminando cuellos de botella y distancias limitadas. Nuestros conversores de medios industriales garantizan una transmisión de datos segura y de alta velocidad en entornos con alto ruido electromagnético, conectando su planta con el centro de datos sin pérdida de señal.</p>
-                        <a href="#contacto">SOLICITAR COTIZACIÓN</a>
+                        <h3>Convertidores de Medios para Fibra</h3>
+
+                        <p>Integre redes de cobre con fibra óptica mediante dispositivos industriales de alta velocidad.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -240,9 +241,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

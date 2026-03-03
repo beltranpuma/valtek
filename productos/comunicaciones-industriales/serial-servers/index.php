@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>SERIAL SERVERS</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -199,13 +199,14 @@
             <!-- ********************************************************* -->
             <!-- *******************   EFECTO PARALLAX  ****************** -->
             <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Cierre la brecha entre lo Serial y el Ethernet</h3>
-                        <p>Conecte sus equipos industriales (RS-232/422/485) directamente a su red IP. Soluciones robustas para la gestión remota de PLCs, básculas, sensores y sistemas de control con máxima fiabilidad.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo información sobre servidores de puertos seriales a ethernet" target="_blank">CONECTAR MIS DISPOSITIVOS</a>
+                        <h3>Servidores Seriales para Redes Ethernet</h3>
+
+                        <p>Conecte sus dispositivos RS232 o RS485 directamente a redes Ethernet industriales modernas.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -239,9 +240,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

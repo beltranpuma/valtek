@@ -95,7 +95,7 @@
                     <div class="titular">
                         <h2>BATERÍAS</h2>
                         <p>Respaldo energético de alta eficiencia para aplicaciones críticas.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -196,9 +196,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Respaldo que no se detiene</h3>
-                        <p>Asegure la continuidad de sus procesos críticos con bancos de baterías de alta densidad y tecnología LiFePO4. Diseñados para máxima autonomía y larga vida útil.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo cotizar un banco de baterías de respaldo" target="_blank" class="btn-cotizar">CALCULAR MI AUTONOMÍA AHORA</a>
+                        <h3>Baterías Industriales de Máxima Autonomía</h3>
+
+                        <p>Asegure el respaldo energético continuo mediante sistemas de almacenamiento de alta eficiencia.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -232,9 +234,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

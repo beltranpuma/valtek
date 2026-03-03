@@ -1,30 +1,47 @@
-    <!-- ******************************************************** -->
-    <!-- *******************      CHAT       **************** -->
-    <!-- ******************************************************** -->
-        <div id="waChat">
-            <div id="waToggle" onclick="toggleChat()">
-                <i class="fas fa-comment-dollar"></i>
-                <span class="blink">Cotiza Ahora</span>
+<div id="waChat">
+    <div id="waToggle" onclick="toggleChat()">
+        <div class="agent-avatar">
+            <i class="fas fa-user-tie"></i> <span class="online-status"></span>
+        </div>
+        <div class="agent-text">
+            <small>¿En qué te ayudo?</small>
+            <span>¡Hola! Cotiza ahora</span>
+        </div>
+    </div>
+
+    <form id="waForm" class="glass-effect" onsubmit="sendWhatsApp(); return false;">
+        <div class="form-header">
+            <div class="header-info">
+                <h3>Cotización Rápida</h3>
+                <p>En línea ahora</p>
+            </div>
+            <button type="button" class="close-btn" onclick="toggleChat()">&times;</button>
+        </div>
+
+        <div class="form-body">
+            <div class="input-group">
+                <label>Empresa <span>*</span></label>
+                <input type="text" id="wa-company" placeholder="Nombre de la empresa">
             </div>
 
-            <form id="waForm" onsubmit="sendWhatsApp(); return false;">
-                <h3><i class="fas fa-paper-plane"></i> Solicitar Cotización</h3>
+            <div class="input-group">
+                <label>Nombre <span>*</span></label>
+                <input type="text" id="wa-name" placeholder="Escribe tu nombre">
+            </div>
 
-                <label><i class="fas fa-building"></i> Empresa:<span>*</span></label>
-                <input type="text" id="wa-company" placeholder="Nombre de la empresa">
-
-                <label><i class="fas fa-user"></i> Nombre:<span>*</span></label>
-                <input type="text" id="wa-name" placeholder="Tu nombre">
-
-                <label><i class="fas fa-phone"></i> Celular:<span>*</span></label>
-                <input type="tel" id="wa-phone" placeholder="Ej: +519XXXXXXXX">
-
-                <label><i class="fas fa-envelope"></i> Correo:<span>*</span></label>
+            <div class="input-group">
+                <label>Correo Corporativo <span>*</span></label>
                 <input type="email" id="wa-email" placeholder="correo@ejemplo.com">
+            </div>
 
-                <label><i class="fas fa-comment"></i> Detalle:<span>*</span></label>
-                <textarea id="wa-msg" rows="4" placeholder="Describe tu solicitud"></textarea>
+            <div class="input-group">
+                <label>Detalle (Opcional)</label>
+                <textarea id="wa-msg" rows="2" placeholder="¿Qué necesitas?"></textarea>
+            </div>
 
-                <button type="submit"><i class="fab fa-whatsapp"></i> Enviar a WhatsApp</button>
-            </form>
+            <button type="submit" class="btn-send" >
+                Enviar a WhatsApp
+            </button>
         </div>
+    </form>
+</div>

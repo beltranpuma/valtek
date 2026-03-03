@@ -93,7 +93,7 @@
                     <div class="titular">
                         <h2>PCS INDUSTRIALES DE ALTO RENDIMIENTO.</h2>
                         <p>Sistemas embebidos Fanless y servidores robustos diseñados para procesamiento de datos en entornos críticos.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -193,13 +193,14 @@
             <!-- ********************************************************* -->
             <!-- *******************   EFECTO PARALLAX  ****************** -->
             <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Arquitectura Robusta para Operación Continua</h3>
-                        <p>Maximice la disponibilidad de sus procesos con Box PC Fanless y Servidores Rack de grado industrial. Equipos diseñados sin partes móviles para eliminar fallas por polvo o vibración, garantizando un rendimiento óptimo en las condiciones más exigentes.</p>
-                        <a href="#contacto">SOLICITAR ASESORÍA TÉCNICA</a>
+                        <h3>PCs Industriales de Alto Rendimiento Continuo</h3>
+
+                        <p>Potencie sus operaciones con computadoras robustas diseñadas para trabajar en condiciones extremas.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -233,9 +234,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

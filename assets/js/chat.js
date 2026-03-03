@@ -8,40 +8,69 @@ function toggleChat() {
 
 
 function sendWhatsApp() {
-    const name = document.getElementById("wa-name").value.trim();
-    const phone = document.getElementById("wa-phone").value.trim();
-    const company = document.getElementById("wa-company").value.trim();
-    const email = document.getElementById("wa-email").value.trim();
-    const msg = document.getElementById("wa-msg").value.trim();
+    const nameInput = document.getElementById("wa-name");
+    const companyInput = document.getElementById("wa-company");
+    const emailInput = document.getElementById("wa-email");
+    const msgInput = document.getElementById("wa-msg");
 
-    // Validación con alertify
-    if(!company) { alertify.error("Por favor ingresa el nombre de la empresa."); return; }
-    if(!name) { alertify.error("Por favor ingresa tu nombre."); return; }
-    if(!phone) { alertify.error("Por favor ingresa tu celular."); return; }
-    if(!email) { alertify.error("Por favor ingresa tu correo."); return; }
-    if(!msg) { alertify.error("Por favor ingresa el detalle de tu solicitud."); return; }
 
-    const businessNumber = "51928097797"; // Tu número WhatsApp
+    const name = nameInput.value.trim();
+    const company = companyInput.value.trim();
+    const email = emailInput.value.trim();
+    const msg = msgInput.value.trim();
 
+
+    if (!company) {
+        alertify.error("El nombre de la empresa es obligatorio");
+        companyInput.focus();
+        return;
+    }
+    if (!name) {
+        alertify.error("Por favor, dinos tu nombre");
+        nameInput.focus();
+        return;
+    }
+    if (!email) {
+        alertify.error("El correo electrónico es necesario");
+        emailInput.focus();
+        return;
+    }
+    
+ 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alertify.error("Por favor, ingresa un correo válido");
+        emailInput.focus();
+        return;
+    }
+
+
+    const businessNumber = "51928097797"; 
+    const saludo = "¡Hola! Estoy interesado en una cotización.";
+    
+ 
     const text = encodeURIComponent(
-        `*Nuevo contacto desde la web*\n\n` +
+        `*SOLICITUD DE COTIZACIÓN - WEB*\n\n` +
         `*Empresa:* ${company}\n` +
-        `*Nombre:* ${name}\n` +
-        `*Celular:* ${phone}\n` +
-        `*Correo:* ${email}\n\n` +
-        `*Detalle:*\n${msg}`
+        `*Contacto:* ${name}\n` +
+        `*Correo:* ${email}\n` +
+        `*Detalles:* ${msg || 'El cliente no especificó detalles.'}\n\n` +
+        `_Enviado desde el formulario._`
     );
 
-    // Abrir WhatsApp
-    window.open(`https://wa.me/${businessNumber}?text=${text}`, "_blank");
-
-    // Limpiar campos después de enviar
-    document.getElementById("wa-name").value = "";
-    document.getElementById("wa-phone").value = "";
-    document.getElementById("wa-company").value = "";
-    document.getElementById("wa-email").value = "";
-    document.getElementById("wa-msg").value = "";
-
-    // Cerrar formulario automáticamente (opcional)
-    document.getElementById("waForm").classList.remove("active");
+ 
+    alertify.success("Abriendo WhatsApp...");
+    
+    setTimeout(() => {
+        window.open(`https://wa.me/${businessNumber}?text=${text}`, "_blank");
+        
+        
+        companyInput.value = "";
+        nameInput.value = "";
+        emailInput.value = "";
+        msgInput.value = "";
+        
+       
+        toggleChat();
+    }, 1000); 
 }

@@ -91,7 +91,7 @@
                     <div class="titular">
                         <h2>Energia Fotovoltaica</h2>
                         <p>Sistemas avanzados de generación solar para maximizar la autonomía energética en sus proyectos.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -199,7 +199,7 @@
                     <div class="titular">
                         <h3>Especialistas en conectividad</h3>
                         <p>Impulsamos la innovación tecnológica a través de soluciones para mejorar la productividad de las empresas.</p>
-                        <a href="#">SOLICITAR INFORMACIÓN</a>
+                        <a href="https://w.app/gqvbuy" target="_blank">SOLICITAR INFORMACIÓN</a>
                     </div>
                 </div>
 
@@ -234,9 +234,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

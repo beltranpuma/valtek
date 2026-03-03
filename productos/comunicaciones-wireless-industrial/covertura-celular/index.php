@@ -86,7 +86,7 @@
                     <div class="titular">
                         <h2>COVERTURA CELULAR</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -167,9 +167,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Señal Celular Sin Interrupciones</h3>
-                        <p>Eliminamos las zonas de sombra y el silencio digital. Implementamos soluciones de amplificación de señal (2G, 3G, 4G y 5G) para oficinas, sótanos industriales y zonas rurales remotas.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo una evaluación de cobertura celular para mi local" target="_blank">SOLICITAR EVALUACIÓN DE SEÑAL</a>
+                        <h3>Soluciones Profesionales de Cobertura Celular</h3>
+
+                        <p>Elimine las zonas sin señal mediante sistemas de amplificación industrial de alta potencia.</p>
+
+                        <a href="#contacto">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>

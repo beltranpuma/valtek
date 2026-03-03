@@ -90,7 +90,7 @@
                     <div class="titular">
                         <h2>Gateways</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -98,10 +98,6 @@
             <div id="zona-productos">
                 <div class="zonacentro">
                     <h2 class="titulo">Nuestra gama de productos <span> Gateways</span> </h2>
-
-
-
-
                     <div class="lista-productos">
 
                         <!-- PRODUCTO 1 -->
@@ -192,9 +188,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Llevamos su planta a la Industria 4.0</h3>
-                        <p>Integramos sus dispositivos legacy con protocolos modernos y la nube. Transformamos datos aislados en información estratégica para su toma de decisiones.</p>
-                        <a href="#contacto">SOLICITAR ASESORÍA IIoT</a>
+                        <h3>Conectividad Avanzada para Gateways Industriales</h3>
+
+                        <p>Conectamos sus equipos industriales con la nube mediante protocolos modernos y seguros.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -227,9 +225,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

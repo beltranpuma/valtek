@@ -46,8 +46,8 @@
 
     <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-        <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
@@ -58,10 +58,10 @@
 
     <div id="precarga">
         <div id="iconoprecarga">
-                <i class="icon-spin5 animate-spin"></i>
-                <p>LOADING</p>
-        </div>	
-    </div>	
+            <i class="icon-spin5 animate-spin"></i>
+            <p>LOADING</p>
+        </div>
+    </div>
     <!-- ******************************************************** -->
     <!-- *******************   CABECERA   *********************** -->
     <!-- ******************************************************** -->
@@ -69,182 +69,174 @@
 
 
     <li class="droopmenu-parent">
-    <a href="#productos" title="Productos">PRODUCTOS</a>
+        <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-    <!-- ******************************************************** -->
-    <!-- *******************   CUERPO WEB  ********************** -->
-    <!-- ******************************************************** -->
-    
+        <!-- ******************************************************** -->
+        <!-- *******************   CUERPO WEB  ********************** -->
+        <!-- ******************************************************** -->
+
 
         <main id="cuerpo">
-        <!-- **************************************************** -->
-        <!-- *******************   INICIO WEB  ****************** -->
-        <!-- **************************************************** -->
+            <!-- **************************************************** -->
+            <!-- *******************   INICIO WEB  ****************** -->
+            <!-- **************************************************** -->
 
-        <section id="zonabanner-aplicacion">
-            <div class="zonacentro">
-                <div class="titular">
-                    <h2 >SOFTWARE DE GESTIÓN DE VIDEO (VMS)</h2>
-                    <p>Inteligencia artificial y analítica avanzada para el control total de su infraestructura de seguridad.</p>
-                    <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+            <section id="zonabanner-aplicacion">
+                <div class="zonacentro">
+                    <div class="titular">
+                        <h2>SOFTWARE DE GESTIÓN DE VIDEO (VMS)</h2>
+                        <p>Inteligencia artificial y analítica avanzada para el control total de su infraestructura de seguridad.</p>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
+                    </div>
+                </div>
+            </section>
+
+            <div id="zona-productos">
+                <div class="zonacentro">
+                    <h2 class="titulo">Nuestra gama de productos <span> Software</span> </h2>
+
+
+
+
+                    <div class="lista-productos">
+
+                        <!-- PRODUCTO 1 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/software/001.png">
+                            <div class="producto-info">
+                                <h3>SOFTWARE VMS (GESTIÓN LOCAL)</h3>
+                                <ul class="caracteristicas">
+                                    <li>Visualización y grabación básica de cámaras IP.</li>
+                                    <li>Gestión de cámaras: Visualización en vivo y grabación.</li>
+                                    <li>Compatibilidad: Cámaras IP ONVIF.</li>
+                                    <li>Grabación: Continua y por eventos.</li>
+                                    <li>Visualización: Multivista, reproducción básica.</li>
+                                    <li>Usuarios: Gestión básica de usuarios.</li>
+                                    <li>Arquitectura: PC local / NVR.</li>
+                                    <li>Certificaciones: Software certificado por fabricante.</li>
+                                    <li>Aplicaciones: Oficinas, comercios, sitios pequeños.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 2 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/software/002.png">
+                            <div class="producto-info">
+                                <h3>SOFTWARE VMS (ESCALABLE)</h3>
+                                <ul class="caracteristicas">
+                                    <li> Gestión centralizada de sistemas medianos y grandes.</li>
+                                    <li> Escalabilidad: Decenas a cientos de cámaras*.</li>
+                                    <li> Gestión centralizada: Servidores y clientes distribuidos.</li>
+                                    <li> Funciones: Alarmas, reglas, mapas, eventos.</li>
+                                    <li> Búsqueda: Línea de tiempo, filtros inteligentes</li>
+                                    <li> Usuarios: Roles, permisos y auditoría.</li>
+                                    <li> Ciberseguridad: Autenticación, cifrado, hardening*.</li>
+                                    <li>Integración: NVRs, cámaras multi-marca.</li>
+                                    <li> Aplicaciones: Plantas industriales, campus, retail grande.</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 3 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/software/003.png">
+                            <div class="producto-info">
+                                <h3>SOFTWARE VMS ENTERPRISE / ANALÍTICA AVANZADA</h3>
+                                <ul class="caracteristicas">
+                                    <li> Plataforma de seguridad y video vigilancia de nivel crítico.</li>
+                                    <li> Analítica avanzada: Personas, vehículos, conteo, eventos AI*.</li>
+                                    <li> Funciones inteligentes: Búsqueda forense, reglas complejas.</li>
+                                    <li> Arquitectura: Distribuida, redundante, multi-servidor.</li>
+                                    <li> Arquitectura: Servidor NVR / VMS escalable*.</li>
+                                    <li> Integración: SCADA, BMS, PSIM, sistemas externos.</li>
+                                    <li> Ciberseguridad: Gestión avanzada de accesos, logs*.</li>
+                                    <li> Ecosistema: Plugins y SDKs.</li>
+                                    <li>Escalabilidad: 128+ cámaras*.</li>
+                                    <li>Aplicaciones: Infraestructura crítica, minería, ciudades.</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-        </section>
-
-        <div id="zona-productos">
-                   <div class="zonacentro">
-                            <h2 class="titulo">Nuestra gama de productos <span> Software</span> </h2>
-                            
-                      
 
 
-                        <div class="lista-productos">
 
-                            <!-- PRODUCTO 1 -->
-                            <div class="producto">
-                                    <img src="../../../assets/img-apps/categoria/software/001.png">
-                                    <div class="producto-info">
-                                        <h3>SOFTWARE VMS (GESTIÓN LOCAL)</h3>
-                                        <ul class="caracteristicas">
-                                            <li>Visualización y grabación básica de cámaras IP.</li>
-                                            <li>Gestión de cámaras: Visualización en vivo y grabación.</li>
-                                            <li>Compatibilidad: Cámaras IP ONVIF.</li>
-                                            <li>Grabación: Continua y por eventos.</li>
-                                            <li>Visualización: Multivista, reproducción básica.</li>
-                                            <li>Usuarios: Gestión básica de usuarios.</li>
-                                            <li>Arquitectura: PC local / NVR.</li>
-                                            <li>Certificaciones: Software certificado por fabricante.</li>
-                                            <li>Aplicaciones: Oficinas, comercios, sitios pequeños.</li>
-                                        </ul>
-                                        
-                                    </div>
-                            </div>
 
-                            <!-- PRODUCTO 2 -->
-                            <div class="producto">
-                                <img src="../../../assets/img-apps/categoria/software/002.png">
-                                <div class="producto-info">
-                                    <h3>SOFTWARE VMS (ESCALABLE)</h3>
-                                    <ul class="caracteristicas">
-                                        <li> Gestión centralizada de sistemas medianos y grandes.</li>
-                                        <li> Escalabilidad: Decenas a cientos de cámaras*.</li>
-                                        <li> Gestión centralizada: Servidores y clientes distribuidos.</li>
-                                        <li> Funciones: Alarmas, reglas, mapas, eventos.</li>
-                                        <li> Búsqueda: Línea de tiempo, filtros inteligentes</li>
-                                        <li> Usuarios: Roles, permisos y auditoría.</li>
-                                        <li> Ciberseguridad: Autenticación, cifrado, hardening*.</li>
-                                        <li>Integración: NVRs, cámaras multi-marca.</li>
-                                        <li> Aplicaciones: Plantas industriales, campus, retail grande.</li>
-                                        
-                                    </ul>
 
-                                </div>
-                            </div>
 
-                            <!-- PRODUCTO 3 -->
-                            <div class="producto">
-                                <img src="../../../assets/img-apps/categoria/software/003.png">
-                                <div class="producto-info">
-                                    <h3>SOFTWARE VMS ENTERPRISE / ANALÍTICA AVANZADA</h3>
-                                    <ul class="caracteristicas">
-                                        <li> Plataforma de seguridad y video vigilancia de nivel crítico.</li>
-                                        <li> Analítica avanzada: Personas, vehículos, conteo, eventos AI*.</li>
-                                        <li> Funciones inteligentes: Búsqueda forense, reglas complejas.</li>
-                                        <li> Arquitectura: Distribuida, redundante, multi-servidor.</li>
-                                        <li> Arquitectura: Servidor NVR / VMS escalable*.</li>
-                                        <li> Integración: SCADA, BMS, PSIM, sistemas externos.</li>
-                                        <li> Ciberseguridad: Gestión avanzada de accesos, logs*.</li>
-                                        <li> Ecosistema: Plugins y SDKs.</li>
-                                        <li>Escalabilidad: 128+ cámaras*.</li>
-                                        <li>Aplicaciones: Infraestructura crítica, minería, ciudades.</li>
-                                    </ul>
+            <!-- ********************************************************* -->
+            <!-- *******************   EFECTO PARALLAX  ****************** -->
+            <!-- ********************************************************* -->
 
-                                </div>
-                                
-                            </div>
+            <section id="zona-parallax">
+                <div class="zonacentro">
+                    <div class="titular">
+                        <h3>Seguridad Proactiva con Inteligencia Artificial</h3>
 
-                         </div>
+                        <p>Reciba notificaciones en tiempo real mediante analíticas avanzadas para respuestas inmediatas.</p>
 
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
+                    </div>
                 </div>
-        </div>
+            </section>
+
+
+        </main>
+
+        <!-- ******************************************************** -->
+        <!-- *******************   PIE PAGINA WEB  ****************** -->
+        <!-- ******************************************************** -->
+
+        <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
 
-
-
-
-    <!-- ********************************************************* -->
-    <!-- *******************   EFECTO PARALLAX  ****************** -->
-    <!-- ********************************************************* -->
-
-        <section id="zona-parallax">
-            <div class="zonacentro">
-                <div class="titular">
-                    <h3>Seguridad Proactiva, no Reactiva</h3>
-                    <p>Deje de revisar horas de video manualmente. Nuestras soluciones de VMS con Inteligencia Artificial le notifican en tiempo real sobre incidentes críticos, optimizando la respuesta de su equipo de seguridad.</p>
-                    <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo información sobre licencias VMS y Analítica de Video" target="_blank">CONSULTAR LICENCIAMIENTO</a>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-    
-    <!-- ******************************************************** -->
-    <!-- *******************   PIE PAGINA WEB  ****************** -->
-    <!-- ******************************************************** -->
-    
-    <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
-
-
-
-    <!-- ******************************************************** -->
-    <!-- *******************      CHAT BO      **************** -->
-    <!-- ******************************************************** -->
+        <!-- ******************************************************** -->
+        <!-- *******************      CHAT BO      **************** -->
+        <!-- ******************************************************** -->
         <?php
 
-            include_once($_SERVER['DOCUMENT_ROOT'].'/valtek/components/chatbot.php');
+        include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
 
 
         ?>
 
 
-    <!-- ******************************************************** -->
-    <!-- ****************      PANTALLA REDES       ************* -->
-    <!-- ******************************************************** -->
-    <div id="cajasociales">
-        <div id="cajablanca">
-            <ul>
-                <li><a href="#"><span>Síguenos en:</span></a></li>
-                <li><a href="#"
-                        target="_blank"><span>Facebook</span></a></li>
-                <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
-                <li><a href="#"
-                        target="_blank"><span>Instagram</span></a></li>
-                <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
-            </ul>
+        <!-- ******************************************************** -->
+        <!-- ****************      PANTALLA REDES       ************* -->
+        <!-- ******************************************************** -->
+        <div id="cajasociales">
+            <div id="cajablanca">
+                <ul>
+                    <li><a href="#"><span>Síguenos en:</span></a></li>
+                    <li><a href="https://www.facebook.com/ValtekGroup"
+                            target="_blank"><span>Facebook</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="#"
+                            target="_blank"><span>Instagram</span></a></li>
+                    <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!-- ******************************************************** -->
-    <!-- ******************************************************** -->
-    <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
+        <!-- ******************************************************** -->
+        <!-- ******************************************************** -->
+        <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
         <!-- Flexslider -->
-    <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
-    <script>
-        $(function () {
-            /*******************************************/
-            /*******************************************/
-            if (jQuery(this).scrollTop() > 100) {
-                jQuery(".droopmenu-navbar").css({
-                    'background': "rgba(255, 255, 255, 1)"
-                });
-            } else {
-                jQuery(".droopmenu-navbar").css({
-                    'background': "rgba(255, 255, 255, 1)"
-                });
-            }
-            jQuery(document).scroll(function () {
+        <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
+        <script>
+            $(function() {
+                /*******************************************/
+                /*******************************************/
                 if (jQuery(this).scrollTop() > 100) {
                     jQuery(".droopmenu-navbar").css({
                         'background': "rgba(255, 255, 255, 1)"
@@ -254,50 +246,60 @@
                         'background': "rgba(255, 255, 255, 1)"
                     });
                 }
-            })
+                jQuery(document).scroll(function() {
+                    if (jQuery(this).scrollTop() > 100) {
+                        jQuery(".droopmenu-navbar").css({
+                            'background': "rgba(255, 255, 255, 1)"
+                        });
+                    } else {
+                        jQuery(".droopmenu-navbar").css({
+                            'background': "rgba(255, 255, 255, 1)"
+                        });
+                    }
+                })
 
-            /*******************************************/
-            /*******************************************/
-            $(document).on("click", ".droopmenu li a", function (e) {
-                var $ancla = $(this);
-                $("html, body").stop().animate({
-                    scrollTop: ($($ancla.attr("href")).offset().top - 60)
-                }, 2000, "easeInOutExpo");
-            })
-            /*******************************************/
-            /*******************************************/
-            $("#biconos").click(function () {
-                $("#cajasociales").css({
-                    "right": "0"
+                /*******************************************/
+                /*******************************************/
+                $(document).on("click", ".droopmenu li a", function(e) {
+                    var $ancla = $(this);
+                    $("html, body").stop().animate({
+                        scrollTop: ($($ancla.attr("href")).offset().top - 60)
+                    }, 2000, "easeInOutExpo");
+                })
+                /*******************************************/
+                /*******************************************/
+                $("#biconos").click(function() {
+                    $("#cajasociales").css({
+                        "right": "0"
+                    });
+                })
+                $("#cajasociales").click(function() {
+                    $("#cajasociales").css({
+                        "right": "-100%"
+                    });
+                })
+
+                /**************************************************/
+                /********    INICIALIZAR FLEXSLIDER       *********/
+                /**************************************************/
+                $('.flexslider').flexslider({
+                    animation: "slide"
                 });
+
+
+
+
+
             })
-            $("#cajasociales").click(function () {
-                $("#cajasociales").css({
-                    "right": "-100%"
+            /*******************************************************/
+            /*******************************************************/
+            jQuery(function($) {
+                $('.droopmenu-navbar').droopmenu({
+                    dmOffCanvas: true
                 });
-            })
-
-            /**************************************************/
-            /********    INICIALIZAR FLEXSLIDER       *********/
-            /**************************************************/
-            $('.flexslider').flexslider({
-                animation: "slide"
             });
-
-    
-
-
-      
-        })
-        /*******************************************************/
-        /*******************************************************/
-        jQuery(function ($) {
-            $('.droopmenu-navbar').droopmenu({
-                dmOffCanvas: true
-            });
-        });
-    </script>
-    <script src="/valtek/assets/js/chat.js"></script>
+        </script>
+        <script src="/valtek/assets/js/chat.js"></script>
 
 </body>
 

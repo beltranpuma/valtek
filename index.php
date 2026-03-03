@@ -146,7 +146,7 @@
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>20 AÑOS BRINDANDO <span class="resaltado-cian">TECNOLOGÍA DE PUNTA</span> AL SECTOR INDUSTRIAL</h2>
-                            <a href="#" class="btn-modern">¡Cotiza con expertos! <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">¡Cotiza con expertos! <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </li>
 
@@ -157,7 +157,7 @@
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>ACELERAMOS LA <span class="resaltado-cian">EJECUCIÓN DE PROYECTOS</span> CON EFICIENCIA REAL</h2>
-                            <a href="#" class="btn-modern">¡Acelera tu proyecto! <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://w.app/gqvbuy" target="_blank"  class="btn-modern">¡Acelera tu proyecto! <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </li>
 
@@ -168,7 +168,7 @@
                         </picture>
                         <div class="flex-caption-banner">
                             <h2><span class="resaltado-cian">DATA CENTER</span> CON DISASTER RECOVERY A MÁS DE 900KM</h2>
-                            <a href="#" class="btn-modern">¡Protege tu operación! <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">¡Protege tu operación! <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </li>
 
@@ -179,7 +179,7 @@
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>SOLUCIONES DISEÑADAS PARA LOS <span class="resaltado-cian">AMBIENTES MÁS HOSTILES</span></h2>
-                            <a href="#" class="btn-modern">¡Solicita soporte ahora! <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">¡Solicita soporte ahora! <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </li>
 
@@ -190,7 +190,7 @@
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>SOPORTE TÉCNICO PROPIO <span class="resaltado-cian">ESPECIALIZADO EN MINERÍA</span> E INDUSTRIA</h2>
-                            <a href="#" class="btn-modern">¡Consulta a un ingeniero! <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">¡Consulta a un ingeniero! <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </li>
                     <li>
@@ -200,7 +200,7 @@
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>DISTRIBUCIÓN DE <span class="resaltado-cian">MARCAS LÍDERES</span> CON RESPALDO DE INGENIERÍA</h2>
-                            <a href="#" class="btn-modern">¡Ver catálogo! <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://w.app/gqvbuy" target="_blank" class="btn-modern">¡Ver catálogo! <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </li>
 
@@ -409,7 +409,7 @@
 
     <div id="contwhats">
         <div id="cajawhatsapp">
-            <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo contactarme con uds."
+            <a href="https://w.app/gqvbuy"
                 target="_blank"
                 class="whatsapp-link"
                 title="Comunícate con Nosotros">
@@ -419,7 +419,7 @@
 
             <div class="whatsapp-label">
                 <span class="online-text">¿Necesitas ayuda?</span>
-                <span class="number-text">+51 923 501 304</span>
+                <span class="number-text">+51 949 671 623</span>
             </div>
         </div>
     </div>
@@ -642,6 +642,7 @@
             ]
         });
     </script>
+
 
 
 </body>

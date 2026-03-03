@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>LoraWAN</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -257,9 +257,11 @@
                 <section id="zona-parallax">
                     <div class="zonacentro">
                         <div class="titular">
-                            <h3>Internet de las Cosas (IoT) a Gran Escala</h3>
-                            <p>Conectividad LoRaWAN para monitoreo inteligente: cobertura de hasta 15km con mínima infraestructura. La solución ideal para telemetría en minería, agricultura de precisión y Smart Cities.</p>
-                            <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo información sobre soluciones LoRaWAN e IoT" target="_blank">DISEÑAR MI RED IOT</a>
+                            <h3>Redes LoRaWAN para Conectividad Inalámbrica</h3>
+
+                            <p>Conecte miles de sensores a largas distancias mediante redes inalámbricas de bajo consumo.</p>
+
+                            <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                         </div>
                     </div>
                 </section>
@@ -291,9 +293,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

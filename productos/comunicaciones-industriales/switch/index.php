@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>SWITCHES</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -226,9 +226,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>El Corazón de su Red Industrial</h3>
-                        <p>Switches gestionables y no gestionables diseñados para entornos hostiles. Con tecnología PoE+, redundancia ultra-rápida y protección contra interferencias para una operación crítica sin interrupciones.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo cotizar switches industriales y soluciones de red" target="_blank">OPTIMIZAR MI INFRAESTRUCTURA</a>
+                        <h3>Switches Industriales de Alta Disponibilidad</h3>
+
+                        <p>Asegure la transmisión de datos mediante switches robustos diseñados para redes críticas.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -257,9 +259,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

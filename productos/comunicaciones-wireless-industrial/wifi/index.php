@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>WIFI</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -179,9 +179,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Conectividad Inalámbrica de Alta Densidad</h3>
-                        <p>Elimine las zonas muertas y la saturación de red. Implementamos soluciones WiFi 6 y Mesh diseñadas para soportar cientos de dispositivos con máxima estabilidad y seguridad.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo una auditoría de mi red WiFi" target="_blank">SOLICITAR AUDITORÍA DE RED</a>
+                        <h3>Redes WiFi de Alto Rendimiento Industrial</h3>
+
+                        <p>Garantice conectividad inalámbrica total mediante puntos de acceso diseñados para alta densidad.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -215,9 +217,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

@@ -92,7 +92,7 @@
                     <div class="titular">
                         <h2>PLC / RTU</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -186,9 +186,9 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Control Inteligente y Monitoreo Remoto</h3>
-                        <p>Implementamos soluciones robustas con PLCs escalables y RTUs de alta disponibilidad para garantizar la continuidad operativa y el control preciso de sus activos en campo.</p>
-                        <a href="#contacto">SOLICITAR ASESORÍA EN AUTOMATIZACIÓN</a>
+                        <h3>Automatización con PLC y RTU de Alto Desempeño</h3>
+                        <p>Optimice sus procesos industriales mediante sistemas de control y telemetría altamente eficientes.</p>
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -218,13 +218,13 @@
         <!-- ******************************************************** -->
         <!-- ****************      PANTALLA REDES       ************* -->
         <!-- ******************************************************** -->
-        <div id="cajasociales">
+        <div id="cajasociales" style="border: 1px solid red;">
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

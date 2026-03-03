@@ -85,7 +85,7 @@
                     <div class="titular">
                         <h2>EXTENSORES</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -151,9 +151,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Conectividad de Larga Distancia sin Límites</h3>
-                        <p>Supere la restricción de los 100 metros del Ethernet estándar. Nuestros extensores industriales permiten transmitir datos a kilómetros de distancia utilizando cableado de cobre, coaxial o VDSL2, integrando puntos remotos con máxima estabilidad y mínimo costo de infraestructura.</p>
-                        <a href="#contacto">SOLICITAR ASESORÍA TÉCNICA</a>
+                        <h3>Extensores Industriales de Larga Distancia Ethernet</h3>
+
+                        <p>Supere las distancias estándar mediante extensores diseñados para entornos de comunicación crítica.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -187,9 +189,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

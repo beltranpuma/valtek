@@ -92,7 +92,7 @@
                     <div class="titular">
                         <h2>HMI</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -189,9 +189,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Visualización y Control de Alto Rendimiento</h3>
-                        <p>Optimice la interacción operativa con interfaces táctiles robustas, diseñadas para el monitoreo preciso de sus procesos y la gestión eficiente de alarmas en tiempo real.</p>
-                        <a href="#contacto">SOLICITAR COTIZACIÓN TÉCNICA</a>
+                        <h3>Interfaces HMI de Alta Definición y Control Total</h3>
+
+                        <p>Monitoree sus procesos industriales mediante pantallas táctiles modernas con gráficos de alta fidelidad.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -225,9 +227,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

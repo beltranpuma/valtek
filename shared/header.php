@@ -12,7 +12,7 @@
                     </li>
 
                     <li class="menu-productos">
-                        <a href="#">PRODUCTOS</a>
+                        <a href="/valtek/productos/">PRODUCTOS</a>
                         <div class="zonacentro">
                             <div class="columnas">
                                 <div class="col2">

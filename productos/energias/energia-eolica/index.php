@@ -91,7 +91,7 @@
                     <div class="titular">
                         <h2>ENERGÍA EÓLICA</h2>
                         <p>Generación de energía limpia y sostenible mediante aerogeneradores de alta eficiencia para entornos críticos.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -159,9 +159,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Potencia el Futuro con Energía Limpia</h3>
-                        <p>Diseñamos sistemas de autogeneración eólica capaces de operar en las condiciones más exigentes, garantizando energía 24/7 donde la red eléctrica no llega.</p>
-                        <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo información sobre proyectos de Energía Eólica" target="_blank">SOLICITAR ESTUDIO DE FACTIBILIDAD</a>
+                        <h3>Sistemas de Generación de Energía Eólica</h3>
+
+                        <p>Aproveche la fuerza del viento mediante aerogeneradores industriales de alta eficiencia energética.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -195,9 +197,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

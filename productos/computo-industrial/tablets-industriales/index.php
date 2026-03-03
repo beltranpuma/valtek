@@ -92,7 +92,7 @@
                     <div class="titular">
                         <h2>TABLETS INDUSTRIALES</h2>
                         <p>Movilidad de alto rendimiento con resistencia a caídas, agua y ambientes explosivos (ATEX).</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -108,7 +108,11 @@
 
                         <!-- PRODUCTO 1 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-01.png" alt="Tablets Rugged<">
+                            <div class="slider-producto">
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/02-tablets-rugged.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/02-tablets-rugged-2.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-01.png"></div>
+                            </div>
                             <div class="producto-info">
                                 <h3 style="text-transform: uppercase;">Tablets Rugged</h3>
                                 <ul class="caracteristicas">
@@ -127,7 +131,10 @@
 
                         <!-- PRODUCTO 2 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-02.png" alt="Tablets para Mantenimiento Industrial">
+                            <div class="slider-producto">
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/02-tablets-para-mantenimiento-industrial.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-02.png"></div>
+                            </div>
                             <div class="producto-info">
                                 <h3 style="text-transform: uppercase;">Tablets para Mantenimiento Industrial</h3>
                                 <ul class="caracteristicas">
@@ -145,7 +152,11 @@
 
                         <!-- PRODUCTO 3 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-03.png" alt="Tablets Vehiculares">
+                            <div class="slider-producto">
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/03-tablets-vihiculares.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/03-tablets-vihiculares-2.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-03.png"></div>
+                            </div>
                             <div class="producto-info">
                                 <h3 style="text-transform: uppercase;">Tablets Vehiculares</h3>
                                 <ul class="caracteristicas">
@@ -164,7 +175,11 @@
 
                         <!-- PRODUCTO 4 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-04.png" alt="Tablets para Zonas Críticas">
+                            <div class="slider-producto">
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/04-tablets-para-zonas-criticas.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/04-tablets-para-zonas-criticas-2.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/tablets-industrial/tablet-industrial-04.png"></div>
+                            </div>
                             <div class="producto-info">
                                 <h3 style="text-transform: uppercase;">Tablets para Zonas Críticas</h3>
                                 <ul class="caracteristicas">
@@ -197,9 +212,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Productividad sin Límites en el Campo</h3>
-                        <p>Lleve su oficina técnica a los entornos más hostiles. Nuestras tablets Rugged cuentan con certificación militar contra caídas y pantallas de alto brillo legibles bajo luz solar directa, garantizando conectividad total en minería, petróleo y logística.</p>
-                        <a href="#contacto">SOLICITAR COTIZACIÓN</a>
+                        <h3>Tablets Industriales de Máxima Resistencia</h3>
+
+                        <p>Optimice el trabajo de campo con dispositivos móviles diseñados para entornos críticos.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -233,9 +250,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

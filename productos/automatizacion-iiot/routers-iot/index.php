@@ -92,7 +92,7 @@
                     <div class="titular">
                         <h2>Routers IOT</h2>
                         <p>Conectividad industrial de largo alcance para soluciones IoT inteligentes.</p>
-                        <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
                     </div>
                 </div>
             </section>
@@ -197,9 +197,11 @@
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
-                        <h3>Conectividad Sin Límites para Sitios Remotos</h3>
-                        <p>Asegure la comunicación de sus activos con Routers IoT de grado industrial. Soluciones robustas con failover automático, VPN integradas y gestión en la nube para una red siempre disponible.</p>
-                        <a href="#contacto">SOLICITAR COTIZACIÓN</a>
+                        <h3>Routers Industriales para Conectividad IoT Robusta y Segura</h3>
+
+                        <p>Garantice una conexión remota estable mediante redes celulares de alta disponibilidad tecnológica.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
             </section>
@@ -233,9 +235,9 @@
             <div id="cajablanca">
                 <ul>
                     <li><a href="#"><span>Síguenos en:</span></a></li>
-                    <li><a href="#"
+                    <li><a href="https://www.facebook.com/ValtekGroup"
                             target="_blank"><span>Facebook</span></a></li>
-                    <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
                     <li><a href="#"
                             target="_blank"><span>Instagram</span></a></li>
                     <li><a href="#" target="_blank"><span>Linkedin</span></a></li>

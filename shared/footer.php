@@ -4,7 +4,7 @@
     <div class="f-container">
         <div class="f-header">
             <img style=" display: block; margin: auto;" src="/valtek/assets/imagenes/logo-valtek-blanco.png" alt="VALTEK GROUP" class="f-logo">
-            <p> Ingeniería y Soluciones Tecnológicas de Alta Precisión</p>
+            <p> Especialistas en Tecnología Industrial.</p>
         </div>
 
         <div class="f-nav-grid">
@@ -67,13 +67,13 @@
 
             <div class="f-contact-strip">
                 <span><i class="fa-solid fa-location-dot"></i> Barranco, Lima - Perú</span>
-                <span><i class="fa-solid fa-phone"></i> 923 444 675</span>
+                <span><i class="fa-solid fa-phone"></i> 949 671 623</span>
                 <span><i class="fa-solid fa-envelope"></i> ventas@valtek.com.pe</span>
             </div>
             
             <div class="f-social">
                 <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" title="Facebook"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.facebook.com/ValtekGroup" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-square"></i></a>
             </div>
 
             <div class="f-legal">

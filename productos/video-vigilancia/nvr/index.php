@@ -47,8 +47,8 @@
 
     <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-        <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
@@ -59,10 +59,10 @@
 
     <div id="precarga">
         <div id="iconoprecarga">
-                <i class="icon-spin5 animate-spin"></i>
-                <p>LOADING</p>
-        </div>	
-    </div>	
+            <i class="icon-spin5 animate-spin"></i>
+            <p>LOADING</p>
+        </div>
+    </div>
     <!-- ******************************************************** -->
     <!-- *******************   CABECERA   *********************** -->
     <!-- ******************************************************** -->
@@ -70,207 +70,199 @@
 
 
     <li class="droopmenu-parent">
-    <a href="#productos" title="Productos">PRODUCTOS</a>
+        <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-    <!-- ******************************************************** -->
-    <!-- *******************   CUERPO WEB  ********************** -->
-    <!-- ******************************************************** -->
-    
+        <!-- ******************************************************** -->
+        <!-- *******************   CUERPO WEB  ********************** -->
+        <!-- ******************************************************** -->
+
 
         <main id="cuerpo">
-        <!-- **************************************************** -->
-        <!-- *******************   INICIO WEB  ****************** -->
-        <!-- **************************************************** -->
+            <!-- **************************************************** -->
+            <!-- *******************   INICIO WEB  ****************** -->
+            <!-- **************************************************** -->
 
-        <section id="zonabanner-aplicacion">
-            <div class="zonacentro">
-                <div class="titular">
-                    <h2 >Grabadores de Video de Red (NVR)</h2>
-                    <p>Gestión centralizada y almacenamiento robusto para sistemas de videovigilancia crítica.</p>
-                    <a href="#contacto" class="btn-cotizar">Cotiza ahora</a>
+            <section id="zonabanner-aplicacion">
+                <div class="zonacentro">
+                    <div class="titular">
+                        <h2>Grabadores de Video de Red (NVR)</h2>
+                        <p>Gestión centralizada y almacenamiento robusto para sistemas de videovigilancia crítica.</p>
+                        <a href="https://w.app/gqvbuy" target="_blank" class="btn-cotizar">Cotiza ahora</a>
+                    </div>
+                </div>
+            </section>
+
+            <div id="zona-productos">
+                <div class="zonacentro">
+                    <h2 class="titulo">Nuestra gama de productos <span> NVR</span> </h2>
+
+
+
+
+                    <div class="lista-productos">
+
+                        <!-- PRODUCTO 1 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/nvr/001.png">
+                            <div class="producto-info">
+                                <h3>NVRS (GRABACIÓN IP LOCAL)</h3>
+                                <ul class="caracteristicas">
+                                    <li>Grabación centralizada para sistemas pequeños y medianos.</li>
+                                    <li>Canales IP: 4 / 8 / 16 cámaras*.</li>
+                                    <li>Compatibilidad: Cámaras IP ONVIF.</li>
+                                    <li>Almacenamiento: HDD SATA interno*.</li>
+                                    <li>Red: Ethernet Gigabit.</li>
+                                    <li>Salidas de video: HDMI / VGA.</li>
+                                    <li>Funciones: Grabación continua, por evento y reproducción.</li>
+                                    <li> Seguridad: Gestión básica de usuarios.</li>
+                                    <li>Certificaciones: CE, FCC*.</li>
+                                    <li>Aplicaciones: Oficinas, comercios, sitios pequeños.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 2 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/nvr/002.png">
+                            <div class="producto-info">
+                                <h3>NVRS AVANZADOS (SISTEMAS PROFESIONALES)</h3>
+                                <ul class="caracteristicas">
+                                    <li> Gestión y grabación de múltiples cámaras IP.</li>
+                                    <li> Canales IP: 16 / 32 / 64 cámaras*.</li>
+                                    <li> Almacenamiento: Múltiples HDD, RAID*.</li>
+                                    <li> Red: Ethernet Gigabit / enlaces redundantes*.</li>
+                                    <li> PoE integrado: Alimentación directa de cámaras*.</li>
+                                    <li> Funciones: Alarmas, eventos, búsqueda inteligente.</li>
+                                    <li> Protocolos: ONVIF, RTSP.</li>
+                                    <li> Ciberseguridad: Roles de usuario, cifrado*.</li>
+                                    <li> Certificaciones: CE, UL*.</li>
+                                    <li>Aplicaciones: Plantas industriales, campus, retail grande.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 3 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/nvr/003.png">
+                            <div class="producto-info">
+                                <h3>NVRS CON ANALÍTICA AVANZADA / VMS</h3>
+                                <ul class="caracteristicas">
+                                    <li> Gestión inteligente de video y analítica.</li>
+                                    <li> Analítica: Detección de personas y vehículos, eventos inteligentes*.</li>
+                                    <li> Funciones AI: Clasificación de objetos, búsquedas avanzadas.</li>
+                                    <li> Resolución: Soporte cámaras 4K y superiores*.</li>
+                                    <li> Arquitectura: Servidor NVR / VMS escalable*.</li>
+                                    <li> Integración: Cámaras multi-marca, sistemas externos.</li>
+                                    <li> Ciberseguridad: Gestión avanzada de accesos*.</li>
+                                    <li> Ambiente: Operación continua 24/7.</li>
+                                    <li>Opciones: Integración con VMS y plataformas centralizadas*.</li>
+                                    <li>Certificaciones: CE, UL*.</li>
+                                    <li>Aplicaciones: Seguridad industrial, ciudades, infraestructura crítica.</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!-- PRODUCTO 4 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/nvr/004.png">
+                            <div class="producto-info">
+                                <h3>NVRS MÓVILES / VEHICULARES</h3>
+                                <ul class="caracteristicas">
+                                    <li> Grabación de video IP para vehículos y equipos móviles.</li>
+                                    <li> Canales IP para cámaras móviles.</li>
+                                    <li> Diseño vehicular anti-vibración</li>
+                                    <li> 4G / 5G / Wi-Fi / GPS.</li>
+                                    <li> Alimentación DC de amplio rango.</li>
+                                    <li> Rango de temperatura extendido.</li>
+                                    <li> Certificaciones vehiculares (EN 50155*).</li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
                 </div>
             </div>
-        </section>
-
-        <div id="zona-productos">
-                   <div class="zonacentro">
-                            <h2 class="titulo">Nuestra gama de productos <span> NVR</span> </h2>
-                            
-                      
-
-
-                        <div class="lista-productos">
-
-                            <!-- PRODUCTO 1 -->
-                            <div class="producto">
-                                    <img src="../../../assets/img-apps/categoria/nvr/001.png">
-                                    <div class="producto-info">
-                                        <h3>NVRS (GRABACIÓN IP LOCAL)</h3>
-                                        <ul class="caracteristicas">
-                                            <li>Grabación centralizada para sistemas pequeños y medianos.</li>
-                                            <li>Canales IP: 4 / 8 / 16 cámaras*.</li>
-                                            <li>Compatibilidad: Cámaras IP ONVIF.</li>
-                                            <li>Almacenamiento: HDD SATA interno*.</li>
-                                            <li>Red: Ethernet Gigabit.</li>
-                                            <li>Salidas de video: HDMI / VGA.</li>
-                                            <li>Funciones: Grabación continua, por evento y reproducción.</li>
-                                            <li> Seguridad: Gestión básica de usuarios.</li>
-                                            <li>Certificaciones: CE, FCC*.</li>
-                                            <li>Aplicaciones: Oficinas, comercios, sitios pequeños.</li>
-                                        </ul>
-                                        
-                                    </div>
-                            </div>
-
-                            <!-- PRODUCTO 2 -->
-                            <div class="producto">
-                                <img src="../../../assets/img-apps/categoria/nvr/002.png">
-                                <div class="producto-info">
-                                    <h3>NVRS AVANZADOS (SISTEMAS PROFESIONALES)</h3>
-                                    <ul class="caracteristicas">
-                                        <li> Gestión y grabación de múltiples cámaras IP.</li>
-                                        <li> Canales IP: 16 / 32 / 64 cámaras*.</li>
-                                        <li> Almacenamiento: Múltiples HDD, RAID*.</li>
-                                        <li> Red: Ethernet Gigabit / enlaces redundantes*.</li>
-                                        <li> PoE integrado: Alimentación directa de cámaras*.</li>
-                                        <li> Funciones: Alarmas, eventos, búsqueda inteligente.</li>
-                                        <li> Protocolos: ONVIF, RTSP.</li>
-                                        <li> Ciberseguridad: Roles de usuario, cifrado*.</li>
-                                        <li> Certificaciones: CE, UL*.</li>
-                                        <li>Aplicaciones: Plantas industriales, campus, retail grande.</li>
-                                    </ul>
-
-                                </div>
-                            </div>
-
-                            <!-- PRODUCTO 3 -->
-                            <div class="producto">
-                                <img src="../../../assets/img-apps/categoria/nvr/003.png">
-                                <div class="producto-info">
-                                    <h3>NVRS CON ANALÍTICA AVANZADA / VMS</h3>
-                                    <ul class="caracteristicas">
-                                        <li> Gestión inteligente de video y analítica.</li>
-                                        <li> Analítica: Detección de personas y vehículos, eventos inteligentes*.</li>
-                                        <li> Funciones AI: Clasificación de objetos, búsquedas avanzadas.</li>
-                                        <li> Resolución: Soporte cámaras 4K y superiores*.</li>
-                                        <li> Arquitectura: Servidor NVR / VMS escalable*.</li>
-                                        <li> Integración: Cámaras multi-marca, sistemas externos.</li>
-                                        <li> Ciberseguridad: Gestión avanzada de accesos*.</li>
-                                        <li> Ambiente: Operación continua 24/7.</li>
-                                        <li>Opciones: Integración con VMS y plataformas centralizadas*.</li>
-                                        <li>Certificaciones: CE, UL*.</li>
-                                        <li>Aplicaciones: Seguridad industrial, ciudades, infraestructura crítica.</li>
-                                    </ul>
-
-                                </div>
-                                
-                            </div>
-
-                            <!-- PRODUCTO 4 -->
-                            <div class="producto">
-                                <img src="../../../assets/img-apps/categoria/nvr/004.png">
-                                <div class="producto-info">
-                                    <h3>NVRS MÓVILES / VEHICULARES</h3>
-                                    <ul class="caracteristicas">
-                                        <li> Grabación de video IP para vehículos y equipos móviles.</li>
-                                        <li> Canales IP para cámaras móviles.</li>
-                                        <li> Diseño vehicular anti-vibración</li>
-                                        <li> 4G / 5G / Wi-Fi / GPS.</li>
-                                        <li> Alimentación DC de amplio rango.</li>
-                                        <li> Rango de temperatura extendido.</li>
-                                        <li> Certificaciones vehiculares (EN 50155*).</li>
-                                        
-                                    </ul>
-
-                                </div>
-                                
-                            </div>
 
 
 
 
-                         </div>
 
+
+            <!-- ********************************************************* -->
+            <!-- *******************   EFECTO PARALLAX  ****************** -->
+            <!-- ********************************************************* -->
+
+            <section id="zona-parallax">
+                <div class="zonacentro">
+                    <div class="titular">
+                        <h3>Grabadores NVR de Alta Capacidad</h3>
+
+                        <p>Almacene y gestione sus grabaciones mediante sistemas de seguridad con alta redundancia.</p>
+
+                        <a href="https://w.app/gqvbuy" target="_blank" >COTIZAR AHORA</a>
+                    </div>
                 </div>
-        </div>
+            </section>
+
+
+        </main>
+
+        <!-- ******************************************************** -->
+        <!-- *******************   PIE PAGINA WEB  ****************** -->
+        <!-- ******************************************************** -->
+
+        <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
 
-
-
-
-    <!-- ********************************************************* -->
-    <!-- *******************   EFECTO PARALLAX  ****************** -->
-    <!-- ********************************************************* -->
-
-        <section id="zona-parallax">
-            <div class="zonacentro">
-                <div class="titular">
-                    <h3>Seguridad de Datos y Cero Pérdidas</h3>
-                    <p>Nuestras soluciones VMS y NVR industriales ofrecen redundancia N+1 y sistemas RAID que garantizan la integridad de sus grabaciones incluso ante fallos de hardware. Gestione miles de cámaras desde una sola interfaz centralizada.</p>
-                    <a href="https://api.whatsapp.com/send?phone=51923501304&text=Deseo información sobre servidores de grabación y NVR industriales" target="_blank">CONOCER MÁS SOLUCIONES</a>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-    
-    <!-- ******************************************************** -->
-    <!-- *******************   PIE PAGINA WEB  ****************** -->
-    <!-- ******************************************************** -->
-    
-    <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
-
-
-
-    <!-- ******************************************************** -->
-    <!-- *******************      CHAT BO      **************** -->
-    <!-- ******************************************************** -->
+        <!-- ******************************************************** -->
+        <!-- *******************      CHAT BO      **************** -->
+        <!-- ******************************************************** -->
         <?php
 
-            include_once($_SERVER['DOCUMENT_ROOT'].'/valtek/components/chatbot.php');
+        include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
 
 
         ?>
 
 
-    <!-- ******************************************************** -->
-    <!-- ****************      PANTALLA REDES       ************* -->
-    <!-- ******************************************************** -->
-    <div id="cajasociales">
-        <div id="cajablanca">
-            <ul>
-                <li><a href="#"><span>Síguenos en:</span></a></li>
-                <li><a href="#"
-                        target="_blank"><span>Facebook</span></a></li>
-                <li><a href="#" target="_blank"><span>Whatsapp</span></a></li>
-                <li><a href="#"
-                        target="_blank"><span>Instagram</span></a></li>
-                <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
-            </ul>
+        <!-- ******************************************************** -->
+        <!-- ****************      PANTALLA REDES       ************* -->
+        <!-- ******************************************************** -->
+        <div id="cajasociales">
+            <div id="cajablanca">
+                <ul>
+                    <li><a href="#"><span>Síguenos en:</span></a></li>
+                    <li><a href="https://www.facebook.com/ValtekGroup"
+                            target="_blank"><span>Facebook</span></a></li>
+                    <li><a href="https://w.app/gqvbuy" target="_blank"><span>Whatsapp</span></a></li>
+                    <li><a href="#"
+                            target="_blank"><span>Instagram</span></a></li>
+                    <li><a href="#" target="_blank"><span>Linkedin</span></a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!-- ******************************************************** -->
-    <!-- ******************************************************** -->
-    <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
+        <!-- ******************************************************** -->
+        <!-- ******************************************************** -->
+        <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
         <!-- Flexslider -->
-    <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
-    <script>
-        $(function () {
-            /*******************************************/
-            /*******************************************/
-            if (jQuery(this).scrollTop() > 100) {
-                jQuery(".droopmenu-navbar").css({
-                    'background': "rgba(255, 255, 255, 1)"
-                });
-            } else {
-                jQuery(".droopmenu-navbar").css({
-                    'background': "rgba(255, 255, 255, 1)"
-                });
-            }
-            jQuery(document).scroll(function () {
+        <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
+        <script>
+            $(function() {
+                /*******************************************/
+                /*******************************************/
                 if (jQuery(this).scrollTop() > 100) {
                     jQuery(".droopmenu-navbar").css({
                         'background': "rgba(255, 255, 255, 1)"
@@ -280,50 +272,60 @@
                         'background': "rgba(255, 255, 255, 1)"
                     });
                 }
-            })
+                jQuery(document).scroll(function() {
+                    if (jQuery(this).scrollTop() > 100) {
+                        jQuery(".droopmenu-navbar").css({
+                            'background': "rgba(255, 255, 255, 1)"
+                        });
+                    } else {
+                        jQuery(".droopmenu-navbar").css({
+                            'background': "rgba(255, 255, 255, 1)"
+                        });
+                    }
+                })
 
-            /*******************************************/
-            /*******************************************/
-            $(document).on("click", ".droopmenu li a", function (e) {
-                var $ancla = $(this);
-                $("html, body").stop().animate({
-                    scrollTop: ($($ancla.attr("href")).offset().top - 60)
-                }, 2000, "easeInOutExpo");
-            })
-            /*******************************************/
-            /*******************************************/
-            $("#biconos").click(function () {
-                $("#cajasociales").css({
-                    "right": "0"
+                /*******************************************/
+                /*******************************************/
+                $(document).on("click", ".droopmenu li a", function(e) {
+                    var $ancla = $(this);
+                    $("html, body").stop().animate({
+                        scrollTop: ($($ancla.attr("href")).offset().top - 60)
+                    }, 2000, "easeInOutExpo");
+                })
+                /*******************************************/
+                /*******************************************/
+                $("#biconos").click(function() {
+                    $("#cajasociales").css({
+                        "right": "0"
+                    });
+                })
+                $("#cajasociales").click(function() {
+                    $("#cajasociales").css({
+                        "right": "-100%"
+                    });
+                })
+
+                /**************************************************/
+                /********    INICIALIZAR FLEXSLIDER       *********/
+                /**************************************************/
+                $('.flexslider').flexslider({
+                    animation: "slide"
                 });
+
+
+
+
+
             })
-            $("#cajasociales").click(function () {
-                $("#cajasociales").css({
-                    "right": "-100%"
+            /*******************************************************/
+            /*******************************************************/
+            jQuery(function($) {
+                $('.droopmenu-navbar').droopmenu({
+                    dmOffCanvas: true
                 });
-            })
-
-            /**************************************************/
-            /********    INICIALIZAR FLEXSLIDER       *********/
-            /**************************************************/
-            $('.flexslider').flexslider({
-                animation: "slide"
             });
-
-    
-
-
-      
-        })
-        /*******************************************************/
-        /*******************************************************/
-        jQuery(function ($) {
-            $('.droopmenu-navbar').droopmenu({
-                dmOffCanvas: true
-            });
-        });
-    </script>
-    <script src="/valtek/assets/js/chat.js"></script>
+        </script>
+        <script src="/valtek/assets/js/chat.js"></script>
 
 </body>
 
