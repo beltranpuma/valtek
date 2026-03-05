@@ -17,34 +17,26 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/imagenes/icono.png">
 
     <link rel="canonical" href="https://www.valtek.com.pe/nosotros">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="plugins/normalize/normalize.css">
     <link rel="stylesheet" href="assets/css/valtek.css">
     <link rel="stylesheet" href="assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="plugins/fontello/css/jmjc-codes.css">
     <link rel="stylesheet" href="plugins/fontello/css/jmjc-embedded.css">
-    <!-- jQuery V.3.4.1-->
     <script src="plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="plugins/slick/slick.css">
     <link rel="stylesheet" href="plugins/slick/slick-theme.css">
     <script src="plugins/slick/slick.js"></script>
-    <!-- Menu -->
     <link rel="stylesheet" href="plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="plugins/menu/css/themes/estilo-blanco.css">
 
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="./assets/js/script.js"></script>
@@ -52,20 +44,12 @@
 
 <body>
 
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
 
     <?php
     include_once('./shared/header.php');
@@ -75,17 +59,8 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
 
-
-            <!-- **************************************************** -->
-            <!-- ************         NOSOTROS         ************** -->
-            <!-- **************************************************** -->
 
             <section id="zonabanners">
                 <div class="flexslider">
@@ -93,8 +68,8 @@
 
                         <li>
                             <picture>
-                                <source srcset="assets/img-apps/nosotros/banner1-movil.webp" media="(max-width: 800px)">
-                                <img src="assets/img-apps/nosotros/banner1.webp" alt="Valtek Group SAC" />
+                                <source srcset="assets/img-apps/nosotros/banner1-movil.webp" media="(max-width: 800px)" alt="Banner de tecnología e ingeniería para infraestructura industrial - Versión móvil">
+                                <img src="assets/img-apps/nosotros/banner1.webp" alt="Soluciones de tecnología e ingeniería para infraestructura industrial crítica por Valtek Group" />
                             </picture>
                             <div class="flex-caption-banner">
                                 <h2 style="margin-bottom: 0px;">TECNOLOGÍA E INGENIERÍA <span class="resaltado-cian">PARA INFRAESTRUCTURA </span> INDUSTRIAL</h2>
@@ -106,8 +81,8 @@
 
                         <li>
                             <picture>
-                                <source srcset="assets/img-apps/nosotros/banner2-movil.webp" media="(max-width: 800px)">
-                                <img src="assets/img-apps/nosotros/banner2.webp" alt="Distribución Valtek Group" />
+                                <source srcset="assets/img-apps/nosotros/banner2-movil.webp" media="(max-width: 800px)" alt="Banner de distribución de marcas líderes industriales - Versión móvil">
+                                <img src="assets/img-apps/nosotros/banner2.webp" alt="Valtek Group: Distribuidor autorizado de marcas líderes en equipamiento industrial con soporte técnico" />
                             </picture>
                             <div class="flex-caption-banner">
                                 <h2>DISTRIBUCIÓN DE <span class="resaltado-cian">MARCAS LÍDERES</span> CON RESPALDO DE INGENIERÍA</h2>
@@ -126,7 +101,6 @@
                     <div class="columnas alinearmedio">
                         <div class="col5">
                             <h2>Quienes <span>Somos?</span></h2>
-                            <!-- <p class="slogan">«Más de 20 Años Especialistas en Tecnología Industrial.»</p> -->
                             <p>Valtek Group SAC es una empresa especializada en ingeniería y suministro de soluciones tecnológicas para entornos industriales críticos. Representamos y distribuimos equipamiento industrial de fabricantes líderes a nivel global, integrando tecnologías avanzadas en proyectos de telecomunicaciones, automatización, seguridad y energía.
 
                             </p>
@@ -137,7 +111,7 @@
                             <a href="https://w.app/gqvbuy" target="_blank">CONTACTAR AHORA</a>
                         </div>
                         <div class="col7">
-                            <img src="./assets/img-apps/nosotros/sobre-nosotros.webp" alt="">
+                            <img src="./assets/img-apps/nosotros/sobre-nosotros.webp" alt="Equipo de ingenieros y especialistas de Valtek Group trabajando en soluciones industriales">
 
 
                         </div>
@@ -148,43 +122,36 @@
 
 
 
-            <!-- **************************************************** -->
-            <!-- **************     LO QUE HACEMOS     *************** -->
-            <!-- **************************************************** -->
             <section id="que-hacemos" style="background: #F9FBFF;">
                 <div class="zonacentro">
 
                     <div class="titular-seccion-moderno">
-                        <!-- <span class="tag-superior">Nuestra Especialidad</span> -->
                         <h2 class="titulo">QUE <span>hacemos</span></h2>
-                        <!-- <p class="descripcion-centrada">
-                            Impulsamos la eficiencia operativa mediante soluciones de ingeniería de vanguardia, conectando la infraestructura física con el futuro digital.
-                        </p> -->
-                    </div>
+                        </div>
                     <div class="lista-quehacemos">
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-conectividad-industrial.webp" alt="">
+                            <img src="./assets/img-apps/nosotros/01-conectividad-industrial.webp" alt="Icono representativo de soluciones de conectividad industrial y redes OT">
                             <div class="info">
                                 <h3>Conectividad Industrial</h3>
                                 <p>Infraestructura IIoT, routers celulares, redes OT.</p>
                             </div>
                         </div>
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-automatizacion.webp" alt="">
+                            <img src="./assets/img-apps/nosotros/01-automatizacion.webp" alt="Icono representativo de sistemas de automatización industrial y control">
                             <div class="info">
                                 <h3>Automatización</h3>
                                 <p>PLC, HMI, integración de control.</p>
                             </div>
                         </div>
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-seguridad-industrial.webp" alt="">
+                            <img src="./assets/img-apps/nosotros/01-seguridad-industrial.webp" alt="Icono representativo de sistemas de seguridad industrial y videovigilancia crítica">
                             <div class="info">
                                 <h3>Seguridad Industrial</h3>
                                 <p>Videovigilancia avanzada con analítica e IA.</p>
                             </div>
                         </div>
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-infraestructura-energética.webp" alt="">
+                            <img src="./assets/img-apps/nosotros/01-infraestructura-energética.webp" alt="Icono representativo de soluciones de infraestructura energética y respaldo">
                             <div class="info">
                                 <h3>Infraestructura Energética</h3>
                                 <p>UPS, almacenamiento y sistemas renovables.</p>
@@ -196,18 +163,11 @@
                 </div>
             </section>
 
-            <!-- ******************************************************* -->
-            <!-- **************     NUESTROS VALORES     *************** -->
-            <!-- ******************************************************* -->
             <section id="nuestros-valores">
                 <div class="zonacentro">
                     <div class="titular-seccion-moderno">
-                        <!-- <span class="tag-superior">Cultura Corporativa</span> -->
                         <h2 class="titulo">Valores <span>Culturales</span></h2>
-                        <!-- <p class="descripcion-centrada">
-                            Pilares éticos y técnicos que garantizan la excelencia en cada proyecto de infraestructura industrial.
-                        </p> -->
-                    </div>
+                        </div>
 
                     <div class="lista-valores">
 
@@ -252,7 +212,7 @@
                                     <path d="M2 12h20"></path>
                                 </svg>
                                 <h3>Visión de Largo Plazo</h3>
-                                <p>Diseñamos soluciones escalables que acompañan el crecimiento operativo de nuestros clientes.</p>
+                                <p>Diseñamos soluciones escalables que acompañan el crecimiento operativa de nuestros clientes.</p>
                             </div>
                         </div>
 
@@ -260,9 +220,6 @@
                 </div>
             </section>
 
-            <!-- ************************************************************* -->
-            <!-- **************     NUESTROS DIFERENCIALES     *************** -->
-            <!-- ************************************************************* -->
             <section id="nuestros-diferenciales">
                 <div class="zonacentro">
                     <div class="titular-seccion-moderno">
@@ -311,18 +268,11 @@
             </section>
 
 
-            <!-- ************************************************************ -->
-            <!-- **************     SECTORES QUE ATENDEMOS    *************** -->
-            <!-- ************************************************************ -->
             <section id="sector-atendemos">
                 <div class="zonacentro">
                     <div class="titular-seccion-moderno">
-                        <!-- <span class="tag-superior">Alcance Estratégico</span> -->
                         <h2 class="titulo">Sectores que <span>Atendemos</span></h2>
-                        <!-- <p class="descripcion-centrada">
-                            Soluciones integrales de infraestructura tecnológica diseñadas para garantizar la continuidad operativa en las industrias más exigentes del país.
-                        </p> -->
-                    </div>
+                        </div>
                     <div id="lista-sectores">
 
                         <div class="sector">
@@ -398,10 +348,6 @@
             </section>
 
 
-            <!-- **************************************************** -->
-            <!-- *******************     MARCAS    **************** -->
-            <!-- **************************************************** -->
-
             <section id="clientes">
                 <div class="zonacentro">
                     <div class="titulos">
@@ -413,27 +359,23 @@
                     </div>
 
                     <div id="cclientes" dir="rtl">
-                        <img src='assets/img-apps/inicio/marcas/m1.webp' alt='Inhand'>
-                        <img src='assets/img-apps/inicio/marcas/m2.webp' alt='Oring'>
-                        <img src='assets/img-apps/inicio/marcas/m3.webp' alt='Axis Comunications'>
-                        <img src='assets/img-apps/inicio/marcas/m4.webp' alt='Mean Well'>
-                        <img src='assets/img-apps/inicio/marcas/m5.webp' alt='Advantech'>
-                        <img src='assets/img-apps/inicio/marcas/m6.webp' alt='Absopulse Electronics LTD.'>
-                        <img src='assets/img-apps/inicio/marcas/m7.webp' alt='Victron Energy '>
-                        <img src='assets/img-apps/inicio/marcas/m8.webp' alt='Call Boost'>
+                        <img src='assets/img-apps/inicio/marcas/m1.webp' alt='Logo de la marca aliada Inhand'>
+                        <img src='assets/img-apps/inicio/marcas/m2.webp' alt='Logo de la marca aliada Oring'>
+                        <img src='assets/img-apps/inicio/marcas/m3.webp' alt='Logo de la marca aliada Axis Comunications'>
+                        <img src='assets/img-apps/inicio/marcas/m4.webp' alt='Logo de la marca aliada Mean Well'>
+                        <img src='assets/img-apps/inicio/marcas/m5.webp' alt='Logo de la marca aliada Advantech'>
+                        <img src='assets/img-apps/inicio/marcas/m6.webp' alt='Logo de la marca aliada Absopulse Electronics LTD.'>
+                        <img src='assets/img-apps/inicio/marcas/m7.webp' alt='Logo de la marca aliada Victron Energy '>
+                        <img src='assets/img-apps/inicio/marcas/m8.webp' alt='Logo de la marca aliada Call Boost'>
                     </div>
                 </div>
             </section>
 
-            <!-- *********************************************************** -->
-            <!-- **************     PARALLAX 01 NOSOTROS     *************** -->
-            <!-- *********************************************************** -->
             <section class="parallax-banner">
                 <div class="overlay">
                     <div class="banner-inner">
                         <span class="tagline">Soluciones de Conectividad Nacional</span>
                         <h2>Innovación que Conecta al Perú</h2>
-                        <!-- <p>Especialistas en infraestructura de fibra óptica y redes de alta disponibilidad para el sector industrial y corporativo.</p> -->
                         <div class="cta-group">
                             <a href="https://w.app/gqvbuy" target="_blank" class="btn-blue">Contactenos</a>
                         </div>
@@ -445,20 +387,12 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
-
         <?php
 
         include_once('./shared/footer.php');
 
         ?>
 
-        <!-- ******************************************************** -->
-        <!-- *******************      WHATSAPP       **************** -->
-        <!-- ******************************************************** -->
         <div id="contwhats">
             <div id="cajawhatsapp">
                 <a href="https://w.app/gqvbuy"
@@ -477,9 +411,6 @@
         </div>
 
 
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -493,11 +424,8 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="plugins/menu/js/droopmenu.js"></script>
 
-        <!-- Flexslider -->
         <script type="text/javascript" src="plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
@@ -578,7 +506,7 @@
                 })
 
                 /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
+                /******** INICIALIZAR FLEXSLIDER       *********/
                 /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "fade",
@@ -602,7 +530,7 @@
             });
 
             /**************************************************/
-            /********    SLICK MARCAS      *********/
+            /******** SLICK MARCAS       *********/
             /**************************************************/
             $('#cclientes').slick({
                 rtl: true,

@@ -125,7 +125,7 @@ a img {
   left: 50%;
   transform: translateX(-50%) translateY(10px);
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1400px;
   background: var(--blanco);
   padding: 15px;
   border-radius: 4px;
@@ -156,7 +156,7 @@ a img {
 
 .menu-productos .col2 h4 {
   color: var(--segundocolor);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 6px;
   text-transform: uppercase;
@@ -169,7 +169,7 @@ a img {
   display: block;
   color: #333;
   text-decoration: none;
-  font-size: 13.5px;
+  font-size: 15px;
   font-weight: 500;
   padding: 2px 0;
   line-height: 1.3;
