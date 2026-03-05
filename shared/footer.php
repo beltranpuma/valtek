@@ -4,7 +4,7 @@
     <div class="f-container">
         <div class="f-header">
             <img style=" display: block; margin: auto;" src="/valtek/assets/imagenes/logo-valtek-blanco.png" alt="VALTEK GROUP" class="f-logo">
-            <p> Especialistas en Tecnología Industrial.</p>
+            <p style="color:#fff"> Especialistas en Tecnología Industrial.</p>
         </div>
 
         <div class="f-nav-grid">
@@ -55,6 +55,7 @@
                 <a href="/valtek/productos/computo-industrial/pcs-industriales/">PCs Industriales</a>
                 <a href="/valtek/productos/computo-industrial/panel-pc-industriales/">Panel PC (PPC)</a>
                 <a href="/valtek/productos/computo-industrial/tablets-industriales/">Tablets</a>
+                <a href="/valtek/productos/computo-industrial/tablets-industriales/">Laptops</a>
             </div>
         </div>
 

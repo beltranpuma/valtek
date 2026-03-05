@@ -107,8 +107,8 @@
 
                     <li>
                         <picture>
-                            <source srcset="../assets/img-apps/productos/banners/banner1-movil.png" media="(max-width: 800px)">
-                            <img src="../assets/img-apps/productos/banners/01-comunicaciones-industriales.png" alt="Comunicaciones Industriales Valtek" />
+                            <source srcset="../assets/img-apps/productos/banners/banner1-movil.webp" media="(max-width: 800px)">
+                            <img src="../assets/img-apps/productos/banners/01-comunicaciones-industriales.webp" alt="Comunicaciones Industriales Valtek" />
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>LIDERANDO LAS <span class="resaltado-cian">COMUNICACIONES INDUSTRIALES</span> CON REDES ROBUSTAS</h2>
@@ -118,8 +118,8 @@
 
                     <li>
                         <picture>
-                            <source srcset="../assets/img-apps/productos/banners/banner2-movil.png" media="(max-width: 800px)">
-                            <img src="../assets/img-apps/productos/banners/02-wireless-industrial.png" alt="Wireless Industrial" />
+                            <source srcset="../assets/img-apps/productos/banners/banner2-movil.webp" media="(max-width: 800px)">
+                            <img src="../assets/img-apps/productos/banners/02-wireless-industrial.webp" alt="Wireless Industrial" />
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>CONECTIVIDAD <span class="resaltado-cian">WIRELESS INDUSTRIAL</span> SIN INTERRUPCIONES</h2>
@@ -129,8 +129,8 @@
 
                     <li>
                         <picture>
-                            <source srcset="../assets/img-apps/productos/banners/banner3-movil.png" media="(max-width: 800px)">
-                            <img src="../assets/img-apps/productos/banners/03-automatización-iiot.png" alt="Automatización IIoT" />
+                            <source srcset="../assets/img-apps/productos/banners/banner3-movil.webp" media="(max-width: 800px)">
+                            <img src="../assets/img-apps/productos/banners/03-automatizacion.webp" alt="Automatización IIoT" />
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>TRANSFORMA TU PLANTA CON <span class="resaltado-cian">AUTOMATIZACIÓN E IIOT</span></h2>
@@ -140,8 +140,8 @@
 
                     <li>
                         <picture>
-                            <source srcset="../assets/img-apps/productos/banners/banner4-movil.png" media="(max-width: 800px)">
-                            <img src="../assets/img-apps/productos/banners/04-video-vigilancia.png" alt="Video Vigilancia Industrial" />
+                            <source srcset="../assets/img-apps/productos/banners/banner4-movil.webp" media="(max-width: 800px)">
+                            <img src="../assets/img-apps/productos/banners/04-video-vigilancia.webp" alt="Video Vigilancia Industrial" />
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>SISTEMAS DE <span class="resaltado-cian">VIDEO VIGILANCIA</span> PARA ENTORNOS CRÍTICOS</h2>
@@ -151,8 +151,8 @@
 
                     <li>
                         <picture>
-                            <source srcset="../assets/img-apps/productos/banners/banner5-movil.png" media="(max-width: 800px)">
-                            <img src="../assets/img-apps/productos/banners/05-energia.png" alt="Soluciones de Energía" />
+                            <source srcset="../assets/img-apps/productos/banners/banner5-movil.webp" media="(max-width: 800px)">
+                            <img src="../assets/img-apps/productos/banners/05-energia.webp" alt="Soluciones de Energía" />
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>SOLUCIONES DE <span class="resaltado-cian">ENERGÍA RESPALDADA</span> Y EFICIENTE</h2>
@@ -162,8 +162,8 @@
 
                     <li>
                         <picture>
-                            <source srcset="../assets/img-apps/banners/productos/banners/banner6-movil.png" media="(max-width: 800px)">
-                            <img src="../assets/img-apps/productos/banners/06-computo-industrial.png" alt="Cómputo Industrial" />
+                            <source srcset="../assets/img-apps/productos/banners/banner6-movil.webp" media="(max-width: 800px)">
+                            <img src="../assets/img-apps/productos/banners/06-computo-industrial.webp" alt="Cómputo Industrial" />
                         </picture>
                         <div class="flex-caption-banner">
                             <h2>HARDWARE DE <span class="resaltado-cian">CÓMPUTO INDUSTRIAL</span> DE ALTO RENDIMIENTO</h2>
@@ -190,7 +190,7 @@
                 <div class="lista-productos">
 
                     <article class="producto">
-                        <img src="../assets/img-apps/productos/01-comunicaciones-industriales.jpg" alt="Comunicaciones">
+                        <img src="../assets/img-apps/productos/01-comunicaciones-industriales.webp" alt="Comunicaciones">
                         <h3>Comunicaciones Industriales</h3>
                         <nav class="tags-categorias">
                             <a href="/valtek/productos/comunicaciones-industriales/switch/">Switches</a>
@@ -201,7 +201,7 @@
                     </article>
 
                     <article class="producto">
-                        <img src="../assets/img-apps/productos/02-wireless-industrial.jpg" alt="Wireless">
+                        <img src="../assets/img-apps/productos/02-wireless-industrial.webp" alt="Wireless">
                         <h3>Wireless Industrial</h3>
                         <nav class="tags-categorias">
                             <a href="/valtek/productos/comunicaciones-wireless-industrial/cellular-routers/">Cellular Routers</a>
@@ -213,7 +213,7 @@
                     </article>
 
                     <article class="producto">
-                        <img src="../assets/img-apps/productos/03-automatización-iiot.jpg" alt="Automatización">
+                        <img src="../assets/img-apps/productos/03-automatización-iiot.webp" alt="Automatización">
                         <h3>Automatización & IIOT</h3>
                         <nav class="tags-categorias">
                             <a href="/valtek/productos/automatizacion-iiot/plc-rtu/">PLC / RTU</a>
@@ -224,7 +224,7 @@
                     </article>
 
                     <article class="producto">
-                        <img src="../assets/img-apps/productos/04-video-vigilancia.jpg" alt="CCTV">
+                        <img src="../assets/img-apps/productos/04-video-vigilancia.webp" alt="CCTV">
                         <h3>Video Vigilancia</h3>
                         <nav class="tags-categorias">
                             <a href="/valtek/productos/video-vigilancia/camaras/">Cámaras IP</a>
@@ -234,7 +234,7 @@
                     </article>
 
                     <article class="producto">
-                        <img src="../assets/img-apps/productos/05-energía-crítica.jpg" alt="Energía">
+                        <img src="../assets/img-apps/productos/05-energía-crítica.webp" alt="Energía">
                         <h3>Energía Crítica</h3>
                         <nav class="tags-categorias">
                             <a href="/valtek/productos/energias/fuentes-industriales/">Fuentes</a>
@@ -247,12 +247,13 @@
                     </article>
 
                     <article class="producto">
-                        <img src="../assets/img-apps/productos/06-computo-industrial.jpg" alt="Cómputo">
+                        <img src="../assets/img-apps/productos/06-computo-industrial.webp" alt="Cómputo">
                         <h3>Cómputo Industrial</h3>
                         <nav class="tags-categorias">
                             <a href="/valtek/productos/computo-industrial/pcs-industriales/">PCs Industriales</a>
                             <a href="/valtek/productos/computo-industrial/panel-pc-industriales/">Panel PCs</a>
                             <a href="/valtek/productos/computo-industrial/tablets-industriales/">Tablets</a>
+                            <a href="/valtek/productos/computo-industrial/laptops-industriales/">Laptops</a>
                         </nav>
                     </article>
 
@@ -275,14 +276,14 @@
                 </div>
 
                 <div id="cclientes" dir="rtl">
-                    <img src='../assets/img-apps/inicio/marcas/m1.png' alt='Inhand'>
-                    <img src='../assets/img-apps/inicio/marcas/m2.png' alt='Oring'>
-                    <img src='../assets/img-apps/inicio/marcas/m3.png' alt='Axis Comunications'>
-                    <img src='../assets/img-apps/inicio/marcas/m4.png' alt='Mean Well'>
-                    <img src='../assets/img-apps/inicio/marcas/m5.png' alt='Advantech'>
-                    <img src='../assets/img-apps/inicio/marcas/m6.png' alt='Absopulse Electronics LTD.'>
-                    <img src='../assets/img-apps/inicio/marcas/m7.png' alt='Victron Energy '>
-                    <img src='../assets/img-apps/inicio/marcas/m8.png' alt='Call Boost'>
+                    <img src='../assets/img-apps/inicio/marcas/m1.webp' alt='Inhand'>
+                    <img src='../assets/img-apps/inicio/marcas/m2.webp' alt='Oring'>
+                    <img src='../assets/img-apps/inicio/marcas/m3.webp' alt='Axis Comunications'>
+                    <img src='../assets/img-apps/inicio/marcas/m4.webp' alt='Mean Well'>
+                    <img src='../assets/img-apps/inicio/marcas/m5.webp' alt='Advantech'>
+                    <img src='../assets/img-apps/inicio/marcas/m6.webp' alt='Absopulse Electronics LTD.'>
+                    <img src='../assets/img-apps/inicio/marcas/m7.webp' alt='Victron Energy '>
+                    <img src='../assets/img-apps/inicio/marcas/m8.webp' alt='Call Boost'>
                 </div>
             </div>
         </section>

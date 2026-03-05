@@ -18,58 +18,41 @@
 
     <link rel="canonical" href="https://www.valtek.com.pe/productos/automatizacion-iiot/routers-iot/">
     <link rel="shortcut icon" type="image/x-icon" href="https://www.valtek.com.pe/assets/imagenes/icono.png">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="../../../plugins/normalize/normalize.css">
     <link rel="stylesheet" href="../../../assets/css/valtek.css">
     <link rel="stylesheet" href="../../../assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="../../../plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-codes.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embedded.css">
-    <!-- jQuery V.3.4.1-->
     <script src="../../../plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="../../../plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="../../../plugins/slick/slick.css">
     <link rel="stylesheet" href="../../../plugins/slick/slick-theme.css">
     <script src="../../../plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
     <link rel="stylesheet" href="../../../plugins/fancybox/jquery.fancybox.min.css" />
     <script src="../../../plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Alertify -->
     <script src="../../../plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.default.css">
-    <!-- Menu -->
     <link rel="stylesheet" href="../../../plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
 <body>
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
     <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/header.php'); ?>
 
 
@@ -77,16 +60,7 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
-            <!-- **************************************************** -->
-            <!-- *******************   INICIO WEB  ****************** -->
-            <!-- **************************************************** -->
-
             <section id="zonabanner-aplicacion">
                 <div class="zonacentro">
                     <div class="titular">
@@ -106,10 +80,9 @@
 
                     <div class="lista-productos">
 
-                        <!-- PRODUCTO 1 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/routers-iot/01-routers-iot-compacto.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/routers-iot/01-routers-iot-compacto.webp" alt="Router IoT compacto industrial para conexión de máquinas y telemetría"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>ROUTERS IOT COMPACTOS</h3>
@@ -127,11 +100,10 @@
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 2 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/routers-iot/01-router-iot-industrial.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/routers-iot/02-router-iot-industrial.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/routers-iot/01-router-iot-industrial.webp" alt="Router IoT industrial robusto con soporte para redes críticas y Dual SIM"></div>
+                                <div><img src="../../../assets/img-apps/categoria/routers-iot/02-router-iot-industrial.webp" alt="Router IoT industrial vista de puertos Ethernet y conectores de antena"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>ROUTERS IOT INDUSTRIALES (REDES CRÍTICAS)</h3>
@@ -152,11 +124,10 @@
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 3 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/routers-iot/01-router-iot-avanzado.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/routers-iot/02-router-iot-avanzado.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/routers-iot/01-router-iot-avanzado.webp" alt="Router IoT avanzado con Edge Computing para Industria 4.0"></div>
+                                <div><img src="../../../assets/img-apps/categoria/routers-iot/02-router-iot-avanzado.webp" alt="Router IIoT con soporte de contenedores y protocolos MQTT/OPC UA"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>ROUTERS IOT AVANZADOS / IIOT / EDGE</h3>
@@ -190,10 +161,6 @@
 
 
 
-            <!-- ********************************************************* -->
-            <!-- *******************   EFECTO PARALLAX  ****************** -->
-            <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
@@ -209,17 +176,10 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************      CHAT BO      **************** -->
-        <!-- ******************************************************** -->
         <?php
 
         include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
@@ -228,9 +188,6 @@
         ?>
 
 
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -244,10 +201,7 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
-        <!-- Flexslider -->
         <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
@@ -296,7 +250,7 @@
                 })
 
                 /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
+                /******** INICIALIZAR FLEXSLIDER         *********/
                 /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "slide"

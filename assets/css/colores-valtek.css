@@ -27,4 +27,7 @@ body {
   --whatsapp-green: #25d366;
   --gris-bg: #f8fafc;
   --texto-p: #64748b;
+  --transicion: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+   --gris-suave: #f4f7f9;
+    --borde: rgba(0, 0, 0, 0.08);
 }

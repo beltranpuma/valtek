@@ -101,20 +101,42 @@
 
                         <!-- PRODUCTO 1 -->
                         <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/extensores/01-ethernet-over-vdsl.jpg">
+                            <div class="producto-info">
+                                <h3> ETHERNET OVER VDSL </h3>
+                                <ul class="caracteristicas">
+                                    <li>Interfaces Ethernet: 1–2 RJ45 (10/100/1000 Mbps).</li>
+                                    <li>Medio transmisión: par de cobre (UTP / telefónico).</li>
+                                    <li>Tecnología: VDSL2.</li>
+                                    <li>Modo operación: cliente / central (CO / CPE).</li>
+                                    <li>Temperatura operación: -40 °C a +75 °C.</li>
+                                    <li>Protección: IP30.</li>
+                                    <li>Alimentación: 12–48 VDC.</li>
+                                    <li>Montaje: Riel DIN / Wall mount.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- PRODUCTO 2 -->
+                        <div class="producto">
                             <img src="../../../assets/img-apps/categoria/extensores/01-ethernet-extensor.jpg">
                             <div class="producto-info">
-                                <h3>ETHERNET EXTENDER</h3>
+                                <h3> LONG RANGE ETHERNET </h3>
                                 <ul class="caracteristicas">
-                                    <li> Ethernet Extender, 1FE to 1FE (in Terminal Block), mini type.</li>
-                                    <li> Ethernet Extender, 1FE to 1FE (in RJ-45), mini type.</li>
-                                    <li> Ethernet Extender, 1GE to VDSL2 (in RJ-45).</li>
-
+                                    <li>Interfaces Ethernet: RJ45 10/100 Mbps.</li>
+                                    <li>Medio transmisión: par de cobre.</li>
+                                    <li>Distancia máxima: hasta 2–3 km*.</li>
+                                    <li>Velocidad transmisión: hasta 60 Mbps*.</li>
+                                    <li>Temperatura operación: -40 °C a +75 °C.</li>
+                                    <li>Protección: IP30.</li>
+                                    <li>Alimentación: 12–48 VDC.</li>
+                                    <li>Montaje: Riel DIN.</li>
                                 </ul>
 
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 2 -->
+                        <!-- PRODUCTO 3 -->
                         <div class="producto">
                             <div class="slider-producto">
                                 <div><img src="../../../assets/img-apps/categoria/extensores/01-ethernet-over-coaxial.jpg"></div>
@@ -123,14 +145,39 @@
                             <div class="producto-info">
                                 <h3>ETHERNET OVER COAXIAL</h3>
                                 <ul class="caracteristicas">
-                                    <li> Industrial 4-Port 10/100/1000T 802.3at PoE+ to VDSL2 Extender.</li>
-                                    <li> Industrial 1-Port BNC/RJ11 to 4-Port Gigabit Ethernet Extender.</li>
-                                    <li> 1-Port 10/100TX over Coaxial Long Reach Ethernet Extender</li>
-
+                                    <li>Interfaces Ethernet: RJ45 Gigabit.</li>
+                                    <li>Medio transmisión: cable coaxial.</li>
+                                    <li>Distancia máxima: hasta 2 km*.</li>
+                                    <li>Tecnología: Ethernet over Coax (EoC).</li>
+                                    <li>Temperatura operación: -40 °C a +75 °C.</li>
+                                    <li>Protección: IP30.</li>
+                                    <li>Alimentación: 12–48 VDC.</li>
+                                    <li>Montaje: Riel DIN / gabinete.</li>
                                 </ul>
 
                             </div>
                         </div>
+
+                        <!-- PRODUCTO 4 -->
+                        <div class="producto">
+                            <img src="../../../assets/img-apps/categoria/extensores/01-poe-ethernet-extender.jpg">
+                            <div class="producto-info">
+                                <h3> POE ETHERNET EXTENDERS </h3>
+                                <ul class="caracteristicas">
+                                    <li>Interfaces Ethernet: RJ45 Gigabit.</li>
+                                    <li>Estándar PoE: IEEE 802.3af (PoE), IEEE 802.3at (PoE+).</li>
+                                    <li>Potencia PoE: 15.4 W, 30 W por puerto.</li>
+                                    <li>Distancia extensión PoE: hasta 200–300 m*.</li>
+                                    <li>Temperatura operación: -40 °C a +75 °C.</li>
+                                    <li>Protección: IP30.</li>
+                                    <li>Alimentación: PoE o DC externo.</li>
+                                    <li>Montaje: Riel DIN / Wall mount.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
 
 
 

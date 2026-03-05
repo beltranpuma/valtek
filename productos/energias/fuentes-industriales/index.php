@@ -10,7 +10,7 @@
 
     <meta name="description" content="Especialistas en fuentes de alimentación industrial en Perú. Ofrecemos fuentes AC/DC, convertidores DC/DC aislados e inversores robustos para riel DIN y entornos críticos.">
 
-    <meta name="keywords" content="fuentes de poder industriales, fuentes ac dc riel din, convertidores dc dc aislados, inversores industriales peru, transformadores ac ac, fuentes de alimentacion 24vdc, fuentes de poder mineria, fuentes de poder selladas">
+    <meta name="keywords" content="fuentes de poder industriales, fuentes ac dc riel din, convertidores dc dc aislados, inversores industriales peru, transformadores ac ac, fuentes de alimentacion 24vdc, fuentes de poder mineria, fuentes de poder mineria, fuentes de poder selladas">
 
     <meta name="author" content="VALTEK GROUP SAC">
 
@@ -21,58 +21,41 @@
     <meta property="og:description" content="Soluciones de conversión de energía robustas para sistemas críticos y automatización industrial.">
     <meta property="og:url" content="https://www.valtek.com.pe/productos/energia/fuentes-industriales">
     <meta property="og:image" content="https://www.valtek.com.pe/assets/img-apps/categoria/fuentes-industriales/001.png">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="../../../plugins/normalize/normalize.css">
     <link rel="stylesheet" href="../../../assets/css/valtek.css">
     <link rel="stylesheet" href="../../../assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="../../../plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-codes.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embedded.css">
-    <!-- jQuery V.3.4.1-->
     <script src="../../../plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="../../../plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="../../../plugins/slick/slick.css">
     <link rel="stylesheet" href="../../../plugins/slick/slick-theme.css">
     <script src="../../../plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
     <link rel="stylesheet" href="../../../plugins/fancybox/jquery.fancybox.min.css" />
     <script src="../../../plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Alertify -->
     <script src="../../../plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.default.css">
-    <!-- Menu -->
     <link rel="stylesheet" href="../../../plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
 <body>
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
     <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/header.php'); ?>
 
 
@@ -80,16 +63,7 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
-            <!-- **************************************************** -->
-            <!-- *******************   INICIO WEB  ****************** -->
-            <!-- **************************************************** -->
-
             <section id="zonabanner-aplicacion">
                 <div class="zonacentro">
                     <div class="titular">
@@ -109,9 +83,8 @@
 
                     <div class="lista-productos">
 
-                        <!-- PRODUCTO 1 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/001.png">
+                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/001.webp" alt="Fuente de poder AC/DC industrial para montaje en riel DIN">
                             <div class="producto-info">
                                 <h3>FUENTES AC/DC </h3>
                                 <ul class="caracteristicas">
@@ -127,9 +100,8 @@
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 2 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/002.png">
+                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/002.webp" alt="Convertidor DC/DC aislado para entornos industriales críticos">
                             <div class="producto-info">
                                 <h3>CONVERTIDORES DC/DC AISLADOS</h3>
                                 <ul class="caracteristicas">
@@ -145,9 +117,8 @@
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 3 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/003.png">
+                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/003.webp" alt="Inversor DC/AC industrial de alta eficiencia para sistemas críticos">
                             <div class="producto-info">
                                 <h3>INVERSORES DC/AC</h3>
                                 <ul class="caracteristicas">
@@ -163,9 +134,8 @@
 
                         </div>
 
-                        <!-- PRODUCTO 4 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/004.png">
+                            <img src="../../../assets/img-apps/categoria/fuentes-industriales/004.webp" alt="Transformador y regulador AC/AC industrial robusto">
                             <div class="producto-info">
                                 <h3>TRANSFORMADORES Y REGULADORES AC/AC</h3>
                                 <ul class="caracteristicas">
@@ -191,10 +161,6 @@
 
 
 
-            <!-- ********************************************************* -->
-            <!-- *******************   EFECTO PARALLAX  ****************** -->
-            <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
@@ -210,17 +176,10 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************      CHAT BO      **************** -->
-        <!-- ******************************************************** -->
         <?php
 
         include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
@@ -229,9 +188,6 @@
         ?>
 
 
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -245,10 +201,7 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
-        <!-- Flexslider -->
         <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
@@ -297,7 +250,7 @@
                 })
 
                 /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
+                /******** INICIALIZAR FLEXSLIDER         *********/
                 /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "slide"

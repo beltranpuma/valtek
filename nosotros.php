@@ -42,10 +42,6 @@
     <link rel="stylesheet" href="plugins/menu/css/themes/estilo-blanco.css">
 
 
-    <!-- Alertify -->
-    <script src="plugins/alertify/alertify.js"></script>
-    <link rel="stylesheet" href="plugins/alertify/alertify.core.css">
-    <link rel="stylesheet" href="plugins/alertify/alertify.default.css">
     <!-- Flexslider -->
     <link rel="stylesheet" href="plugins/flexslider/flexslider.css">
     <!-- Font Awesome -->
@@ -97,8 +93,8 @@
 
                         <li>
                             <picture>
-                                <source srcset="assets/img-apps/nosotros/banner1-movil.png" media="(max-width: 800px)">
-                                <img src="assets/img-apps/nosotros/banner1.png" alt="Valtek Group SAC" />
+                                <source srcset="assets/img-apps/nosotros/banner1-movil.webp" media="(max-width: 800px)">
+                                <img src="assets/img-apps/nosotros/banner1.webp" alt="Valtek Group SAC" />
                             </picture>
                             <div class="flex-caption-banner">
                                 <h2 style="margin-bottom: 0px;">TECNOLOGÍA E INGENIERÍA <span class="resaltado-cian">PARA INFRAESTRUCTURA </span> INDUSTRIAL</h2>
@@ -110,8 +106,8 @@
 
                         <li>
                             <picture>
-                                <source srcset="assets/img-apps/nosotros/banner2-movil.png" media="(max-width: 800px)">
-                                <img src="assets/img-apps/nosotros/banner2.png" alt="Distribución Valtek Group" />
+                                <source srcset="assets/img-apps/nosotros/banner2-movil.webp" media="(max-width: 800px)">
+                                <img src="assets/img-apps/nosotros/banner2.webp" alt="Distribución Valtek Group" />
                             </picture>
                             <div class="flex-caption-banner">
                                 <h2>DISTRIBUCIÓN DE <span class="resaltado-cian">MARCAS LÍDERES</span> CON RESPALDO DE INGENIERÍA</h2>
@@ -126,11 +122,11 @@
 
 
             <section id="nosotros">
-                <div class="zonacentro">
+                <div class="zonacentro ">
                     <div class="columnas alinearmedio">
                         <div class="col5">
-                            <h2>Acerca de <br> <span>Valtek Group S.A.C.</span></h2>
-                            <p class="slogan">«Más de 20 Años Especialistas en Tecnología Industrial.»</p>
+                            <h2>Quienes <span>Somos?</span></h2>
+                            <!-- <p class="slogan">«Más de 20 Años Especialistas en Tecnología Industrial.»</p> -->
                             <p>Valtek Group SAC es una empresa especializada en ingeniería y suministro de soluciones tecnológicas para entornos industriales críticos. Representamos y distribuimos equipamiento industrial de fabricantes líderes a nivel global, integrando tecnologías avanzadas en proyectos de telecomunicaciones, automatización, seguridad y energía.
 
                             </p>
@@ -141,7 +137,7 @@
                             <a href="https://w.app/gqvbuy" target="_blank">CONTACTAR AHORA</a>
                         </div>
                         <div class="col7">
-                            <img src="./assets/img-apps/nosotros/sobre-nosotros.png" alt="">
+                            <img src="./assets/img-apps/nosotros/sobre-nosotros.webp" alt="">
 
 
                         </div>
@@ -159,36 +155,36 @@
                 <div class="zonacentro">
 
                     <div class="titular-seccion-moderno">
-                        <span class="tag-superior">Nuestra Especialidad</span>
-                        <h2 class="titulo">Lo que <span>hacemos</span></h2>
-                        <p class="descripcion-centrada">
+                        <!-- <span class="tag-superior">Nuestra Especialidad</span> -->
+                        <h2 class="titulo">QUE <span>hacemos</span></h2>
+                        <!-- <p class="descripcion-centrada">
                             Impulsamos la eficiencia operativa mediante soluciones de ingeniería de vanguardia, conectando la infraestructura física con el futuro digital.
-                        </p>
+                        </p> -->
                     </div>
                     <div class="lista-quehacemos">
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-conectividad-industrial.jpg" alt="">
+                            <img src="./assets/img-apps/nosotros/01-conectividad-industrial.webp" alt="">
                             <div class="info">
                                 <h3>Conectividad Industrial</h3>
                                 <p>Infraestructura IIoT, routers celulares, redes OT.</p>
                             </div>
                         </div>
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-automatizacion.jpg" alt="">
+                            <img src="./assets/img-apps/nosotros/01-automatizacion.webp" alt="">
                             <div class="info">
                                 <h3>Automatización</h3>
                                 <p>PLC, HMI, integración de control.</p>
                             </div>
                         </div>
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-seguridad-industrial.jpg" alt="">
+                            <img src="./assets/img-apps/nosotros/01-seguridad-industrial.webp" alt="">
                             <div class="info">
                                 <h3>Seguridad Industrial</h3>
                                 <p>Videovigilancia avanzada con analítica e IA.</p>
                             </div>
                         </div>
                         <div class="quehacemos">
-                            <img src="./assets/img-apps/nosotros/01-infraestructura-energética.jpg" alt="">
+                            <img src="./assets/img-apps/nosotros/01-infraestructura-energética.webp" alt="">
                             <div class="info">
                                 <h3>Infraestructura Energética</h3>
                                 <p>UPS, almacenamiento y sistemas renovables.</p>
@@ -206,11 +202,11 @@
             <section id="nuestros-valores">
                 <div class="zonacentro">
                     <div class="titular-seccion-moderno">
-                        <span class="tag-superior">Cultura Corporativa</span>
-                        <h2 class="titulo">Nuestros <span>Valores</span></h2>
-                        <p class="descripcion-centrada">
+                        <!-- <span class="tag-superior">Cultura Corporativa</span> -->
+                        <h2 class="titulo">Valores <span>Culturales</span></h2>
+                        <!-- <p class="descripcion-centrada">
                             Pilares éticos y técnicos que garantizan la excelencia en cada proyecto de infraestructura industrial.
-                        </p>
+                        </p> -->
                     </div>
 
                     <div class="lista-valores">
@@ -270,73 +266,48 @@
             <section id="nuestros-diferenciales">
                 <div class="zonacentro">
                     <div class="titular-seccion-moderno">
-                        <h2 class="titulo">Nuestros <span>Diferenciales</span></h2>
-                        <p class="descripcion-centrada">
-                            Impulsamos la conectividad industrial con <b>tecnología certificada</b> y sistemas modulares diseñados para resistir ambientes severos, asegurando una integración total en sus protocolos de campo.
-                        </p>
+                        <h2 class="titulo"> <span>Diferenciales</span></h2>
                     </div>
+                    <div class="lista-diferenciales">
 
-
-                    <div class="columnas">
-                        <div class="col6">
-
-                            <img src="./assets/img-apps/nosotros/01-diferencial-principal.jpg" alt="">
-
-                        </div>
-                        <div class="col6">
-
-
-                            <div class="acordeon">
-
-                                <div class="acordeon-item">
-                                    <input type="radio" name="infra-acc" id="item1" class="acordeon-check" checked>
-                                    <label for="item1" class="acordeon-header">
-                                        1. TECNOLOGÍA CERTIFICADA
-                                        <span class="icon-toggle"></span>
-                                    </label>
-                                    <div class="acordeon-body">
-                                        Cumplimos con los más altos estándares internacionales: Certificaciones <strong>ATEX</strong> para áreas explosivas, <strong>DNV</strong> para entornos marinos, <strong>IEC 61850</strong> para subestaciones, <strong>EN50155</strong> para aplicaciones ferroviarias y cumplimiento de <strong>EMC industrial</strong>.
-                                    </div>
-                                </div>
-
-                                <div class="acordeon-item">
-                                    <input type="radio" name="infra-acc" id="item2" class="acordeon-check">
-                                    <label for="item2" class="acordeon-header">
-                                        2. INTEGRACIÓN CON PROTOCOLOS DE CAMPO
-                                        <span class="icon-toggle"></span>
-                                    </label>
-                                    <div class="acordeon-body">
-                                        Capacidad completa de integración con protocolos industriales estándar para asegurar la interoperabilidad en campo, facilitando la comunicación entre sistemas heterogéneos y de legado.
-                                    </div>
-                                </div>
-
-                                <div class="acordeon-item">
-                                    <input type="radio" name="infra-acc" id="item3" class="acordeon-check">
-                                    <label for="item3" class="acordeon-header">
-                                        3. EQUIPOS PARA AMBIENTES SEVEROS
-                                        <span class="icon-toggle"></span>
-                                    </label>
-                                    <div class="acordeon-body">
-                                        Hardware diseñado específicamente para soportar condiciones extremas de temperatura, vibración, humedad e interferencia electromagnética, garantizando la continuidad operativa.
-                                    </div>
-                                </div>
-
-                                <div class="acordeon-item">
-                                    <input type="radio" name="infra-acc" id="item4" class="acordeon-check">
-                                    <label for="item4" class="acordeon-header">
-                                        4. SOLUCIONES ESCALABLES Y MODULARES
-                                        <span class="icon-toggle"></span>
-                                    </label>
-                                    <div class="acordeon-body">
-                                        Arquitecturas flexibles que permiten el crecimiento progresivo de la infraestructura, adaptándose a las necesidades cambiantes del proyecto sin comprometer la inversión inicial.
-                                    </div>
-                                </div>
-
+                        <div class="diferencial">
+                            <div class="icon-container">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
                             </div>
+                            <h3>Tecnología <span>Certificada</span></h3>
                         </div>
+
+                        <div class="diferencial">
+                            <div class="icon-container">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                                </svg>
+                            </div>
+                            <h3>Integración de <span>Protocolos</span></h3>
+                        </div>
+
+                        <div class="diferencial">
+                            <div class="icon-container">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m0-12a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm0 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm0-18C6.477 3 2 7.477 2 13c0 1.96.568 3.788 1.551 5.333a9.916 9.916 0 001.353 1.636C6.111 21.056 7.97 22 10 22h4c2.03 0 3.889-.944 5.096-2.031a9.916 9.916 0 001.353-1.636C21.432 16.788 22 14.96 22 13c0-5.523-4.477-10-10-10z" />
+                                </svg>
+                            </div>
+                            <h3>Ambientes <span>Severos</span></h3>
+                        </div>
+
+                        <div class="diferencial">
+                            <div class="icon-container">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+                                </svg>
+                            </div>
+                            <h3>Soluciones <span>Escalables</span></h3>
+                        </div>
+
                     </div>
                 </div>
-
             </section>
 
 
@@ -346,11 +317,11 @@
             <section id="sector-atendemos">
                 <div class="zonacentro">
                     <div class="titular-seccion-moderno">
-                        <span class="tag-superior">Alcance Estratégico</span>
+                        <!-- <span class="tag-superior">Alcance Estratégico</span> -->
                         <h2 class="titulo">Sectores que <span>Atendemos</span></h2>
-                        <p class="descripcion-centrada">
+                        <!-- <p class="descripcion-centrada">
                             Soluciones integrales de infraestructura tecnológica diseñadas para garantizar la continuidad operativa en las industrias más exigentes del país.
-                        </p>
+                        </p> -->
                     </div>
                     <div id="lista-sectores">
 
@@ -442,14 +413,14 @@
                     </div>
 
                     <div id="cclientes" dir="rtl">
-                        <img src='assets/img-apps/inicio/marcas/m1.png' alt='Inhand'>
-                        <img src='assets/img-apps/inicio/marcas/m2.png' alt='Oring'>
-                        <img src='assets/img-apps/inicio/marcas/m3.png' alt='Axis Comunications'>
-                        <img src='assets/img-apps/inicio/marcas/m4.png' alt='Mean Well'>
-                        <img src='assets/img-apps/inicio/marcas/m5.png' alt='Advantech'>
-                        <img src='assets/img-apps/inicio/marcas/m6.png' alt='Absopulse Electronics LTD.'>
-                        <img src='assets/img-apps/inicio/marcas/m7.png' alt='Victron Energy '>
-                        <img src='assets/img-apps/inicio/marcas/m8.png' alt='Call Boost'>
+                        <img src='assets/img-apps/inicio/marcas/m1.webp' alt='Inhand'>
+                        <img src='assets/img-apps/inicio/marcas/m2.webp' alt='Oring'>
+                        <img src='assets/img-apps/inicio/marcas/m3.webp' alt='Axis Comunications'>
+                        <img src='assets/img-apps/inicio/marcas/m4.webp' alt='Mean Well'>
+                        <img src='assets/img-apps/inicio/marcas/m5.webp' alt='Advantech'>
+                        <img src='assets/img-apps/inicio/marcas/m6.webp' alt='Absopulse Electronics LTD.'>
+                        <img src='assets/img-apps/inicio/marcas/m7.webp' alt='Victron Energy '>
+                        <img src='assets/img-apps/inicio/marcas/m8.webp' alt='Call Boost'>
                     </div>
                 </div>
             </section>
@@ -462,7 +433,7 @@
                     <div class="banner-inner">
                         <span class="tagline">Soluciones de Conectividad Nacional</span>
                         <h2>Innovación que Conecta al Perú</h2>
-                        <p>Especialistas en infraestructura de fibra óptica y redes de alta disponibilidad para el sector industrial y corporativo.</p>
+                        <!-- <p>Especialistas en infraestructura de fibra óptica y redes de alta disponibilidad para el sector industrial y corporativo.</p> -->
                         <div class="cta-group">
                             <a href="https://w.app/gqvbuy" target="_blank" class="btn-blue">Contactenos</a>
                         </div>

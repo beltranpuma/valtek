@@ -182,34 +182,34 @@
 
 
             <section id="contactenos">
-                <div class="zonacentro">
-                    <div class="titulos">
+                <div class="zonacentro" style="padding-top: 5px;">
+                    <div class="titulos ">
                         <h2>Contacte con Nosotros</h2>
                         <div class="flecharaya">
                             <i class="icon-up-dir"></i>
                             <div></div>
                         </div>
                     </div>
-                    <div class="columnas">
+                    <div class="columnas ">
                         <div class="col7">
-                            <form action="" name="fcontacto" id="fcontacto">
+                            <!-- <form action="" name="fcontacto" id="fcontacto">
                                 <p>No es obligatorio que detalle sus datos, es decir puede ser ANÓNIMO; pero si desea hacerlo nos permitirá informarle de las acciones tomadas por la organización.</p>
-                                <p>NOMBRES Y APELLIDOS (*) :<br>
+                                <p for="nombres">NOMBRES Y APELLIDOS (*) :<br>
                                     <input type="text" name="nombres" id="nombres" class="campos">
                                 </p>
-                                <p>CORREO ELECTRÓNICO (*) :<br>
+                                <p for="email">CORREO ELECTRÓNICO (*) :<br>
                                     <input type="text" name="email" id="email" class="campos">
                                 </p>
-                                <p>NÚMERO DE TELÉFONO (*) :<br>
+                                <p for="telefono">NÚMERO DE TELÉFONO (*) :<br>
                                     <input type="text" name="telefono" id="telefono" class="campos">
                                 </p>
-                                <p>NOMBRE DE LA EMPRESA(*) :<br>
+                                <p for="empresa">NOMBRE DE LA EMPRESA(*) :<br>
                                     <input type="text" name="empresa" id="empresa" class="campos">
                                 </p>
-                                <p>CARGO :<br>
+                                <p for="cargo">CARGO :<br>
                                     <input type="text" name="cargo" id="cargo" class="campos">
                                 </p>
-                                <p>MENSAJE:<br>
+                                <p for="comentarios">MENSAJE:<br>
                                     <textarea name="comentarios" id="comentarios" id="comentarios" class="txtarea"></textarea>
                                 </p>
 
@@ -217,10 +217,55 @@
                                 <input type="hidden" name="proceso" id="proceso">
                                 <p id="resultados"></p>
                                 <p>Los campos marcados con <span>*</span> son obligatorios</p>
+                            </form> -->
+                            <form action="" name="fcontacto" id="fcontacto">
+
+                                <p>No es obligatorio que detalle sus datos, es decir puede ser ANÓNIMO; pero si desea hacerlo nos permitirá informarle de las acciones tomadas por la organización.</p>
+
+                                <p>
+                                    <label for="nombres">NOMBRES Y APELLIDOS (*) :</label><br>
+                                    <input type="text" name="nombres" id="nombres" class="campos">
+                                </p>
+
+                                <p>
+                                    <label for="email">CORREO ELECTRÓNICO (*) :</label><br>
+                                    <input type="text" name="email" id="email" class="campos">
+                                </p>
+
+                                <p>
+                                    <label for="telefono">NÚMERO DE TELÉFONO (*) :</label><br>
+                                    <input type="text" name="telefono" id="telefono" class="campos">
+                                </p>
+
+                                <p>
+                                    <label for="empresa">NOMBRE DE LA EMPRESA (*) :</label><br>
+                                    <input type="text" name="empresa" id="empresa" class="campos">
+                                </p>
+
+                                <p>
+                                    <label for="cargo">CARGO :</label><br>
+                                    <input type="text" name="cargo" id="cargo" class="campos">
+                                </p>
+
+                                <p>
+                                    <label for="comentarios">MENSAJE:</label><br>
+                                    <textarea name="comentarios" id="comentarios" class="txtarea"></textarea>
+                                </p>
+
+                                <p>
+                                    <input type="button" value="ENVIAR FORMULARIO" id="benviar">
+                                </p>
+
+                                <input type="hidden" name="proceso" id="proceso">
+
+                                <p id="resultados"></p>
+
+                                <p>Los campos marcados con <span>*</span> son obligatorios</p>
+
                             </form>
                         </div>
                         <div class="col5" style="padding: 0 20px;">
-                            <img src="assets/img-apps/contactos/img-contacto-artguru.png" alt="" style="border-radius: 10px; width: 100%;">
+                            <img src="assets/img-apps/contactos/img-contacto-artguru.webp" alt="" style="border-radius: 10px; width: 100%;">
                             <p style="font-weight: 800; margin-top: 20px;">Ubicanos :</p>
                             <p>
                                 <i class="icon-localizar"></i> Av. Republica de Panamá 6598, Barranco - Lima<br>

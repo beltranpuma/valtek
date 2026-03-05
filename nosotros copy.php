@@ -365,3 +365,189 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+<style>
+    
+#nuestros-diferenciales .descripcion-centrada {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--grisletra);
+  margin: 30px auto 0;
+  font-weight: 300;
+}
+
+
+
+
+#nuestros-diferenciales img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+#nuestros-diferenciales .acordeon {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#nuestros-diferenciales .acordeon-item {
+  border: 1px solid #e1e1e1;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+
+#nuestros-diferenciales .acordeon-check {
+  display: none;
+}
+
+#nuestros-diferenciales .acordeon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+
+#nuestros-diferenciales .icon-toggle {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nuestros-diferenciales .icon-toggle::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 3px;
+  background-color: var(--primercolor);
+  border-radius: 2px;
+}
+
+#nuestros-diferenciales .icon-toggle::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 18px;
+  background-color: var(--primercolor);
+  /* AZUL SOLICITADO */
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#nuestros-diferenciales .acordeon-body {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1.5rem;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#nuestros-diferenciales .acordeon-check:checked~.acordeon-body {
+  max-height: 500px;
+  padding-bottom: 1.5rem;
+}
+
+#nuestros-diferenciales .acordeon-check:checked~.acordeon-header .icon-toggle::after {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+#nuestros-diferenciales .acordeon-check:checked~.acordeon-header {
+  color: var(--primercolor);
+}
+
+#nuestros-diferenciales .acordeon-item:has(.acordeon-check:checked) {
+  border-color: var(--primercolor);
+  box-shadow: 0 4px 12px rgba(0, 74, 153, 0.1);
+}
+
+#nuestros-diferenciales .acordeon-header:hover {
+  background-color: #f8faff;
+}
+</style>
+
+
+
+                    <!-- <div class="columnas">
+                        <div class="col6">
+
+                            <img src="./assets/img-apps/nosotros/01-diferencial-principal.webp" alt="">
+
+                        </div>
+                        <div class="col6">
+
+
+                            <div class="acordeon">
+
+                                <div class="acordeon-item">
+                                    <input type="radio" name="infra-acc" id="item1" class="acordeon-check" checked>
+                                    <label for="item1" class="acordeon-header">
+                                        1. TECNOLOGÍA CERTIFICADA
+                                        <span class="icon-toggle"></span>
+                                    </label>
+                                    <div class="acordeon-body">
+                                        Cumplimos con los más altos estándares internacionales: Certificaciones <strong>ATEX</strong> para áreas explosivas, <strong>DNV</strong> para entornos marinos, <strong>IEC 61850</strong> para subestaciones, <strong>EN50155</strong> para aplicaciones ferroviarias y cumplimiento de <strong>EMC industrial</strong>.
+                                    </div>
+                                </div>
+
+                                <div class="acordeon-item">
+                                    <input type="radio" name="infra-acc" id="item2" class="acordeon-check">
+                                    <label for="item2" class="acordeon-header">
+                                        2. INTEGRACIÓN CON PROTOCOLOS DE CAMPO
+                                        <span class="icon-toggle"></span>
+                                    </label>
+                                    <div class="acordeon-body">
+                                        Capacidad completa de integración con protocolos industriales estándar para asegurar la interoperabilidad en campo, facilitando la comunicación entre sistemas heterogéneos y de legado.
+                                    </div>
+                                </div>
+
+                                <div class="acordeon-item">
+                                    <input type="radio" name="infra-acc" id="item3" class="acordeon-check">
+                                    <label for="item3" class="acordeon-header">
+                                        3. EQUIPOS PARA AMBIENTES SEVEROS
+                                        <span class="icon-toggle"></span>
+                                    </label>
+                                    <div class="acordeon-body">
+                                        Hardware diseñado específicamente para soportar condiciones extremas de temperatura, vibración, humedad e interferencia electromagnética, garantizando la continuidad operativa.
+                                    </div>
+                                </div>
+
+                                <div class="acordeon-item">
+                                    <input type="radio" name="infra-acc" id="item4" class="acordeon-check">
+                                    <label for="item4" class="acordeon-header">
+                                        4. SOLUCIONES ESCALABLES Y MODULARES
+                                        <span class="icon-toggle"></span>
+                                    </label>
+                                    <div class="acordeon-body">
+                                        Arquitecturas flexibles que permiten el crecimiento progresivo de la infraestructura, adaptándose a las necesidades cambiantes del proyecto sin comprometer la inversión inicial.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> -->

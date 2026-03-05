@@ -11,58 +11,41 @@
     <meta name="keywords" content="consultoria, capacitacion, auditorias internas, sistemas de gestion">
     <meta name="author" content="VALTK GROUP, valtek@gmail.com">
     <link rel="shortcut icon" type="image/x-icon" href="../../../assets/imagenes/icono.png">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="../../../plugins/normalize/normalize.css">
     <link rel="stylesheet" href="../../../assets/css/valtek.css">
     <link rel="stylesheet" href="../../../assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="../../../plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-codes.css">
-    <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embed|ded.css">
-    <!-- jQuery V.3.4.1-->
+    <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embedded.css">
     <script src="../../../plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="../../../plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="../../../plugins/slick/slick.css">
     <link rel="stylesheet" href="../../../plugins/slick/slick-theme.css">
     <script src="../../../plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
     <link rel="stylesheet" href="../../../plugins/fancybox/jquery.fancybox.min.css" />
     <script src="../../../plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Alertify -->
     <script src="../../../plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.default.css">
-    <!-- Menu -->
     <link rel="stylesheet" href="../../../plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
 <body>
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
     <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/header.php'); ?>
 
 
@@ -70,16 +53,7 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
-            <!-- **************************************************** -->
-            <!-- *******************   INICIO WEB  ****************** -->
-            <!-- **************************************************** -->
-
             <section id="zonabanner-aplicacion">
                 <div class="zonacentro">
                     <div class="titular">
@@ -93,18 +67,16 @@
             <div id="zona-productos">
                 <div class="zonacentro">
 
-                    <!-- Subcategoría Gateways LoRaWAN -->
                     <h3 class="subtitulo">Gateways LoRaWAN Industriales</h3>
                     <div class="linea"></div>
 
                     <div class="lista-productos">
 
-                        <!-- Gateways Indoor -->
                         <div class="producto">
 
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria//lorawan/gateways/01-gateways-indoor-valtek.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/lorawan/gateways/02-gateways-idoor-valtek.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria//lorawan/gateways/01-gateways-indoor-valtek.webp" alt="Gateway LoRaWAN Indoor Valtek - Vista frontal"></div>
+                                <div><img src="../../../assets/img-apps/categoria/lorawan/gateways/02-gateways-idoor-valtek.webp" alt="Gateway LoRaWAN Indoor Valtek - Detalle técnico"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>Gateways Indoor</h3>
@@ -120,9 +92,8 @@
                             </div>
                         </div>
 
-                        <!-- Gateways Outdoor Industriales -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/lorawan/gateways/01.gateways-outdoor-industrial-valtek.png" alt="Gateways Outdoor Industriales">
+                            <img src="../../../assets/img-apps/categoria/lorawan/gateways/01.gateways-outdoor-industrial-valtek.webp" alt="Gateway LoRaWAN Outdoor Industrial para exteriores">
                             <div class="producto-info">
                                 <h3>Gateways Outdoor Industriales</h3>
                                 <ul class="caracteristicas">
@@ -137,9 +108,8 @@
                             </div>
                         </div>
 
-                        <!-- Gateways Rugged -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/lorawan/gateways/01-gateways-rugged-para-ambientes-severos-valtek.png" alt="Gateways Rugged">
+                            <img src="../../../assets/img-apps/categoria/lorawan/gateways/01-gateways-rugged-para-ambientes-severos-valtek.webp" alt="Gateway LoRaWAN Rugged para ambientes industriales severos">
                             <div class="producto-info">
                                 <h3>Gateways Rugged para Ambientes Severos</h3>
                                 <ul class="caracteristicas">
@@ -159,17 +129,15 @@
                     <br>
                     <br>
                     <br>
-                    <!-- Subcategoría Sensores LoRaWAN -->
                     <h3 class="subtitulo">Sensores LoRaWAN Industriales</h3>
                     <div class="linea"></div>
 
                     <div class="lista-productos">
 
-                        <!-- Sensores Ambientales -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria//lorawan/sensores/01-sensores-ambientales.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/lorawan/sensores/02-sensores-ambientales.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria//lorawan/sensores/01-sensores-ambientales.webp" alt="Sensor LoRaWAN Ambiental - Monitoreo de temperatura y humedad"></div>
+                                <div><img src="../../../assets/img-apps/categoria/lorawan/sensores/02-sensores-ambientales.webp" alt="Sensor LoRaWAN Ambiental compacto"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>Sensores Ambientales</h3>
@@ -186,11 +154,10 @@
                             </div>
                         </div>
 
-                        <!-- Sensores Industriales -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/lorawan/sensores/01-sensores-industriales.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/lorawan/sensores/02-sensores-industriales.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/lorawan/sensores/01-sensores-industriales.webp" alt="Sensor LoRaWAN Industrial para monitoreo de equipos"></div>
+                                <div><img src="../../../assets/img-apps/categoria/lorawan/sensores/02-sensores-industriales.webp" alt="Sensor LoRaWAN Industrial con protección IP67"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>Sensores Industriales (Proceso y Equipos)</h3>
@@ -207,9 +174,8 @@
                             </div>
                         </div>
 
-                        <!-- Sensores para Minería y Campo -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/lorawan/sensores/01-sensores-para-mineria-y-campo.png" alt="Sensores Minería y Campo">
+                            <img src="../../../assets/img-apps/categoria/lorawan/sensores/01-sensores-para-mineria-y-campo.webp" alt="Sensor LoRaWAN robusto para minería y aplicaciones de campo">
                             <div class="producto-info">
                                 <h3>Sensores para Minería y Campo</h3>
                                 <ul class="caracteristicas">
@@ -225,9 +191,8 @@
                             </div>
                         </div>
 
-                        <!-- Sensores con Integración Industrial -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/lorawan/sensores/01-sensores-con-integracion-industrial.png" alt="Sensores Integración Industrial">
+                            <img src="../../../assets/img-apps/categoria/lorawan/sensores/01-sensores-con-integracion-industrial.webp" alt="Sensor LoRaWAN con integración Modbus RS485 industrial">
                             <div class="producto-info">
                                 <h3>Sensores con Integración Industrial</h3>
                                 <ul class="caracteristicas">
@@ -250,10 +215,6 @@
 
 
 
-                <!-- ********************************************************* -->
-                <!-- *******************   EFECTO PARALLAX  ****************** -->
-                <!-- ********************************************************* -->
-
                 <section id="zona-parallax">
                     <div class="zonacentro">
                         <div class="titular">
@@ -269,15 +230,8 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
-        <!-- ******************************************************** -->
-        <!-- *******************      CHAT BO      **************** -->
-        <!-- ******************************************************** -->
         <?php
 
         include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
@@ -286,9 +240,6 @@
         ?>
 
 
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -302,10 +253,7 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
-        <!-- Flexslider -->
         <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
@@ -354,7 +302,7 @@
                 })
 
                 /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
+                /******** INICIALIZAR FLEXSLIDER         *********/
                 /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "slide"

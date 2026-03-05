@@ -11,58 +11,41 @@
     <meta name="keywords" content="consultoria, capacitacion, auditorias internas, sistemas de gestion">
     <meta name="author" content="VALTK GROUP, valtek@gmail.com">
     <link rel="shortcut icon" type="image/x-icon" href="../../../assets/imagenes/icono.png">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="../../../plugins/normalize/normalize.css">
     <link rel="stylesheet" href="../../../assets/css/valtek.css">
     <link rel="stylesheet" href="../../../assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="../../../plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-codes.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embedded.css">
-    <!-- jQuery V.3.4.1-->
     <script src="../../../plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="../../../plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="../../../plugins/slick/slick.css">
     <link rel="stylesheet" href="../../../plugins/slick/slick-theme.css">
     <script src="../../../plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
     <link rel="stylesheet" href="../../../plugins/fancybox/jquery.fancybox.min.css" />
     <script src="../../../plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Alertify -->
     <script src="../../../plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.default.css">
-    <!-- Menu -->
     <link rel="stylesheet" href="../../../plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
 <body>
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
     <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/header.php'); ?>
 
 
@@ -70,16 +53,7 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
-            <!-- **************************************************** -->
-            <!-- *******************   INICIO WEB  ****************** -->
-            <!-- **************************************************** -->
-
             <section id="zonabanner-aplicacion">
                 <div class="zonacentro">
                     <div class="titular">
@@ -99,87 +73,84 @@
 
                     <div class="lista-productos">
 
-                        <!-- PRODUCTO 1 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/media-converters/01-ethernet-to-fiber.jpg"></div>
-                                <div><img src="../../../assets/img-apps/categoria/media-converters/02-ethernet-to-fiber.jpg"></div>
+                                <div><img src="../../../assets/img-apps/categoria/media-converters/01-ethernet-to-fiber.webp" alt="Media Converter Ethernet a Fibra Óptica - Vista Frontal"></div>
+                                <div><img src="../../../assets/img-apps/categoria/media-converters/02-ethernet-to-fiber.webp" alt="Media Converter Ethernet a Fibra Óptica - Vista Detallada de Puertos"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>ETHERNET TO FIBER MEDIA CONVERTER</h3>
                                 <ul class="caracteristicas">
-                                    <li> Fast ethernet, Gigabit.</li>
-                                    <li> 2FE to 1 100FX (MM 2km, SC).</li>
-                                    <li> 2FE to 1 100FX (SM 30km, SC).</li>
-                                    <li> 1GE to 1 100/1000 SFP.</li>
-                                    <li> 1GE to 1 1000FX (MM 550m, SC).</li>
-                                    <li> 1GE to 1 1000FX (SM 10km, SC).</li>
-                                    <li> 10GE to 1 1G/10G SFP socket.</li>
-                                    <li> Industrial 1-Port 100/1000X SFP to 1-Port.</li>
-                                    <li>Riel Din, IP30, -40 to 75 C , 24V, 48V.</li>
+                                    <li>Puertos Ethernet: 1–2 RJ45 (10/100/1000 Mbps).</li>
+                                    <li>Puertos fibra: 1 SFP / SC / ST (100/1000 Mbps).</li>
+                                    <li>Distancia multimodo: hasta 2 km.</li>
+                                    <li>Distancia monomodo: hasta 20 / 40 / 80 / 100 / 120 km*.</li>
+                                    <li>Funciones: Auto-negotiation, Auto MDI/MDIX, LFPT.</li>
+                                    <li>Temperatura operación: -40 °C a +75 °C.</li>
+                                    <li>Protección: IP30.</li>
+                                    <li>Alimentación: 12–48 VDC.</li>
+                                    <li>Montaje: Riel DIN / Wall mount.</li>
                                 </ul>
 
                             </div>
                         </div>
 
 
-                        <!-- PRODUCTO 2 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/media-converters/01-din-rail-gigabit-poe-converter.jpg"></div>
-                                <div><img src="../../../assets/img-apps/categoria/media-converters/02-din-rail-gigabit-poe-converter.jpg"></div>
+                                <div><img src="../../../assets/img-apps/categoria/media-converters/01-din-rail-gigabit-poe-converter.webp" alt="Convertidor de Medios Gigabit PoE para Riel DIN - Modelo Industrial"></div>
+                                <div><img src="../../../assets/img-apps/categoria/media-converters/02-din-rail-gigabit-poe-converter.webp" alt="Convertidor de Medios Gigabit PoE - Conexiones de Alimentación"></div>
                             </div>
 
                             <div class="producto-info">
                                 <h3>DIN-RAIL GIGABIT POE CONVERTER</h3>
                                 <ul class="caracteristicas">
-                                    <li> 10/100/1000T 802.3at PoE+.</li>
-                                    <li> 10/100/1000T 802.3bt PoE++.</li>
-                                    <li> 1GE/PSE + 1 100/1000 SFP.</li>
-                                    <li> 1-Port 100/1000X SFP to 1-Port 10/100/1000T 802.3bt PoE++ </li>
-                                    <li> 2-Port 100/1000X SFP to 2-Port 10/100/1000T 802.3at PoE+ </li>
-                                    <li> 2-Port 100/1000X SFP to 2-Port 10/100/1000T 802.3bt PoE++ </li>
-                                    <li> 2-Port 100/1000X SFP to 1-Port 10/100/1000T 802.3bt PoE++ </li>
-                                    <li> 100/1000BASE-X to 10/100/1000BASE-T 802.3at PoE+ </li>
-                                    <li>1000BASE-X to 10/100/1000BASE-T 802.3at PoE+ </li>
-                                    <li> Riel Din, IP30, -40 to 75 C , 24V, 48V</li>
+                                    <li>Puertos Ethernet: 1 Gigabit RJ45.</li>
+                                    <li>Puertos fibra: 1 SFP.</li>
+                                    <li>Estándar PoE: IEEE 802.3af, IEEE 802.3at, IEEE 802.3bt*.</li>
+                                    <li>Potencia PoE: 15.4, 30, 60, 90 W por puerto.</li>
+                                    <li>Distancia fibra: hasta 80 km*.</li>
+                                    <li>Temperatura operación: -40 °C a +75 °C.</li>
+                                    <li>Protección: IP30.</li>
+                                    <li>Alimentación: 48–57 VDC.</li>
+                                    <li>Montaje: Riel DIN.</li>
                                 </ul>
 
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 3 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/media-converters/01-media-converter-chassis.jpg"></div>
-                                <div><img src="../../../assets/img-apps/categoria/media-converters/02-media-converter-chassis.jpg"></div>
+                                <div><img src="../../../assets/img-apps/categoria/media-converters/01-media-converter-chassis.webp" alt="Chasis para Convertidores de Medios - Capacidad Multislot"></div>
+                                <div><img src="../../../assets/img-apps/categoria/media-converters/02-media-converter-chassis.webp" alt="Chasis para Convertidores de Medios - Vista de Montaje en Rack"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>MEDIA CONVERTER CHASSIS</h3>
                                 <ul class="caracteristicas">
-                                    <li> 7, 15, 16, 18 slots</li>
-                                    <li> Modulo 2FE to 1 100FE (MM 2km, SC)</li>
-                                    <li> Modulo 2FE to 1 100FX (SM 30km, SC)</li>
-                                    <li> Modulo 1GE to 1 100/1000 SFP socket</li>
-                                    <li> Redundant Power Supply System</li>
+                                    <li>Capacidad: 7–18 slots para media converters.</li>
+                                    <li>Administración: monitoreo de módulos*.</li>
+                                    <li>Backplane: bus interno de alta velocidad.</li>
+                                    <li>Alimentación: AC redundante.</li>
+                                    <li>Alimentación: DC redundante*.</li>
+                                    <li>Certificaciones: CE / UL.</li>
+                                    <li>Montaje: Rack 19”.</li>
                                 </ul>
 
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 4 -->
                         <div class="producto">
-                            <img src="../../../assets/img-apps/categoria/media-converters/01-sfp-qsfp-transceiver.png">
+                            <img src="../../../assets/img-apps/categoria/media-converters/01-sfp-qsfp-transceiver.webp" alt="Módulos Transceptores Ópticos SFP, SFP+ y QSFP+">
                             <div class="producto-info">
                                 <h3>SFP/SFP+/QSFP TRANSCEIVER</h3>
                                 <ul class="caracteristicas">
-                                    <li> Multimode, Singlemode , LC</li>
-                                    <li> 100BASE-FX SFP </li>
-                                    <li> 10GBASE-LR/SR/BX/T </li>
-                                    <li> 1000BASE-SX/LX SFP</li>
-                                    <li> SFP-100 Series (2km, 5km, 30km, 60km, 100km, 120km)</li>
-                                    <li> SFP-1G Series (550m, 2km, 10km, 20km, 30km, 40km, 50km, 70km, 80km, 120km)</li>
-                                    <li>SFP-10G BIDI Series (300m, 2km, 10km, 20km, 40km, 80km)</li>
+                                    <li>Interfaces: SFP, SFP+, QSFP+*.</li>
+                                    <li>Velocidad: 100, 1G SFP, 10G SFP+, 40G QSFP+*.</li>
+                                    <li>Distancia multimodo: 300 m – 2 km.</li>
+                                    <li>Distancia monomodo: 10 km – 120 km*.</li>
+                                    <li>Tipo de fibra: LC duplex.</li>
+                                    <li>Tipo de fibra: BiDi (single fiber)*.</li>
+                                    <li>Temperatura operación: -40 °C a +85 °C*.</li>
                                 </ul>
 
                             </div>
@@ -197,9 +168,6 @@
 
 
 
-            <!-- ********************************************************* -->
-            <!-- *******************   EFECTO PARALLAX  ****************** -->
-            <!-- ********************************************************* -->
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
@@ -215,17 +183,10 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************      CHAT BO      **************** -->
-        <!-- ******************************************************** -->
         <?php
 
         include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
@@ -234,9 +195,6 @@
         ?>
 
 
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -250,10 +208,7 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
-        <!-- Flexslider -->
         <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
@@ -302,7 +257,7 @@
                 })
 
                 /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
+                /******** INICIALIZAR FLEXSLIDER         *********/
                 /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "slide"

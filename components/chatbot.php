@@ -4,15 +4,15 @@
             <i class="fas fa-user-tie"></i> <span class="online-status"></span>
         </div>
         <div class="agent-text">
-            <small>¿En qué te ayudo?</small>
-            <span>¡Hola! Cotiza ahora</span>
+            <small>Cotiza aquí</small>
+            <span>Enviar WhatsApp</span>
         </div>
     </div>
 
     <form id="waForm" class="glass-effect" onsubmit="sendWhatsApp(); return false;">
         <div class="form-header">
             <div class="header-info">
-                <h3>Cotización Rápida</h3>
+                <h3>COTIZA AHORA</h3>
                 <p>En línea ahora</p>
             </div>
             <button type="button" class="close-btn" onclick="toggleChat()">&times;</button>
@@ -34,12 +34,7 @@
                 <input type="email" id="wa-email" placeholder="correo@ejemplo.com">
             </div>
 
-            <div class="input-group">
-                <label>Detalle (Opcional)</label>
-                <textarea id="wa-msg" rows="2" placeholder="¿Qué necesitas?"></textarea>
-            </div>
-
-            <button type="submit" class="btn-send" >
+            <button type="submit" class="btn-send">
                 Enviar a WhatsApp
             </button>
         </div>

@@ -11,58 +11,41 @@
     <meta name="keywords" content="consultoria, capacitacion, auditorias internas, sistemas de gestion">
     <meta name="author" content="VALTK GROUP, valtek@gmail.com">
     <link rel="shortcut icon" type="image/x-icon" href="../../../assets/imagenes/icono.png">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="../../../plugins/normalize/normalize.css">
     <link rel="stylesheet" href="../../../assets/css/valtek.css">
     <link rel="stylesheet" href="../../../assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="../../../plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-codes.css">
-    <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embed|ded.css">
-    <!-- jQuery V.3.4.1-->
+    <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embedded.css">
     <script src="../../../plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="../../../plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="../../../plugins/slick/slick.css">
     <link rel="stylesheet" href="../../../plugins/slick/slick-theme.css">
     <script src="../../../plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
     <link rel="stylesheet" href="../../../plugins/fancybox/jquery.fancybox.min.css" />
     <script src="../../../plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Alertify -->
     <script src="../../../plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.default.css">
-    <!-- Menu -->
     <link rel="stylesheet" href="../../../plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
 <body>
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
     <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/header.php'); ?>
 
 
@@ -70,16 +53,7 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
-            <!-- **************************************************** -->
-            <!-- *******************   INICIO WEB  ****************** -->
-            <!-- **************************************************** -->
-
             <section id="zonabanner-aplicacion">
                 <div class="zonacentro">
                     <div class="titular">
@@ -99,11 +73,10 @@
 
                     <div class="lista-productos">
 
-                        <!-- PRODUCTO 1 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/wifi/01-aps-wifi-para-interiores.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/wifi/02-aps-wifi-para-interiores-valtek.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/wifi/01-aps-wifi-para-interiores.webp" alt="Punto de acceso WiFi industrial para interiores vista frontal"></div>
+                                <div><img src="../../../assets/img-apps/categoria/wifi/02-aps-wifi-para-interiores-valtek.webp" alt="Punto de acceso WiFi Valtek para interiores industriales"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>APS WIFI PARA INTERIORES INDUSTRIALES </h3>
@@ -119,11 +92,10 @@
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 2 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/wifi/01-aps-wifi-para-exteriores.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/wifi/02-aps-wifi-para-exteriores-valtek.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/wifi/01-aps-wifi-para-exteriores.webp" alt="Punto de acceso WiFi para exteriores ultra rugged"></div>
+                                <div><img src="../../../assets/img-apps/categoria/wifi/02-aps-wifi-para-exteriores-valtek.webp" alt="Punto de acceso WiFi Valtek para exteriores de alta resistencia"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>APS WIFI PARA EXTERIORES ULTRA RUGGED</h3>
@@ -139,11 +111,10 @@
                             </div>
                         </div>
 
-                        <!-- PRODUCTO 3 -->
                         <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/wifi/01-aps-wifi-para-transporte.png"></div>
-                                <div><img src="../../../assets/img-apps/categoria/wifi/02-aps-wifi-para-transporte-valtek.png"></div>
+                                <div><img src="../../../assets/img-apps/categoria/wifi/01-aps-wifi-para-transporte.webp" alt="Punto de acceso WiFi para transporte y movilidad"></div>
+                                <div><img src="../../../assets/img-apps/categoria/wifi/02-aps-wifi-para-transporte-valtek.webp" alt="Punto de acceso WiFi Valtek con certificación para transporte"></div>
                             </div>
                             <div class="producto-info">
                                 <h3>APS WIFI PARA TRANSPORTE</h3>
@@ -172,10 +143,6 @@
 
 
 
-            <!-- ********************************************************* -->
-            <!-- *******************   EFECTO PARALLAX  ****************** -->
-            <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
@@ -191,17 +158,10 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************      CHAT BO      **************** -->
-        <!-- ******************************************************** -->
         <?php
 
         include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
@@ -210,9 +170,6 @@
         ?>
 
 
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -226,10 +183,7 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
-        <!-- Flexslider -->
         <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
@@ -278,7 +232,7 @@
                 })
 
                 /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
+                /******** INICIALIZAR FLEXSLIDER         *********/
                 /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "slide"
