@@ -124,8 +124,8 @@ a img {
   top: 100%;
   left: 50%;
   transform: translateX(-50%) translateY(10px);
-  width: 90vw;
-  max-width: 1400px;
+  width: 100vw;
+  max-width: 1500px;
   background: var(--blanco);
   padding: 15px;
   border-radius: 4px;
@@ -156,7 +156,7 @@ a img {
 
 .menu-productos .col2 h4 {
   color: var(--segundocolor);
-  font-size: 16px;
+  font-size: 16.5px;
   font-weight: 700;
   margin-bottom: 6px;
   text-transform: uppercase;
@@ -169,7 +169,7 @@ a img {
   display: block;
   color: #333;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 15.5px;
   font-weight: 500;
   padding: 2px 0;
   line-height: 1.3;
@@ -2128,50 +2128,6 @@ ESTILOS PARA APLICACIONES INFRAESTRUCTURA WIRELESS INDUSTRIAL
 
 
 
-/************************************************/
-/*********       ESTILOS MISION       ***********/
-/************************************************/
-#cajadatos {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  position: relative;
-}
-
-.cajanegro {
-  width: 45%;
-  background: var(--grisoscuro);
-  padding: 9% 3%;
-  position: absolute;
-  left: 0;
-  top: 14%;
-}
-
-.cajanegro p {
-  color: var(--blanco);
-}
-
-.cajaimg {
-  width: 70%;
-}
-
-.cajaimg img {
-  width: 100%;
-  height: auto;
-}
-
-.cajanegro2 {
-  width: 50%;
-  background: var(--grisoscuro);
-  padding: 6% 3%;
-  position: absolute;
-  left: 0;
-  top: 14%;
-}
-
-.cajanegro2 p {
-  color: var(--blanco);
-}
 
 /****************************************************/
 /**************     LO QUE HACEMOS     ***************/

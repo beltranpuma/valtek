@@ -18,58 +18,41 @@
     <meta property="og:image" content="https://www.valtek.com.pe/assets/img-apps/categoria/tablets-industrial/tablet-industrial-01.png">
 
     <link rel="shortcut icon" type="image/x-icon" href="../../../assets/imagenes/icono.png">
-    <!-- Estilos Web -->
     <link rel="stylesheet" href="../../../plugins/normalize/normalize.css">
     <link rel="stylesheet" href="../../../assets/css/valtek.css">
     <link rel="stylesheet" href="../../../assets/css/colores-valtek.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="../../../plugins/fontello/css/animation.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-codes.css">
     <link rel="stylesheet" href="../../../plugins/fontello/css/jmjc-embedded.css">
-    <!-- jQuery V.3.4.1-->
     <script src="../../../plugins/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../plugins/easing/jquery.easing.1.3.js"></script>
-    <!-- jQuery Sticky -->
     <script src="../../../plugins/stickyjs/jquery.sticky.js"></script>
-    <!-- jQuery Carrusel Slick -->
     <link rel="stylesheet" href="../../../plugins/slick/slick.css">
     <link rel="stylesheet" href="../../../plugins/slick/slick-theme.css">
     <script src="../../../plugins/slick/slick.js"></script>
-    <!-- jQuery Fancybox -->
     <link rel="stylesheet" href="../../../plugins/fancybox/jquery.fancybox.min.css" />
     <script src="../../../plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Alertify -->
     <script src="../../../plugins/alertify/alertify.js"></script>
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.core.css">
     <link rel="stylesheet" href="../../../plugins/alertify/alertify.default.css">
-    <!-- Menu -->
     <link rel="stylesheet" href="../../../plugins/menu/css/menujcjm.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/ionicons.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/droopmenu.css">
     <link rel="stylesheet" href="../../../plugins/menu/css/themes/estilo-blanco.css">
 
-    <!-- Flexslider -->
     <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../../../assets/js/script.js"></script>
 </head>
 
 <body>
-    <!-- ******************************************************** -->
-    <!-- *******************   PRECARGA   *********************** -->
-    <!-- ******************************************************** -->
-
     <div id="precarga">
         <div id="iconoprecarga">
             <i class="icon-spin5 animate-spin"></i>
             <p>LOADING</p>
         </div>
     </div>
-    <!-- ******************************************************** -->
-    <!-- *******************   CABECERA   *********************** -->
-    <!-- ******************************************************** -->
     <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/header.php'); ?>
 
 
@@ -77,16 +60,7 @@
         <a href="#productos" title="Productos">PRODUCTOS</a>
 
 
-        <!-- ******************************************************** -->
-        <!-- *******************   CUERPO WEB  ********************** -->
-        <!-- ******************************************************** -->
-
-
         <main id="cuerpo">
-            <!-- **************************************************** -->
-            <!-- *******************   INICIO WEB  ****************** -->
-            <!-- **************************************************** -->
-
             <section id="zonabanner-aplicacion">
                 <div class="zonacentro">
                     <div class="titular">
@@ -101,17 +75,12 @@
                 <div class="zonacentro">
                     <h2 class="titulo">Nuestra gama de productos <span>Laptops Industriales</span> </h2>
 
-
-
-
                     <div class="lista-productos">
 
-                        <!-- PRODUCTO 1 -->
-                        <div class="producto" >
+                        <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial.webp"></div>
-                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-2.webp"></div>
-                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-3.webp"></div>
+                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial.webp" alt="Laptop Industrial Rugged L140 - Vista Frontal"></div>
+                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-4.webp" alt="Laptop Robusta L140 para Minería - Resistencia MIL-STD"></div>
                             </div>
                             <div class="producto-info">
                                 <h3 style="text-transform: uppercase;">L140 Series Rugged Laptop</h3>
@@ -128,12 +97,10 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- PRODUCTO 1 -->
-                        <div class="producto" >
+                        <div class="producto">
                             <div class="slider-producto">
-                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial.webp"></div>
-                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-2.webp"></div>
-                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-3.webp"></div>
+                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-2.webp" alt="Laptop Industrial L156 - Pantalla 15.6 pulgadas Alta Resolución"></div>
+                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-3.webp" alt="Laptop Rugged L156 - Certificación IP65 y Grado Militar"></div>
                             </div>
                             <div class="producto-info">
                                 <h3 style="text-transform: uppercase;">L156 Series Rugged Laptop</h3>
@@ -151,27 +118,37 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="producto">
+                            <div class="slider-producto">
+                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-6.webp" alt="Laptop ATEX para Zonas Explosivas - Seguridad Intrínseca"></div>
+                                <div><img src="../../../assets/img-apps/categoria/laptops-industrial/01-laptop-industrial-5.webp" alt="Laptop Industrial Certificada ATEX / IECEx Zone 2"></div>
+                            </div>
+                            <div class="producto-info">
+                                <h3 style="text-transform: uppercase;">ATEX / Hazardous Area Laptops</h3>
+                                <ul class="caracteristicas">
+                                    <li>Tamaño pantalla: 13" – 14".</li>
+                                    <li>Pantalla: High brightness industrial display.</li>
+                                    <li>Procesador: Intel Core industrial.</li>
+                                    <li>Temperatura operación: -20 °C a +55 °C.</li>
+                                    <li>Protección: IP65.</li>
+                                    <li>Certificaciones: ATEX / IECEx / Zone 2.</li>
+                                    <li>Conectividad: WiFi / Bluetooth / LTE*.</li>
+                                    <li>Puertos: USB / Ethernet.</li>
+                                    <li>Seguridad eléctrica: diseño intrínsecamente seguro*.</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
 
-
-
-
-
-
-            <!-- ********************************************************* -->
-            <!-- *******************   EFECTO PARALLAX  ****************** -->
-            <!-- ********************************************************* -->
-
             <section id="zona-parallax">
                 <div class="zonacentro">
                     <div class="titular">
                         <h3>Tablets Industriales de Máxima Resistencia</h3>
-
                         <p>Optimice el trabajo de campo con dispositivos móviles diseñados para entornos críticos.</p>
-
                         <a href="https://w.app/gqvbuy" target="_blank">COTIZAR AHORA</a>
                     </div>
                 </div>
@@ -180,28 +157,12 @@
 
         </main>
 
-        <!-- ******************************************************** -->
-        <!-- *******************   PIE PAGINA WEB  ****************** -->
-        <!-- ******************************************************** -->
-
         <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/shared/footer.php'); ?>
 
-
-
-        <!-- ******************************************************** -->
-        <!-- *******************      CHAT BO      **************** -->
-        <!-- ******************************************************** -->
         <?php
-
         include_once($_SERVER['DOCUMENT_ROOT'] . '/valtek/components/chatbot.php');
-
-
         ?>
 
-
-        <!-- ******************************************************** -->
-        <!-- ****************      PANTALLA REDES       ************* -->
-        <!-- ******************************************************** -->
         <div id="cajasociales">
             <div id="cajablanca">
                 <ul>
@@ -215,15 +176,10 @@
                 </ul>
             </div>
         </div>
-        <!-- ******************************************************** -->
-        <!-- ******************************************************** -->
         <script type="text/javascript" src="../../../plugins/menu/js/droopmenu.js"></script>
-        <!-- Flexslider -->
         <script type="text/javascript" src="../../../plugins/flexslider/jquery.flexslider.js"></script>
         <script>
             $(function() {
-                /*******************************************/
-                /*******************************************/
                 if (jQuery(this).scrollTop() > 100) {
                     jQuery(".droopmenu-navbar").css({
                         'background': "rgba(255, 255, 255, 1)"
@@ -245,16 +201,13 @@
                     }
                 })
 
-                /*******************************************/
-                /*******************************************/
                 $(document).on("click", ".droopmenu li a", function(e) {
                     var $ancla = $(this);
                     $("html, body").stop().animate({
                         scrollTop: ($($ancla.attr("href")).offset().top - 60)
                     }, 2000, "easeInOutExpo");
                 })
-                /*******************************************/
-                /*******************************************/
+
                 $("#biconos").click(function() {
                     $("#cajasociales").css({
                         "right": "0"
@@ -266,20 +219,11 @@
                     });
                 })
 
-                /**************************************************/
-                /********    INICIALIZAR FLEXSLIDER       *********/
-                /**************************************************/
                 $('.flexslider').flexslider({
                     animation: "slide"
                 });
-
-
-
-
-
             })
-            /*******************************************************/
-            /*******************************************************/
+
             jQuery(function($) {
                 $('.droopmenu-navbar').droopmenu({
                     dmOffCanvas: true

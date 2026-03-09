@@ -10,9 +10,11 @@
     margin: auto;
     padding: 20px 1%;
 }
-    .espacio-costado {
-        padding: 0px 3%;
-    }
+
+.espacio-costado {
+    padding: 0px 3%;
+}
+
 .alincentro {
     justify-content: center;
 }
